@@ -2,6 +2,7 @@
 Nucleid acid demo using Seamless
 
 **Installation**
+
 Running the initial-analysis notebook requires numpy, scipy, pandas and matplotlib installed
 
 It also requires nglview to be installed and configured correctly with Jupyter
