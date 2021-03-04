@@ -12,12 +12,19 @@ ctx.protein_resid = 256
 import nglview
 widget = nglview.NGLWidget()
 
+ngl_args = {}
 def show_ngl(*args, **kwargs):
-    pdb_code = ctx.pdb_code.value.unsilk
-    na_chain = ctx.na_chain.value.unsilk
-    protein_chain = ctx.protein_chain.value.unsilk
-    na_resid = ctx.na_resid.value.unsilk
-    protein_resid = ctx.protein_resid.value.unsilk
+    if len(args):
+        variable = args[0]["owner"].path[-1]
+        value = args[0]["new"]
+        ngl_args[variable] = value
+    if len(ngl_args) < 5:
+        return
+    pdb_code = ngl_args["pdb_code"]
+    na_chain = ngl_args["na_chain"]
+    protein_chain = ngl_args["protein_chain"]
+    na_resid = ngl_args["na_resid"]
+    protein_resid = ngl_args["protein_resid"]
 
     widget.clear()
     widget.add_component("rcsb://" + pdb_code)
@@ -25,8 +32,6 @@ def show_ngl(*args, **kwargs):
     widget.add_representation('ball+stick', selection=selection, color='blue')
     widget.center(selection)
 
-await ctx.computation()
-show_ngl()
 display(widget)
 
 ctx.pdb_code.traitlet().observe(show_ngl)
@@ -34,6 +39,7 @@ ctx.na_chain.traitlet().observe(show_ngl)
 ctx.na_resid.traitlet().observe(show_ngl)
 ctx.protein_chain.traitlet().observe(show_ngl)
 ctx.protein_resid.traitlet().observe(show_ngl)
+await ctx.computation()
 
 #####
 
