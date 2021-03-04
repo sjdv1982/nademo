@@ -1,0 +1,951 @@
+{
+  "connections": [
+    {
+      "source": [
+        "pdb_code"
+      ],
+      "target": [
+        "download_pdb",
+        "pdb_code"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "download_pdb"
+      ],
+      "target": [
+        "pdb_data"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "pdb_data"
+      ],
+      "target": [
+        "execute_x3dna",
+        "pdb_data"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "execute_x3dna"
+      ],
+      "target": [
+        "x3dna_analysis"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "x3dna_analysis"
+      ],
+      "target": [
+        "get_x3dna_nucleotides",
+        "x3dna_analysis"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "na_chain"
+      ],
+      "target": [
+        "get_x3dna_nucleotides",
+        "na_chain"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_x3dna_nucleotides"
+      ],
+      "target": [
+        "x3dna_nucleotides"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "x3dna_nucleotides"
+      ],
+      "target": [
+        "get_df_x3dna",
+        "x3dna_nucleotides"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_df_x3dna"
+      ],
+      "target": [
+        "df_x3dna"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "parse_pdb"
+      ],
+      "target": [
+        "get_parsed_pdb",
+        "parse_pdb"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "pdb_data"
+      ],
+      "target": [
+        "get_parsed_pdb",
+        "pdb_data"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_parsed_pdb"
+      ],
+      "target": [
+        "parsed_pdb"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "parsed_pdb"
+      ],
+      "target": [
+        "get_df_pdb",
+        "parsed_pdb"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_df_pdb"
+      ],
+      "target": [
+        "df_pdb"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "parsed_pdb"
+      ],
+      "target": [
+        "select_chains",
+        "parsed_pdb"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "protein_chain"
+      ],
+      "target": [
+        "select_chains",
+        "protein_chain"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "na_chain"
+      ],
+      "target": [
+        "select_chains",
+        "na_chain"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "select_chains"
+      ],
+      "target": [
+        "selected_chains"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "selected_chains",
+        "protein_atoms"
+      ],
+      "target": [
+        "protein_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "selected_chains",
+        "na_atoms"
+      ],
+      "target": [
+        "na_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "calc_properties"
+      ],
+      "target": [
+        "get_all_properties",
+        "calc_properties"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "protein_atoms"
+      ],
+      "target": [
+        "get_all_properties",
+        "protein_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "protein_resid"
+      ],
+      "target": [
+        "get_all_properties",
+        "protein_resid"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "na_atoms"
+      ],
+      "target": [
+        "get_all_properties",
+        "na_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "na_resid"
+      ],
+      "target": [
+        "get_all_properties",
+        "na_resid"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "x3dna_nucleotides"
+      ],
+      "target": [
+        "get_all_properties",
+        "x3dna_nucleotides"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_all_properties"
+      ],
+      "target": [
+        "all_properties"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "calc_properties"
+      ],
+      "target": [
+        "get_stackings",
+        "calc_properties"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "protein_atoms"
+      ],
+      "target": [
+        "get_stackings",
+        "protein_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "na_atoms"
+      ],
+      "target": [
+        "get_stackings",
+        "na_atoms"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "x3dna_nucleotides"
+      ],
+      "target": [
+        "get_stackings",
+        "x3dna_nucleotides"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_stackings"
+      ],
+      "target": [
+        "stackings"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "stackings"
+      ],
+      "target": [
+        "get_df_stackings",
+        "stackings"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_df_stackings"
+      ],
+      "target": [
+        "df_stackings"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "stackings"
+      ],
+      "target": [
+        "get_plot",
+        "stackings"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "get_plot"
+      ],
+      "target": [
+        "plot"
+      ],
+      "type": "connection"
+    }
+  ],
+  "lib": [],
+  "nodes": [
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "8752938cd32bda80977d41df8612f8b76e3990107c7bf790ea50f2e2f6d40b33"
+      },
+      "datatype": "mixed",
+      "path": [
+        "all_properties"
+      ],
+      "type": "cell"
+    },
+    {
+      "checksum": "a7f616e185fe2c7971046a8e9a6a704292d2767ce5c7c6be1d331e9800d95cc8",
+      "language": "python",
+      "module_type": "interpreted",
+      "path": [
+        "calc_properties"
+      ],
+      "type": "module"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "f0ad829ffa6fe302ad9d8c89186a55f988797c9600277364734a916ec731e317",
+        "value": "f0ad829ffa6fe302ad9d8c89186a55f988797c9600277364734a916ec731e317"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "mimetype": "text/html",
+      "path": [
+        "df_pdb"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "9cd3f41643c700f37184d9430f124f4914352260f06af598f69ae660154327b7",
+        "value": "9cd3f41643c700f37184d9430f124f4914352260f06af598f69ae660154327b7"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "mimetype": "text/html",
+      "path": [
+        "df_stackings"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "e658f224a3dd511340b89c7e23e37c3cd5a374f40a554f2a784c2f9a4eca7853",
+        "value": "e658f224a3dd511340b89c7e23e37c3cd5a374f40a554f2a784c2f9a4eca7853"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "mimetype": "text/html",
+      "path": [
+        "df_x3dna"
+      ],
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "e219029a3b39dd19840f26f8173b1821ffc67546853123da4380d063628b39c3",
+        "input": "6e1b82eea2b95cc4a77fe4098bd4edf13b4c377aaccb9c6a7f2b9cb653694420",
+        "input_buffer": "6e1b82eea2b95cc4a77fe4098bd4edf13b4c377aaccb9c6a7f2b9cb653694420",
+        "result": "9ff1f193190a6ab1394a3332c062662cacbef14335fdeb59d5890c63efa74e3a"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "download_pdb"
+      ],
+      "pins": {
+        "pdb_code": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "e71e05988c2025dd947d0b9950b1e7ab35375025ecbfc2bef079367ae3b68649",
+        "input": "8c925767db04514be69548df87e8e6920626bd0506c070843521e497125cdc0e",
+        "input_auth": "65a9fd5d2c566b5a43eefb54e11ee0a291004553e98c5ca90ae33456509f5d65",
+        "input_buffer": "8c925767db04514be69548df87e8e6920626bd0506c070843521e497125cdc0e",
+        "result": "5b60c799b27a308e8f8a8510989c969d9a47f7a8a1233d5eb3f9e0002de79df0"
+      },
+      "compiled": false,
+      "debug": false,
+      "file_extension": "sh",
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "docker",
+      "path": [
+        "execute_x3dna"
+      ],
+      "pins": {
+        "docker_image": {
+          "celltype": "mixed"
+        },
+        "docker_options": {
+          "celltype": "mixed"
+        },
+        "pdb_data": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "07dc59dc912ef97e8629b8bab3ab8453a9023e2bee2bf8611009799c3acd2392",
+        "input": "c449e7cc7f65bbd3cd13305c20b0af735c4f9ab6c6e25c339ff0493ba31cc14c",
+        "input_buffer": "c449e7cc7f65bbd3cd13305c20b0af735c4f9ab6c6e25c339ff0493ba31cc14c",
+        "result": "8752938cd32bda80977d41df8612f8b76e3990107c7bf790ea50f2e2f6d40b33"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_all_properties"
+      ],
+      "pins": {
+        "calc_properties": {
+          "celltype": "plain",
+          "subcelltype": "module"
+        },
+        "na_atoms": {
+          "celltype": "binary"
+        },
+        "na_resid": {
+          "celltype": "mixed"
+        },
+        "protein_atoms": {
+          "celltype": "binary"
+        },
+        "protein_resid": {
+          "celltype": "mixed"
+        },
+        "x3dna_nucleotides": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "91578415cc49076ebc72433c0ef15c71be67d5aac5e30b67247778f7ac07f973",
+        "input": "61ab89c0580c239cdf43bb2c020caa2f6e8f9e8aaef30e9125f0e7843282c46a",
+        "input_buffer": "61ab89c0580c239cdf43bb2c020caa2f6e8f9e8aaef30e9125f0e7843282c46a",
+        "result": "f0ad829ffa6fe302ad9d8c89186a55f988797c9600277364734a916ec731e317"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_df_pdb"
+      ],
+      "pins": {
+        "parsed_pdb": {
+          "celltype": "binary"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "1723387e6c9a2597fa19319d37dd5c750345d402a357ad8d61899439cc71fb05",
+        "input": "f66b57fc432165f4dc6146af687238c6e2cae1c55aeccf16eded409301991ece",
+        "input_buffer": "f66b57fc432165f4dc6146af687238c6e2cae1c55aeccf16eded409301991ece",
+        "result": "9cd3f41643c700f37184d9430f124f4914352260f06af598f69ae660154327b7"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_df_stackings"
+      ],
+      "pins": {
+        "stackings": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "443486a539899c53c28a86191f828c5a5bc87a691b0a62bb1e497ea8eee5deef",
+        "input": "aa1f545fe57f5b322ffeccbc292b84b02c6151c250d77c5e2f527358117447d5",
+        "input_buffer": "aa1f545fe57f5b322ffeccbc292b84b02c6151c250d77c5e2f527358117447d5",
+        "result": "e658f224a3dd511340b89c7e23e37c3cd5a374f40a554f2a784c2f9a4eca7853"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_df_x3dna"
+      ],
+      "pins": {
+        "x3dna_nucleotides": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "25658a79969fc0c60d1d57f0529fd7f41e88a0f98c654ab4c5d7970aecf123fe",
+        "input": "43da2a871ace53781da3354e1cbe2cc8b95d5de34cc7348471ce1a1c0899192f",
+        "input_buffer": "43da2a871ace53781da3354e1cbe2cc8b95d5de34cc7348471ce1a1c0899192f",
+        "result": "c6966865c167dd21a203018028140ea614b26dbed25afcdfaab3a7587a4d2615"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_parsed_pdb"
+      ],
+      "pins": {
+        "parse_pdb": {
+          "celltype": "plain",
+          "subcelltype": "module"
+        },
+        "pdb_data": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "2dcca46550d47d66fca3df5928c4708bd7304a0c5bfa33f20b56978e5efc3caa",
+        "input": "f66b57fc432165f4dc6146af687238c6e2cae1c55aeccf16eded409301991ece",
+        "input_buffer": "f66b57fc432165f4dc6146af687238c6e2cae1c55aeccf16eded409301991ece",
+        "result": "45a1e8013c45f0df42bd60884ae565748557303881f849fceb1293858d7c5afc"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_plot"
+      ],
+      "pins": {
+        "stackings": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "0e142bff083d002a2336f68c6bd3f373fd287cbd601ab81d5b274b79a1e50761",
+        "input": "4be6891d1139cc7a4273274c04ed4d1f8046d067dac9b2fb3b355e8f939666d9",
+        "input_buffer": "4be6891d1139cc7a4273274c04ed4d1f8046d067dac9b2fb3b355e8f939666d9",
+        "result": "9d5b4f6a782fa4a9242ada8de5844654146e59c540b0e68fe6c1304a56c4fae4"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_stackings"
+      ],
+      "pins": {
+        "calc_properties": {
+          "celltype": "plain",
+          "subcelltype": "module"
+        },
+        "na_atoms": {
+          "celltype": "binary"
+        },
+        "protein_atoms": {
+          "celltype": "binary"
+        },
+        "x3dna_nucleotides": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "ce508c4fecc023503bae7b5711f7537d910a5a70d4299c1212efc7475bf96ce2",
+        "input": "ce02d14accddcc8705ae5c9a693f138a91b239775e3c4254491c88ef7d0b5875",
+        "input_buffer": "ce02d14accddcc8705ae5c9a693f138a91b239775e3c4254491c88ef7d0b5875",
+        "result": "201170b2facaffe9d9ffb419e963ee59e6d36f45bd1ecfc5eb6321a0f8c7358d"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "get_x3dna_nucleotides"
+      ],
+      "pins": {
+        "na_chain": {
+          "celltype": "mixed"
+        },
+        "x3dna_analysis": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "6ecb3ad80edcbe81ffcac687c7b6962b36059149c7d53dbeb4abd8c9e21fc032",
+        "value": "6ecb3ad80edcbe81ffcac687c7b6962b36059149c7d53dbeb4abd8c9e21fc032"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "na_atoms"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "a13649b16ac10e7f66cdc3e46c86659246f9344407305926f808aa264276b532",
+        "buffer": "a13649b16ac10e7f66cdc3e46c86659246f9344407305926f808aa264276b532",
+        "value": "a13649b16ac10e7f66cdc3e46c86659246f9344407305926f808aa264276b532"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "na_chain"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3",
+        "buffer": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3",
+        "value": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "na_resid"
+      ],
+      "type": "cell"
+    },
+    {
+      "checksum": "b00340c9ea73e3af94c1736e3d0da5a115d8121834e1a5d87ad9ca905ad6645b",
+      "language": "python",
+      "module_type": "interpreted",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "parse_pdb.py",
+        "persistent": true
+      },
+      "path": [
+        "parse_pdb"
+      ],
+      "type": "module"
+    },
+    {
+      "celltype": "binary",
+      "checksum": {
+        "value": "c6966865c167dd21a203018028140ea614b26dbed25afcdfaab3a7587a4d2615"
+      },
+      "datatype": "mixed",
+      "path": [
+        "parsed_pdb"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "72a838865b383678f1aa3086e76cbf00e4b8b8ba9401a8dfca56638000a85ff3",
+        "buffer": "72a838865b383678f1aa3086e76cbf00e4b8b8ba9401a8dfca56638000a85ff3",
+        "value": "72a838865b383678f1aa3086e76cbf00e4b8b8ba9401a8dfca56638000a85ff3"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "pdb_code"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "9ff1f193190a6ab1394a3332c062662cacbef14335fdeb59d5890c63efa74e3a",
+        "value": "9ff1f193190a6ab1394a3332c062662cacbef14335fdeb59d5890c63efa74e3a"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "pdb_data"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "45a1e8013c45f0df42bd60884ae565748557303881f849fceb1293858d7c5afc",
+        "value": "45a1e8013c45f0df42bd60884ae565748557303881f849fceb1293858d7c5afc"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "mimetype": "text/html",
+      "path": [
+        "plot"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "f490ede76541c3dda1474b76e03bb724aae76b3d25c47e3c3c41bb1ab0bf0080",
+        "value": "f490ede76541c3dda1474b76e03bb724aae76b3d25c47e3c3c41bb1ab0bf0080"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "protein_atoms"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "b9968690d9567b8f0b9b0d6cd851c7015a9649e46b74b264f90598860bca249e",
+        "buffer": "b9968690d9567b8f0b9b0d6cd851c7015a9649e46b74b264f90598860bca249e",
+        "value": "b9968690d9567b8f0b9b0d6cd851c7015a9649e46b74b264f90598860bca249e"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "protein_chain"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "afdfebb1a25f2e1714cbb812f6c8a79e0d21ea3229b636aab26981555f65068f",
+        "buffer": "afdfebb1a25f2e1714cbb812f6c8a79e0d21ea3229b636aab26981555f65068f",
+        "value": "afdfebb1a25f2e1714cbb812f6c8a79e0d21ea3229b636aab26981555f65068f"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "protein_resid"
+      ],
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "b482f1ea4d1ed44aaad6a1d86fe62cbb93e4a791885f5f8f6d5444ed8a470f71",
+        "input": "a5bc88ee401ad55ee4b631c15ea75157dcab2e137f81e68425c3eb75cfe7cf66",
+        "input_buffer": "a5bc88ee401ad55ee4b631c15ea75157dcab2e137f81e68425c3eb75cfe7cf66",
+        "result": "f1dd62c821a39119cfc03dbcf03f5c0cf4f55b5c35e82302482f0b606d11aa70"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "select_chains"
+      ],
+      "pins": {
+        "na_chain": {
+          "celltype": "mixed"
+        },
+        "parsed_pdb": {
+          "celltype": "binary"
+        },
+        "protein_chain": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "f1dd62c821a39119cfc03dbcf03f5c0cf4f55b5c35e82302482f0b606d11aa70",
+        "value": "f1dd62c821a39119cfc03dbcf03f5c0cf4f55b5c35e82302482f0b606d11aa70"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "selected_chains"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "9d5b4f6a782fa4a9242ada8de5844654146e59c540b0e68fe6c1304a56c4fae4"
+      },
+      "datatype": "mixed",
+      "path": [
+        "stackings"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "5b60c799b27a308e8f8a8510989c969d9a47f7a8a1233d5eb3f9e0002de79df0",
+        "value": "5b60c799b27a308e8f8a8510989c969d9a47f7a8a1233d5eb3f9e0002de79df0"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "x3dna_analysis"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "201170b2facaffe9d9ffb419e963ee59e6d36f45bd1ecfc5eb6321a0f8c7358d"
+      },
+      "datatype": "mixed",
+      "path": [
+        "x3dna_nucleotides"
+      ],
+      "type": "cell"
+    }
+  ],
+  "params": {
+    "share_namespace": "ctx"
+  }
+}
