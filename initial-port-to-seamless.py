@@ -95,6 +95,7 @@ ctx.parse_pdb.mount("parse_pdb.py")
 def get_parsed_pdb(pdb_data):
     parsed_pdb = parse_pdb.parse_pdb(pdb_data)
     return parsed_pdb
+
 ctx.get_parsed_pdb = get_parsed_pdb
 ctx.get_parsed_pdb.parse_pdb = ctx.parse_pdb
 ctx.get_parsed_pdb.pdb_data = ctx.pdb_data

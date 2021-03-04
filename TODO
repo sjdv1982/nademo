@@ -1,0 +1,53 @@
+- Seamless modules
+- Evaluation of notebook:
+
+   Reproducibility/portability
+     Move away from notebook as single master file
+     Code in files
+     Version control
+     Well-defined dependencies. Some kind of deployable archive
+     Data in cells is good, x3dna-dssr does not play nice
+        Also creates arbitrary files
+        => hairy code with tempfiles
+        Should better be in Docker container
+
+    Goal: visualization and web server, for single interaction
+    Goal: modify property calculation on the fly
+      Keep agility/fluidity of notebook
+      Compute dependencies automatically (less of a pain than in more complicated workflows)
+    Goal: web server to analyze whole structure
+
+   - Bonus: Collaboration
+   - No fragmentation of code, also with the long term goals
+
+    Long term goal: towards batch processing of many structures
+    Long term goal: towards machine learning
+       NOT: split into "obtain features" and "learn features"
+       Preferably some kind of caching (of features)
+    Long term goal: towards big data
+        Preferably some kind of caching (of computed structures)
+        allows data set to be expanded
+        Preferably offload execution to a cluster/cloud
+        Preferably support "big data" as "computation that does not fit in memory"
+
+- Project stage 2: Straightforward port of initial analysis to Seamless
+  => Save as single file
+  => traitlets/dashboard
+  => cell.share of just the plot
+
+- Seamless (inner)HTML web component, implement and test
+
+- Project stage 3:
+  Create Seamless project
+  Webgen: both for single and for whole-structure
+  Manually update resid/nuclid when clicking on whole-structure table
+  Manually add NGL viewer
+  Manually change NGL selection when resid/nuclid changes
+
+Discussion:
+Vault and version control
+Deployment at RPBS (singularity)
+
+Later:
+- Project stage 4: map over dict
+  Database
