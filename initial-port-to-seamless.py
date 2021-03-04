@@ -1,6 +1,13 @@
 from seamless.highlevel import Context, Cell, Transformer, Module
 ctx = Context()
 
+# HACK: X3DNA computation is non-reproducible. Never forget a result!
+from seamless.core.cache.buffer_cache import buffer_cache
+buffer_cache.LIFETIME_TEMP = 999999
+buffer_cache.LIFETIME_TEMP_SMALL = 999999
+
+####
+
 ctx.pdb_code = "1B7F"
 ctx.na_chain = "P"
 ctx.protein_chain = "A"
