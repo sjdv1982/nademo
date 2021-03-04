@@ -1,3 +1,9 @@
+ctx.pdb_code = "1A9N"
+ctx.na_chain = "Q"
+ctx.protein_chain = "B"
+ctx.na_resid = 13
+ctx.protein_resid = 56
+
 - Seamless modules
 - Evaluation of notebook:
 
