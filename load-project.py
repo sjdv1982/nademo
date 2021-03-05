@@ -9,6 +9,11 @@ ctx = None
 webctx = None
 save = None
 
+# HACK: X3DNA computation is non-reproducible. Never forget a result!
+from seamless.core.cache.buffer_cache import buffer_cache
+buffer_cache.LIFETIME_TEMP = 999999
+buffer_cache.LIFETIME_TEMP_SMALL = 999999
+
 async def load():
     from seamless.metalevel.bind_status_graph import bind_status_graph_async
     import json
