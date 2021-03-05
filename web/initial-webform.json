@@ -1,34 +1,5 @@
 {
-  "cells": {
-    "na_resid": {
-      "celltype": "int",
-      "component": "slider",
-      "params": {
-        "max": 100,
-        "min": 0,
-        "title": "Cell Na_resid"
-      },
-      "share": {
-        "encoding": "json",
-        "read": true,
-        "write": true
-      }
-    },
-    "protein_resid": {
-      "celltype": "int",
-      "component": "slider",
-      "params": {
-        "max": 100,
-        "min": 0,
-        "title": "Cell Protein_resid"
-      },
-      "share": {
-        "encoding": "json",
-        "read": true,
-        "write": true
-      }
-    }
-  },
+  "cells": {},
   "index": {
     "title": "Seamless webform"
   }
