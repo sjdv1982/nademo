@@ -1,0 +1,104 @@
+{
+  "cells": {
+    "na_chain": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Nucleic acid chain ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "na_resid": {
+      "celltype": "int",
+      "component": "numberinput",
+      "params": {
+        "editable": true,
+        "title": "Nucleic acid residue ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "pdb_code": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Nucleic acid - protein complex PDB code"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "plot": {
+      "celltype": "text",
+      "component": "iframe",
+      "params": {
+        "height": "600pt",
+        "title": "Closest distance versus Chi"
+      },
+      "share": {
+        "encoding": "text",
+        "read": true
+      }
+    },
+    "protein_chain": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Protein chain ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "protein_resid": {
+      "celltype": "int",
+      "component": "numberinput",
+      "params": {
+        "editable": true,
+        "title": "Protein residue ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "stackings_annotated": {
+      "celltype": "plain",
+      "component": "datatable",
+      "params": {
+        "title": "Stackings"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true
+      }
+    }
+  },
+  "index": {
+    "title": "Seamless webform"
+  },
+  "order": [
+    "pdb_code",
+    "na_chain",
+    "protein_chain",
+    "na_resid",
+    "protein_resid",
+    "plot",
+    "stackings_annotated"
+  ]
+}

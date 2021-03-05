@@ -76,3 +76,9 @@ del ctx.df_stackings.share
 
 The annotated stackings were visualized in the web page (webform.json) as a Vuetify datatable.
 The index.html was modified to bring the NGL viewer down.
+
+Step 6.
+A hidden "id" field was added to the annotated stackings
+The datatable HTML was modified to allow a row to be selected by ID
+Selecting a row caused the na_resid and protein_resid to be updated,
+  also on the server and in the NGL viewer

@@ -55,14 +55,17 @@
             <section>
                 <b-field label="Stackings">
                 <v-data-table
+                  :selectedStacking="selectedStacking"
                   :headers="stackings_annotated.headers"
                   :items="stackings_annotated.items"
-
                   class="elevation-1"
                 >
                   <template v-slot:item="{ item }">
-                    <tr>
-                        <td v-for="header in stackings_annotated.headers">
+                    <tr
+                      @click="click_stacking(item)"
+                      :class="item.id == selectedStacking?'cyan':''"
+                    >
+                        <td v-for="header in stackings_annotated.headers.filter(h => h.value != 'id')">
                           {{ item[header.value] }}
                         </td>
                     </tr>

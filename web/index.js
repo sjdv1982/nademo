@@ -61,7 +61,15 @@ const app = new Vue({
       "na_resid": 0,
       "protein_resid": 0,
       "plot": "",
-      "stackings_annotated": {}
+      "stackings_annotated": {},
+      "selectedStacking": -1,
+    }
+  },
+  methods: {
+    click_stacking(stacking) {
+      this.selectedStacking = stacking.id
+      this.na_resid = stacking.na_resid
+      this.protein_resid = stacking.protein_resid
     }
   },
   watch: {
@@ -108,5 +116,6 @@ function loadNGL() {
   var selection=`(${app.na_resid} and :${app.na_chain}) or (${app.protein_resid} and :${app.protein_chain})`
   stage.loadFile( pdb_url, { defaultRepresentation: true } ).then( function( pdb ){
     pdb.addRepresentation('ball+stick', {"sele":selection, "color":'blue'})
+    pdb.autoView(selection)
   });
 }
