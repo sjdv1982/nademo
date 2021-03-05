@@ -55,3 +55,7 @@ A web component "html" was created for HTML cells
 A web component "iframe" was created for HTML cells with script tags.
 
 Add the buffer lifetime hack to load-project.py
+
+Step 4.
+An NGL viewer was added, and made responsive to the PDB code+chain+resid
+(see diff on index.js and index.html)
