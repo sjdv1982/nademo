@@ -1,0 +1,3 @@
+def get_parsed_pdb(pdb_data):
+    parsed_pdb = parse_pdb.parse_pdb(pdb_data)
+    return parsed_pdb

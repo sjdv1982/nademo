@@ -1,0 +1,1 @@
+x3dna-dssr -i=pdb_data --json -o=RESULT

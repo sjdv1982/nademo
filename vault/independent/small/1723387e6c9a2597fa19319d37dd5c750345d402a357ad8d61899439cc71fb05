@@ -1,0 +1,4 @@
+def get_df_stackings(stackings):
+    import pandas as pd
+    df_stackings = pd.DataFrame(stackings)
+    return df_stackings.to_html()

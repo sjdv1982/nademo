@@ -1,0 +1,2 @@
+def get_x3dna_nucleotides(x3dna_analysis, na_chain):
+    return [nt for nt in x3dna_analysis["nts"] if nt["chain_name"] == na_chain]

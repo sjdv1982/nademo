@@ -1,0 +1,7 @@
+def select_chains(parsed_pdb, protein_chain, na_chain):
+    protein_atoms = parsed_pdb[parsed_pdb["chain"]==protein_chain.encode()]
+    na_atoms = parsed_pdb[parsed_pdb["chain"]==na_chain.encode()]
+    return {
+        "protein_atoms": protein_atoms,
+        "na_atoms": na_atoms
+    }

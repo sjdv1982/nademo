@@ -1,0 +1,4 @@
+def get_all_properties(protein_atoms, protein_resid, na_atoms, na_resid, x3dna_nucleotides):
+    return calc_properties.calculate_all_properties(
+        protein_atoms, protein_resid, na_atoms, na_resid, x3dna_nucleotides
+    )

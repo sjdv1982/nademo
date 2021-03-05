@@ -1,0 +1,4 @@
+def get_df_x3dna(x3dna_nucleotides):
+    import pandas as pd
+    df_x3dna = pd.DataFrame(x3dna_nucleotides)
+    return df_x3dna.to_html()

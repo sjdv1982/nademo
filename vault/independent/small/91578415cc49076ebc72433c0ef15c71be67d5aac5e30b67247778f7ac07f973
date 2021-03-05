@@ -1,0 +1,8 @@
+def get_df_pdb(parsed_pdb):
+    import numpy as np
+    import pandas as pd
+    df_pdb = pd.DataFrame(parsed_pdb)
+    for col, dtype in df_pdb.dtypes.items():
+        if dtype == np.object:  # Only process byte object columns.
+            df_pdb[col] = df_pdb[col].apply(lambda x: x.decode("utf-8"))
+    return df_pdb.to_html()

@@ -1,0 +1,21 @@
+def get_stackings(protein_atoms, na_atoms, x3dna_nucleotides):
+    import numpy as np
+    print
+    from .calc_properties import calculate_all_properties
+    all_protein_resids = np.unique(protein_atoms["resid"])
+    all_na_resids = np.unique(na_atoms["resid"])
+    stackings = []
+    for curr_na_resid in all_na_resids:
+        for curr_protein_resid in all_protein_resids:
+            try:
+                properties = calculate_all_properties(
+                    protein_atoms, curr_protein_resid,
+                    na_atoms, curr_na_resid,
+                    x3dna_nucleotides
+                )
+            except (KeyError, AssertionError):
+                continue
+            properties["na_resid"] = int(curr_na_resid)
+            properties["protein_resid"] = int(curr_protein_resid)
+            stackings.append(properties)
+    return stackings

@@ -1,0 +1,16 @@
+The project was created as follows:
+
+seamless-new-project nademo
+seamless-load-project-trusted
+
+in the IPython terminal:
+
+import json
+graph = json.load(open("initial-port.seamless"))
+ctx.add_zip("initial-port.zip")
+ctx.set_graph(graph)
+ctx.compute()
+save()
+exit()
+
+rm initial-port.seamless initial-port.zip

@@ -1,0 +1,6592 @@
+{
+  "atom2bases": [
+    {
+      "atom": "OP1@P.U8",
+      "index": 1,
+      "nt": "P.U5",
+      "type": "phosphate",
+      "vert_dist": 3.476
+    },
+    {
+      "atom": "OP1@Q.U8",
+      "index": 2,
+      "nt": "Q.U5",
+      "type": "phosphate",
+      "vert_dist": 3.449
+    }
+  ],
+  "chains": {
+    "chain_P": {
+      "bseq": "GUUGUUUUUUUU",
+      "form": "......A....-",
+      "helical_axis": [
+        -0.023,
+        0.282,
+        -0.959
+      ],
+      "helical_rise": 3.097,
+      "helical_rise_std": 2.861,
+      "num_chars": 34,
+      "num_nts": 12,
+      "point1": [
+        27.477,
+        55.307,
+        113.836
+      ],
+      "point2": [
+        26.69,
+        64.93,
+        81.108
+      ],
+      "sstr": "............",
+      "suite": "G!!U!!U2[G0bU!!U!!U1aU7pU4bU!!U!!U"
+    },
+    "chain_Q": {
+      "bseq": "GUUGUUUUUUUU",
+      "form": "...........-",
+      "helical_axis": [
+        -0.025,
+        -0.904,
+        -0.428
+      ],
+      "helical_rise": 3.239,
+      "helical_rise_std": 2.851,
+      "num_chars": 34,
+      "num_nts": 12,
+      "point1": [
+        27.099,
+        33.192,
+        114.314
+      ],
+      "point2": [
+        26.206,
+        1.204,
+        99.174
+      ],
+      "sstr": "............",
+      "suite": "G!!U!!U!!G0bU!!U!!U1aU7pU4bU!!U!!U"
+    }
+  },
+  "dbn": {
+    "all_chains": {
+      "bseq": "GUUGUUUUUUUU&GUUGUUUUUUUU",
+      "form": "......A....-&...........-",
+      "num_chars": 25,
+      "num_nts": 24,
+      "sstr": "............&............"
+    },
+    "chain_P": {
+      "bseq": "GUUGUUUUUUUU",
+      "form": "......A....-",
+      "num_chars": 12,
+      "num_nts": 12,
+      "sstr": "............"
+    },
+    "chain_Q": {
+      "bseq": "GUUGUUUUUUUU",
+      "form": "...........-",
+      "num_chars": 12,
+      "num_nts": 12,
+      "sstr": "............"
+    }
+  },
+  "hbonds": [
+    {
+      "atom1_id": "O2'@P.G1",
+      "atom1_serNum": 12,
+      "atom2_id": "OP1@P.U2",
+      "atom2_serNum": 26,
+      "atom_pair": "O:O",
+      "distance": 2.189,
+      "donAcc_type": "acceptable",
+      "index": 1,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "OP2@P.U3",
+      "atom1_serNum": 47,
+      "atom2_id": "N7@P.G4",
+      "atom2_serNum": 79,
+      "atom_pair": "O:N",
+      "distance": 3.243,
+      "donAcc_type": "questionable",
+      "index": 2,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O3'@P.U3",
+      "atom1_serNum": 53,
+      "atom2_id": "NH2@A.ARG252",
+      "atom2_serNum": 1544,
+      "atom_pair": "O:N",
+      "distance": 2.959,
+      "donAcc_type": "standard",
+      "index": 3,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U3",
+      "atom1_serNum": 55,
+      "atom2_id": "OH@A.TYR214",
+      "atom2_serNum": 1239,
+      "atom_pair": "O:O",
+      "distance": 3.106,
+      "donAcc_type": "acceptable",
+      "index": 4,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2@P.U3",
+      "atom1_serNum": 59,
+      "atom2_id": "NE@A.ARG252",
+      "atom2_serNum": 1541,
+      "atom_pair": "O:N",
+      "distance": 3.66,
+      "donAcc_type": "standard",
+      "index": 5,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@P.U3",
+      "atom1_serNum": 60,
+      "atom2_id": "O@A.ARG252",
+      "atom2_serNum": 1537,
+      "atom_pair": "N:O",
+      "distance": 2.834,
+      "donAcc_type": "standard",
+      "index": 6,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U3",
+      "atom1_serNum": 62,
+      "atom2_id": "N@A.ASN217",
+      "atom2_serNum": 1254,
+      "atom_pair": "O:N",
+      "distance": 2.904,
+      "donAcc_type": "standard",
+      "index": 7,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@P.G4",
+      "atom1_serNum": 66,
+      "atom2_id": "NH1@A.ARG252",
+      "atom2_serNum": 1543,
+      "atom_pair": "O:N",
+      "distance": 3.255,
+      "donAcc_type": "standard",
+      "index": 8,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@P.G4",
+      "atom1_serNum": 66,
+      "atom2_id": "NH2@A.ARG252",
+      "atom2_serNum": 1544,
+      "atom_pair": "O:N",
+      "distance": 3.1,
+      "donAcc_type": "standard",
+      "index": 9,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O6@P.G4",
+      "atom1_serNum": 82,
+      "atom2_id": "NH2@A.ARG287",
+      "atom2_serNum": 1811,
+      "atom_pair": "O:N",
+      "distance": 2.936,
+      "donAcc_type": "standard",
+      "index": 10,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N2@P.G4",
+      "atom1_serNum": 85,
+      "atom2_id": "O@A.ALA289",
+      "atom2_serNum": 1823,
+      "atom_pair": "N:O",
+      "distance": 3.285,
+      "donAcc_type": "standard",
+      "index": 11,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP2@P.U5",
+      "atom1_serNum": 90,
+      "atom2_id": "O4'@P.U7",
+      "atom2_serNum": 134,
+      "atom_pair": "O:O",
+      "distance": 3.304,
+      "donAcc_type": "questionable",
+      "index": 12,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O3'@P.U5",
+      "atom1_serNum": 96,
+      "atom2_id": "OD1@A.ASN241",
+      "atom2_serNum": 1451,
+      "atom_pair": "O:O",
+      "distance": 3.239,
+      "donAcc_type": "questionable",
+      "index": 13,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U5",
+      "atom1_serNum": 98,
+      "atom2_id": "OP1@P.U8",
+      "atom2_serNum": 149,
+      "atom_pair": "O:O",
+      "distance": 2.47,
+      "donAcc_type": "acceptable",
+      "index": 14,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@P.U5",
+      "atom1_serNum": 102,
+      "atom2_id": "NE2@A.GLN239",
+      "atom2_serNum": 1435,
+      "atom_pair": "O:N",
+      "distance": 3.11,
+      "donAcc_type": "standard",
+      "index": 15,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U5",
+      "atom1_serNum": 105,
+      "atom2_id": "ND2@A.ASN212",
+      "atom2_serNum": 1219,
+      "atom_pair": "O:N",
+      "distance": 2.858,
+      "donAcc_type": "standard",
+      "index": 16,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U6",
+      "atom1_serNum": 118,
+      "atom2_id": "OP2@P.U8",
+      "atom2_serNum": 150,
+      "atom_pair": "O:O",
+      "distance": 2.866,
+      "donAcc_type": "acceptable",
+      "index": 17,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@P.U6",
+      "atom1_serNum": 122,
+      "atom2_id": "N@A.ARG195",
+      "atom2_serNum": 1081,
+      "atom_pair": "O:N",
+      "distance": 3.024,
+      "donAcc_type": "standard",
+      "index": 18,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@P.U6",
+      "atom1_serNum": 123,
+      "atom2_id": "O@A.ARG195",
+      "atom2_serNum": 1084,
+      "atom_pair": "N:O",
+      "distance": 2.956,
+      "donAcc_type": "standard",
+      "index": 19,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@P.U7",
+      "atom1_serNum": 143,
+      "atom2_id": "OH@A.TYR164",
+      "atom2_serNum": 841,
+      "atom_pair": "N:O",
+      "distance": 2.578,
+      "donAcc_type": "acceptable",
+      "index": 20,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U7",
+      "atom1_serNum": 145,
+      "atom2_id": "OH@A.TYR164",
+      "atom2_serNum": 841,
+      "atom_pair": "O:O",
+      "distance": 2.745,
+      "donAcc_type": "acceptable",
+      "index": 21,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@P.U8",
+      "atom1_serNum": 163,
+      "atom2_id": "O@A.SER165",
+      "atom2_serNum": 845,
+      "atom_pair": "N:O",
+      "distance": 2.79,
+      "donAcc_type": "standard",
+      "index": 22,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U8",
+      "atom1_serNum": 165,
+      "atom2_id": "NE2@A.GLN134",
+      "atom2_serNum": 592,
+      "atom_pair": "O:N",
+      "distance": 2.782,
+      "donAcc_type": "standard",
+      "index": 23,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@P.U9",
+      "atom1_serNum": 169,
+      "atom2_id": "NH1@A.ARG258",
+      "atom2_serNum": 1588,
+      "atom_pair": "O:N",
+      "distance": 3.6,
+      "donAcc_type": "standard",
+      "index": 24,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U9",
+      "atom1_serNum": 178,
+      "atom2_id": "OP2@P.U10",
+      "atom2_serNum": 190,
+      "atom_pair": "O:O",
+      "distance": 2.743,
+      "donAcc_type": "acceptable",
+      "index": 25,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@P.U9",
+      "atom1_serNum": 178,
+      "atom2_id": "NH2@A.ARG202",
+      "atom2_serNum": 1149,
+      "atom_pair": "O:N",
+      "distance": 2.962,
+      "donAcc_type": "acceptable",
+      "index": 26,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2@P.U9",
+      "atom1_serNum": 182,
+      "atom2_id": "NH2@A.ARG202",
+      "atom2_serNum": 1149,
+      "atom_pair": "O:N",
+      "distance": 2.88,
+      "donAcc_type": "standard",
+      "index": 27,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U9",
+      "atom1_serNum": 185,
+      "atom2_id": "NZ@A.LYS197",
+      "atom2_serNum": 1108,
+      "atom_pair": "O:N",
+      "distance": 2.872,
+      "donAcc_type": "standard",
+      "index": 28,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U10",
+      "atom1_serNum": 198,
+      "atom2_id": "N@A.GLY205",
+      "atom2_serNum": 1161,
+      "atom_pair": "O:N",
+      "distance": 3.692,
+      "donAcc_type": "acceptable",
+      "index": 29,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@P.U10",
+      "atom1_serNum": 203,
+      "atom2_id": "O@A.ARG202",
+      "atom2_serNum": 1142,
+      "atom_pair": "N:O",
+      "distance": 2.481,
+      "donAcc_type": "standard",
+      "index": 30,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U10",
+      "atom1_serNum": 205,
+      "atom2_id": "N@A.ARG202",
+      "atom2_serNum": 1139,
+      "atom_pair": "O:N",
+      "distance": 2.629,
+      "donAcc_type": "standard",
+      "index": 31,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@P.U10",
+      "atom1_serNum": 205,
+      "atom2_id": "NE@A.ARG202",
+      "atom2_serNum": 1146,
+      "atom_pair": "O:N",
+      "distance": 3.021,
+      "donAcc_type": "standard",
+      "index": 32,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U11",
+      "atom1_serNum": 218,
+      "atom2_id": "OP2@P.U12",
+      "atom2_serNum": 230,
+      "atom_pair": "O:O",
+      "distance": 2.578,
+      "donAcc_type": "acceptable",
+      "index": 33,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@P.U11",
+      "atom1_serNum": 218,
+      "atom2_id": "O5'@P.U12",
+      "atom2_serNum": 231,
+      "atom_pair": "O:O",
+      "distance": 2.698,
+      "donAcc_type": "acceptable",
+      "index": 34,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O4@P.U11",
+      "atom1_serNum": 225,
+      "atom2_id": "OD1@A.ASN126",
+      "atom2_serNum": 524,
+      "atom_pair": "O:O",
+      "distance": 3.019,
+      "donAcc_type": "questionable",
+      "index": 35,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O3'@P.U12",
+      "atom1_serNum": 236,
+      "atom2_id": "NH1@A.ARG155",
+      "atom2_serNum": 761,
+      "atom_pair": "O:N",
+      "distance": 2.999,
+      "donAcc_type": "standard",
+      "index": 36,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U12",
+      "atom1_serNum": 238,
+      "atom2_id": "N@A.ARG158",
+      "atom2_serNum": 779,
+      "atom_pair": "O:N",
+      "distance": 2.533,
+      "donAcc_type": "acceptable",
+      "index": 37,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@P.U12",
+      "atom1_serNum": 238,
+      "atom2_id": "O@A.ARG158",
+      "atom2_serNum": 782,
+      "atom_pair": "O:O",
+      "distance": 2.32,
+      "donAcc_type": "acceptable",
+      "index": 38,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.G1",
+      "atom1_serNum": 260,
+      "atom2_id": "OP1@Q.U2",
+      "atom2_serNum": 274,
+      "atom_pair": "O:O",
+      "distance": 2.396,
+      "donAcc_type": "acceptable",
+      "index": 39,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@Q.U2",
+      "atom1_serNum": 283,
+      "atom2_id": "O2@Q.U2",
+      "atom2_serNum": 287,
+      "atom_pair": "O:O",
+      "distance": 2.361,
+      "donAcc_type": "acceptable",
+      "index": 40,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "OP2@Q.U3",
+      "atom1_serNum": 295,
+      "atom2_id": "N7@Q.G4",
+      "atom2_serNum": 327,
+      "atom_pair": "O:N",
+      "distance": 2.301,
+      "donAcc_type": "questionable",
+      "index": 41,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@Q.U3",
+      "atom1_serNum": 303,
+      "atom2_id": "OP1@Q.G4",
+      "atom2_serNum": 314,
+      "atom_pair": "O:O",
+      "distance": 2.637,
+      "donAcc_type": "acceptable",
+      "index": 42,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@Q.U3",
+      "atom1_serNum": 303,
+      "atom2_id": "O5'@Q.G4",
+      "atom2_serNum": 316,
+      "atom_pair": "O:O",
+      "distance": 3.106,
+      "donAcc_type": "acceptable",
+      "index": 43,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@Q.U3",
+      "atom1_serNum": 303,
+      "atom2_id": "OH@B.TYR214",
+      "atom2_serNum": 2569,
+      "atom_pair": "O:O",
+      "distance": 3.206,
+      "donAcc_type": "acceptable",
+      "index": 44,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2@Q.U3",
+      "atom1_serNum": 307,
+      "atom2_id": "NE@B.ARG252",
+      "atom2_serNum": 2871,
+      "atom_pair": "O:N",
+      "distance": 3.632,
+      "donAcc_type": "standard",
+      "index": 45,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@Q.U3",
+      "atom1_serNum": 308,
+      "atom2_id": "O@B.ARG252",
+      "atom2_serNum": 2867,
+      "atom_pair": "N:O",
+      "distance": 3.159,
+      "donAcc_type": "standard",
+      "index": 46,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@Q.U3",
+      "atom1_serNum": 310,
+      "atom2_id": "N@B.ASN217",
+      "atom2_serNum": 2584,
+      "atom_pair": "O:N",
+      "distance": 3.312,
+      "donAcc_type": "standard",
+      "index": 47,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@Q.G4",
+      "atom1_serNum": 314,
+      "atom2_id": "NH1@B.ARG252",
+      "atom2_serNum": 2873,
+      "atom_pair": "O:N",
+      "distance": 3.069,
+      "donAcc_type": "standard",
+      "index": 48,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@Q.G4",
+      "atom1_serNum": 314,
+      "atom2_id": "NH2@B.ARG252",
+      "atom2_serNum": 2874,
+      "atom_pair": "O:N",
+      "distance": 2.526,
+      "donAcc_type": "standard",
+      "index": 49,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP2@Q.U5",
+      "atom1_serNum": 338,
+      "atom2_id": "O4'@Q.U7",
+      "atom2_serNum": 382,
+      "atom_pair": "O:O",
+      "distance": 3.31,
+      "donAcc_type": "questionable",
+      "index": 50,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2'@Q.U5",
+      "atom1_serNum": 346,
+      "atom2_id": "OP1@Q.U8",
+      "atom2_serNum": 397,
+      "atom_pair": "O:O",
+      "distance": 2.546,
+      "donAcc_type": "acceptable",
+      "index": 51,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@Q.U5",
+      "atom1_serNum": 350,
+      "atom2_id": "NE2@B.GLN239",
+      "atom2_serNum": 2765,
+      "atom_pair": "O:N",
+      "distance": 3.171,
+      "donAcc_type": "standard",
+      "index": 52,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@Q.U5",
+      "atom1_serNum": 353,
+      "atom2_id": "ND2@B.ASN212",
+      "atom2_serNum": 2549,
+      "atom_pair": "O:N",
+      "distance": 3.159,
+      "donAcc_type": "standard",
+      "index": 53,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U6",
+      "atom1_serNum": 366,
+      "atom2_id": "OP2@Q.U8",
+      "atom2_serNum": 398,
+      "atom_pair": "O:O",
+      "distance": 2.646,
+      "donAcc_type": "acceptable",
+      "index": 54,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@Q.U6",
+      "atom1_serNum": 370,
+      "atom2_id": "N@B.ARG195",
+      "atom2_serNum": 2411,
+      "atom_pair": "O:N",
+      "distance": 3.047,
+      "donAcc_type": "standard",
+      "index": 55,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@Q.U6",
+      "atom1_serNum": 371,
+      "atom2_id": "O@B.ARG195",
+      "atom2_serNum": 2414,
+      "atom_pair": "N:O",
+      "distance": 2.716,
+      "donAcc_type": "standard",
+      "index": 56,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@Q.U7",
+      "atom1_serNum": 377,
+      "atom2_id": "NZ@B.LYS194",
+      "atom2_serNum": 2410,
+      "atom_pair": "O:N",
+      "distance": 3.418,
+      "donAcc_type": "standard",
+      "index": 57,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U7",
+      "atom1_serNum": 386,
+      "atom2_id": "O4'@Q.U8",
+      "atom2_serNum": 402,
+      "atom_pair": "O:O",
+      "distance": 2.925,
+      "donAcc_type": "acceptable",
+      "index": 58,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "N3@Q.U8",
+      "atom1_serNum": 411,
+      "atom2_id": "O@B.SER165",
+      "atom2_serNum": 2175,
+      "atom_pair": "N:O",
+      "distance": 3.127,
+      "donAcc_type": "standard",
+      "index": 59,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP1@Q.U9",
+      "atom1_serNum": 417,
+      "atom2_id": "NH1@B.ARG258",
+      "atom2_serNum": 2918,
+      "atom_pair": "O:N",
+      "distance": 3.305,
+      "donAcc_type": "standard",
+      "index": 60,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4'@Q.U9",
+      "atom1_serNum": 422,
+      "atom2_id": "OD1@B.ASN130",
+      "atom2_serNum": 1885,
+      "atom_pair": "O:O",
+      "distance": 3.339,
+      "donAcc_type": "questionable",
+      "index": 61,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U9",
+      "atom1_serNum": 426,
+      "atom2_id": "OP2@Q.U10",
+      "atom2_serNum": 438,
+      "atom_pair": "O:O",
+      "distance": 2.586,
+      "donAcc_type": "acceptable",
+      "index": 62,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@Q.U9",
+      "atom1_serNum": 430,
+      "atom2_id": "NH2@B.ARG202",
+      "atom2_serNum": 2479,
+      "atom_pair": "O:N",
+      "distance": 3.35,
+      "donAcc_type": "standard",
+      "index": 63,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@Q.U9",
+      "atom1_serNum": 433,
+      "atom2_id": "NZ@B.LYS197",
+      "atom2_serNum": 2438,
+      "atom_pair": "O:N",
+      "distance": 2.709,
+      "donAcc_type": "standard",
+      "index": 64,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U10",
+      "atom1_serNum": 446,
+      "atom2_id": "N@B.GLY205",
+      "atom2_serNum": 2491,
+      "atom_pair": "O:N",
+      "distance": 3.865,
+      "donAcc_type": "acceptable",
+      "index": 65,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "N3@Q.U10",
+      "atom1_serNum": 451,
+      "atom2_id": "O@B.ARG202",
+      "atom2_serNum": 2472,
+      "atom_pair": "N:O",
+      "distance": 2.604,
+      "donAcc_type": "standard",
+      "index": 66,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@Q.U10",
+      "atom1_serNum": 453,
+      "atom2_id": "N@B.ARG202",
+      "atom2_serNum": 2469,
+      "atom_pair": "O:N",
+      "distance": 3.029,
+      "donAcc_type": "standard",
+      "index": 67,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U11",
+      "atom1_serNum": 466,
+      "atom2_id": "OP2@Q.U12",
+      "atom2_serNum": 478,
+      "atom_pair": "O:O",
+      "distance": 2.357,
+      "donAcc_type": "acceptable",
+      "index": 68,
+      "residue_pair": "nt:nt"
+    },
+    {
+      "atom1_id": "O2@Q.U11",
+      "atom1_serNum": 470,
+      "atom2_id": "NE@B.ARG155",
+      "atom2_serNum": 2089,
+      "atom_pair": "O:N",
+      "distance": 2.998,
+      "donAcc_type": "standard",
+      "index": 69,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2@Q.U11",
+      "atom1_serNum": 470,
+      "atom2_id": "NH2@B.ARG155",
+      "atom2_serNum": 2092,
+      "atom_pair": "O:N",
+      "distance": 2.813,
+      "donAcc_type": "standard",
+      "index": 70,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O4@Q.U11",
+      "atom1_serNum": 473,
+      "atom2_id": "OD1@B.ASN126",
+      "atom2_serNum": 1854,
+      "atom_pair": "O:O",
+      "distance": 2.754,
+      "donAcc_type": "questionable",
+      "index": 71,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "OP2@Q.U12",
+      "atom1_serNum": 478,
+      "atom2_id": "NH2@B.ARG155",
+      "atom2_serNum": 2092,
+      "atom_pair": "O:N",
+      "distance": 3.12,
+      "donAcc_type": "standard",
+      "index": 72,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U12",
+      "atom1_serNum": 486,
+      "atom2_id": "O@B.ARG158",
+      "atom2_serNum": 2112,
+      "atom_pair": "O:O",
+      "distance": 2.389,
+      "donAcc_type": "acceptable",
+      "index": 73,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O2'@Q.U12",
+      "atom1_serNum": 486,
+      "atom2_id": "N@B.TYR160",
+      "atom2_serNum": 2128,
+      "atom_pair": "O:N",
+      "distance": 2.877,
+      "donAcc_type": "acceptable",
+      "index": 74,
+      "residue_pair": "nt:aa"
+    },
+    {
+      "atom1_id": "O@A.ASN124",
+      "atom1_serNum": 506,
+      "atom2_id": "OG@A.SER179",
+      "atom2_serNum": 961,
+      "atom_pair": "O:O",
+      "distance": 3.045,
+      "donAcc_type": "acceptable",
+      "index": 75,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR125",
+      "atom1_serNum": 514,
+      "atom2_id": "O@A.VAL171",
+      "atom2_serNum": 895,
+      "atom_pair": "O:O",
+      "distance": 3.279,
+      "donAcc_type": "questionable",
+      "index": 76,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR125",
+      "atom1_serNum": 514,
+      "atom2_id": "N@A.PHE173",
+      "atom2_serNum": 907,
+      "atom_pair": "O:N",
+      "distance": 3.215,
+      "donAcc_type": "standard",
+      "index": 77,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@A.THR125",
+      "atom1_serNum": 516,
+      "atom2_id": "OD1@A.ASP172",
+      "atom2_serNum": 905,
+      "atom_pair": "O:O",
+      "distance": 2.781,
+      "donAcc_type": "acceptable",
+      "index": 78,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASN126",
+      "atom1_serNum": 521,
+      "atom2_id": "N@A.ALA201",
+      "atom2_serNum": 1134,
+      "atom_pair": "O:N",
+      "distance": 3.059,
+      "donAcc_type": "standard",
+      "index": 79,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.LEU127",
+      "atom1_serNum": 526,
+      "atom2_id": "O@A.VAL171",
+      "atom2_serNum": 895,
+      "atom_pair": "N:O",
+      "distance": 2.978,
+      "donAcc_type": "standard",
+      "index": 80,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU127",
+      "atom1_serNum": 529,
+      "atom2_id": "N@A.VAL171",
+      "atom2_serNum": 892,
+      "atom_pair": "O:N",
+      "distance": 2.863,
+      "donAcc_type": "standard",
+      "index": 81,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ILE128",
+      "atom1_serNum": 534,
+      "atom2_id": "O@A.SER199",
+      "atom2_serNum": 1119,
+      "atom_pair": "N:O",
+      "distance": 2.896,
+      "donAcc_type": "standard",
+      "index": 82,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE128",
+      "atom1_serNum": 537,
+      "atom2_id": "N@A.SER199",
+      "atom2_serNum": 1116,
+      "atom_pair": "O:N",
+      "distance": 3.396,
+      "donAcc_type": "standard",
+      "index": 83,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.VAL129",
+      "atom1_serNum": 542,
+      "atom2_id": "O@A.ALA169",
+      "atom2_serNum": 879,
+      "atom_pair": "N:O",
+      "distance": 2.532,
+      "donAcc_type": "standard",
+      "index": 84,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.VAL129",
+      "atom1_serNum": 545,
+      "atom2_id": "N@A.ALA169",
+      "atom2_serNum": 876,
+      "atom_pair": "O:N",
+      "distance": 2.823,
+      "donAcc_type": "standard",
+      "index": 85,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN130",
+      "atom1_serNum": 549,
+      "atom2_id": "O@A.LYS197",
+      "atom2_serNum": 1103,
+      "atom_pair": "N:O",
+      "distance": 2.808,
+      "donAcc_type": "standard",
+      "index": 86,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASN130",
+      "atom1_serNum": 552,
+      "atom2_id": "N@A.LYS197",
+      "atom2_serNum": 1100,
+      "atom_pair": "O:N",
+      "distance": 2.953,
+      "donAcc_type": "standard",
+      "index": 87,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.TYR131",
+      "atom1_serNum": 557,
+      "atom2_id": "O@A.GLY167",
+      "atom2_serNum": 863,
+      "atom_pair": "N:O",
+      "distance": 3.286,
+      "donAcc_type": "standard",
+      "index": 88,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OH@A.TYR131",
+      "atom1_serNum": 568,
+      "atom2_id": "NE2@A.GLN239",
+      "atom2_serNum": 1435,
+      "atom_pair": "O:N",
+      "distance": 3.911,
+      "donAcc_type": "acceptable",
+      "index": 89,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.LEU132",
+      "atom1_serNum": 569,
+      "atom2_id": "O@A.GLY167",
+      "atom2_serNum": 863,
+      "atom_pair": "N:O",
+      "distance": 3.132,
+      "donAcc_type": "standard",
+      "index": 90,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PRO133",
+      "atom1_serNum": 580,
+      "atom2_id": "N@A.MET136",
+      "atom2_serNum": 601,
+      "atom_pair": "O:N",
+      "distance": 3.036,
+      "donAcc_type": "standard",
+      "index": 91,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NE2@A.GLN134",
+      "atom1_serNum": 592,
+      "atom2_id": "O@A.SER165",
+      "atom2_serNum": 845,
+      "atom_pair": "N:O",
+      "distance": 2.328,
+      "donAcc_type": "standard",
+      "index": 92,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP135",
+      "atom1_serNum": 599,
+      "atom2_id": "NE@A.ARG192",
+      "atom2_serNum": 1060,
+      "atom_pair": "O:N",
+      "distance": 2.799,
+      "donAcc_type": "standard",
+      "index": 93,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP135",
+      "atom1_serNum": 599,
+      "atom2_id": "NH2@A.ARG192",
+      "atom2_serNum": 1063,
+      "atom_pair": "O:N",
+      "distance": 2.884,
+      "donAcc_type": "standard",
+      "index": 94,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.THR137",
+      "atom1_serNum": 609,
+      "atom2_id": "OE1@A.GLU140",
+      "atom2_serNum": 642,
+      "atom_pair": "N:O",
+      "distance": 3.358,
+      "donAcc_type": "standard",
+      "index": 95,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR137",
+      "atom1_serNum": 612,
+      "atom2_id": "N@A.GLU140",
+      "atom2_serNum": 635,
+      "atom_pair": "O:N",
+      "distance": 2.814,
+      "donAcc_type": "standard",
+      "index": 96,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR137",
+      "atom1_serNum": 612,
+      "atom2_id": "N@A.LEU141",
+      "atom2_serNum": 644,
+      "atom_pair": "O:N",
+      "distance": 3.065,
+      "donAcc_type": "standard",
+      "index": 97,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@A.THR137",
+      "atom1_serNum": 614,
+      "atom2_id": "N@A.ARG139",
+      "atom2_serNum": 624,
+      "atom_pair": "O:N",
+      "distance": 2.761,
+      "donAcc_type": "acceptable",
+      "index": 98,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP138",
+      "atom1_serNum": 619,
+      "atom2_id": "N@A.TYR142",
+      "atom2_serNum": 652,
+      "atom_pair": "O:N",
+      "distance": 2.978,
+      "donAcc_type": "standard",
+      "index": 99,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP138",
+      "atom1_serNum": 622,
+      "atom2_id": "O@A.CYS154",
+      "atom2_serNum": 749,
+      "atom_pair": "O:O",
+      "distance": 2.45,
+      "donAcc_type": "questionable",
+      "index": 100,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG139",
+      "atom1_serNum": 627,
+      "atom2_id": "N@A.ALA143",
+      "atom2_serNum": 664,
+      "atom_pair": "O:N",
+      "distance": 3.319,
+      "donAcc_type": "standard",
+      "index": 101,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU140",
+      "atom1_serNum": 638,
+      "atom2_id": "N@A.LEU144",
+      "atom2_serNum": 669,
+      "atom_pair": "O:N",
+      "distance": 3.024,
+      "donAcc_type": "standard",
+      "index": 102,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@A.GLU140",
+      "atom1_serNum": 642,
+      "atom2_id": "NH2@A.ARG192",
+      "atom2_serNum": 1063,
+      "atom_pair": "O:N",
+      "distance": 2.934,
+      "donAcc_type": "standard",
+      "index": 103,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE2@A.GLU140",
+      "atom1_serNum": 643,
+      "atom2_id": "NH1@A.ARG192",
+      "atom2_serNum": 1062,
+      "atom_pair": "O:N",
+      "distance": 2.731,
+      "donAcc_type": "standard",
+      "index": 104,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE2@A.GLU140",
+      "atom1_serNum": 643,
+      "atom2_id": "NH2@A.ARG192",
+      "atom2_serNum": 1063,
+      "atom_pair": "O:N",
+      "distance": 2.841,
+      "donAcc_type": "standard",
+      "index": 105,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU141",
+      "atom1_serNum": 647,
+      "atom2_id": "N@A.PHE145",
+      "atom2_serNum": 677,
+      "atom_pair": "O:N",
+      "distance": 2.885,
+      "donAcc_type": "standard",
+      "index": 106,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.TYR142",
+      "atom1_serNum": 655,
+      "atom2_id": "N@A.ARG146",
+      "atom2_serNum": 688,
+      "atom_pair": "O:N",
+      "distance": 2.507,
+      "donAcc_type": "standard",
+      "index": 107,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PHE145",
+      "atom1_serNum": 680,
+      "atom2_id": "N@A.ILE148",
+      "atom2_serNum": 704,
+      "atom_pair": "O:N",
+      "distance": 3.108,
+      "donAcc_type": "standard",
+      "index": 108,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG146",
+      "atom1_serNum": 691,
+      "atom2_id": "NE@A.ARG146",
+      "atom2_serNum": 695,
+      "atom_pair": "O:N",
+      "distance": 2.575,
+      "donAcc_type": "standard",
+      "index": 109,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PRO150",
+      "atom1_serNum": 719,
+      "atom2_id": "OG1@A.THR174",
+      "atom2_serNum": 923,
+      "atom_pair": "O:O",
+      "distance": 2.717,
+      "donAcc_type": "acceptable",
+      "index": 110,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN152",
+      "atom1_serNum": 731,
+      "atom2_id": "O@A.ASP172",
+      "atom2_serNum": 902,
+      "atom_pair": "N:O",
+      "distance": 2.68,
+      "donAcc_type": "standard",
+      "index": 111,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.THR153",
+      "atom1_serNum": 739,
+      "atom2_id": "O@A.ASP172",
+      "atom2_serNum": 902,
+      "atom_pair": "N:O",
+      "distance": 3.299,
+      "donAcc_type": "standard",
+      "index": 112,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR153",
+      "atom1_serNum": 742,
+      "atom2_id": "N@A.ASP172",
+      "atom2_serNum": 899,
+      "atom_pair": "O:N",
+      "distance": 3.18,
+      "donAcc_type": "standard",
+      "index": 113,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ARG155",
+      "atom1_serNum": 752,
+      "atom2_id": "O@A.PHE170",
+      "atom2_serNum": 884,
+      "atom_pair": "N:O",
+      "distance": 3.31,
+      "donAcc_type": "standard",
+      "index": 114,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG155",
+      "atom1_serNum": 755,
+      "atom2_id": "N@A.PHE170",
+      "atom2_serNum": 881,
+      "atom_pair": "O:N",
+      "distance": 3.179,
+      "donAcc_type": "standard",
+      "index": 115,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE156",
+      "atom1_serNum": 766,
+      "atom2_id": "O@A.TYR168",
+      "atom2_serNum": 867,
+      "atom_pair": "O:O",
+      "distance": 2.476,
+      "donAcc_type": "questionable",
+      "index": 116,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.MET157",
+      "atom1_serNum": 774,
+      "atom2_id": "N@A.TYR166",
+      "atom2_serNum": 848,
+      "atom_pair": "O:N",
+      "distance": 2.878,
+      "donAcc_type": "standard",
+      "index": 117,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG158",
+      "atom1_serNum": 782,
+      "atom2_id": "N@A.TYR160",
+      "atom2_serNum": 798,
+      "atom_pair": "O:N",
+      "distance": 3.036,
+      "donAcc_type": "standard",
+      "index": 118,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASP159",
+      "atom1_serNum": 790,
+      "atom2_id": "O@A.TYR164",
+      "atom2_serNum": 833,
+      "atom_pair": "N:O",
+      "distance": 3.08,
+      "donAcc_type": "standard",
+      "index": 119,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP159",
+      "atom1_serNum": 793,
+      "atom2_id": "N@A.GLY163",
+      "atom2_serNum": 826,
+      "atom_pair": "O:N",
+      "distance": 2.69,
+      "donAcc_type": "standard",
+      "index": 120,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP159",
+      "atom1_serNum": 796,
+      "atom2_id": "O@A.TYR160",
+      "atom2_serNum": 801,
+      "atom_pair": "O:O",
+      "distance": 2.588,
+      "donAcc_type": "questionable",
+      "index": 121,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER175",
+      "atom1_serNum": 928,
+      "atom2_id": "N@A.ASP178",
+      "atom2_serNum": 948,
+      "atom_pair": "O:N",
+      "distance": 2.849,
+      "donAcc_type": "standard",
+      "index": 122,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER175",
+      "atom1_serNum": 928,
+      "atom2_id": "N@A.SER179",
+      "atom2_serNum": 956,
+      "atom_pair": "O:N",
+      "distance": 3.038,
+      "donAcc_type": "standard",
+      "index": 123,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@A.SER175",
+      "atom1_serNum": 930,
+      "atom2_id": "N@A.MET177",
+      "atom2_serNum": 940,
+      "atom_pair": "O:N",
+      "distance": 2.922,
+      "donAcc_type": "acceptable",
+      "index": 124,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@A.SER175",
+      "atom1_serNum": 930,
+      "atom2_id": "N@A.ASP178",
+      "atom2_serNum": 948,
+      "atom_pair": "O:N",
+      "distance": 3.206,
+      "donAcc_type": "acceptable",
+      "index": 125,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU176",
+      "atom1_serNum": 934,
+      "atom2_id": "N@A.GLN180",
+      "atom2_serNum": 962,
+      "atom_pair": "O:N",
+      "distance": 3.272,
+      "donAcc_type": "standard",
+      "index": 126,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.MET177",
+      "atom1_serNum": 943,
+      "atom2_id": "N@A.ARG181",
+      "atom2_serNum": 971,
+      "atom_pair": "O:N",
+      "distance": 3.066,
+      "donAcc_type": "standard",
+      "index": 127,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP178",
+      "atom1_serNum": 951,
+      "atom2_id": "N@A.ALA182",
+      "atom2_serNum": 982,
+      "atom_pair": "O:N",
+      "distance": 2.959,
+      "donAcc_type": "standard",
+      "index": 128,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER179",
+      "atom1_serNum": 959,
+      "atom2_id": "N@A.ALA182",
+      "atom2_serNum": 982,
+      "atom_pair": "O:N",
+      "distance": 2.934,
+      "donAcc_type": "standard",
+      "index": 129,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER179",
+      "atom1_serNum": 959,
+      "atom2_id": "N@A.ILE183",
+      "atom2_serNum": 987,
+      "atom_pair": "O:N",
+      "distance": 3.272,
+      "donAcc_type": "standard",
+      "index": 130,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@A.SER179",
+      "atom1_serNum": 961,
+      "atom2_id": "OH@A.TYR200",
+      "atom2_serNum": 1133,
+      "atom_pair": "O:O",
+      "distance": 3.849,
+      "donAcc_type": "acceptable",
+      "index": 131,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLN180",
+      "atom1_serNum": 965,
+      "atom2_id": "N@A.LYS184",
+      "atom2_serNum": 995,
+      "atom_pair": "O:N",
+      "distance": 3.196,
+      "donAcc_type": "standard",
+      "index": 132,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@A.GLN180",
+      "atom1_serNum": 969,
+      "atom2_id": "NZ@A.LYS184",
+      "atom2_serNum": 1003,
+      "atom_pair": "O:N",
+      "distance": 2.852,
+      "donAcc_type": "standard",
+      "index": 133,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG181",
+      "atom1_serNum": 974,
+      "atom2_id": "N@A.VAL185",
+      "atom2_serNum": 1004,
+      "atom_pair": "O:N",
+      "distance": 2.974,
+      "donAcc_type": "standard",
+      "index": 134,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ALA182",
+      "atom1_serNum": 985,
+      "atom2_id": "N@A.LEU186",
+      "atom2_serNum": 1011,
+      "atom_pair": "O:N",
+      "distance": 2.645,
+      "donAcc_type": "standard",
+      "index": 135,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE183",
+      "atom1_serNum": 990,
+      "atom2_id": "N@A.ASN187",
+      "atom2_serNum": 1019,
+      "atom_pair": "O:N",
+      "distance": 3.127,
+      "donAcc_type": "standard",
+      "index": 136,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU186",
+      "atom1_serNum": 1014,
+      "atom2_id": "N@A.GLY188",
+      "atom2_serNum": 1027,
+      "atom_pair": "O:N",
+      "distance": 3.102,
+      "donAcc_type": "standard",
+      "index": 137,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU186",
+      "atom1_serNum": 1014,
+      "atom2_id": "N@A.ILE189",
+      "atom2_serNum": 1031,
+      "atom_pair": "O:N",
+      "distance": 3.096,
+      "donAcc_type": "standard",
+      "index": 138,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASN187",
+      "atom1_serNum": 1025,
+      "atom2_id": "N@A.GLY188",
+      "atom2_serNum": 1027,
+      "atom_pair": "O:N",
+      "distance": 2.936,
+      "donAcc_type": "standard",
+      "index": 139,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASN187",
+      "atom1_serNum": 1025,
+      "atom2_id": "N@A.VAL198",
+      "atom2_serNum": 1109,
+      "atom_pair": "O:N",
+      "distance": 3.707,
+      "donAcc_type": "standard",
+      "index": 140,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.GLY188",
+      "atom1_serNum": 1027,
+      "atom2_id": "O@A.LEU196",
+      "atom2_serNum": 1095,
+      "atom_pair": "N:O",
+      "distance": 2.699,
+      "donAcc_type": "standard",
+      "index": 141,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE189",
+      "atom1_serNum": 1034,
+      "atom2_id": "N@A.LEU196",
+      "atom2_serNum": 1092,
+      "atom_pair": "O:N",
+      "distance": 2.827,
+      "donAcc_type": "standard",
+      "index": 142,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.VAL191",
+      "atom1_serNum": 1046,
+      "atom2_id": "O@A.LYS194",
+      "atom2_serNum": 1075,
+      "atom_pair": "N:O",
+      "distance": 2.764,
+      "donAcc_type": "standard",
+      "index": 143,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.VAL191",
+      "atom1_serNum": 1049,
+      "atom2_id": "N@A.ASN193",
+      "atom2_serNum": 1064,
+      "atom_pair": "O:N",
+      "distance": 2.857,
+      "donAcc_type": "standard",
+      "index": 144,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.VAL191",
+      "atom1_serNum": 1049,
+      "atom2_id": "N@A.LYS194",
+      "atom2_serNum": 1072,
+      "atom_pair": "O:N",
+      "distance": 3.025,
+      "donAcc_type": "standard",
+      "index": 145,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NZ@A.LYS197",
+      "atom1_serNum": 1108,
+      "atom2_id": "O@A.VAL238",
+      "atom2_serNum": 1423,
+      "atom_pair": "N:O",
+      "distance": 3.607,
+      "donAcc_type": "standard",
+      "index": 146,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@A.ARG202",
+      "atom1_serNum": 1148,
+      "atom2_id": "O@A.TYR259",
+      "atom2_serNum": 1593,
+      "atom_pair": "N:O",
+      "distance": 3.892,
+      "donAcc_type": "standard",
+      "index": 147,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@A.ARG202",
+      "atom1_serNum": 1148,
+      "atom2_id": "O@A.ASN260",
+      "atom2_serNum": 1605,
+      "atom_pair": "N:O",
+      "distance": 3.383,
+      "donAcc_type": "standard",
+      "index": 148,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@A.ARG202",
+      "atom1_serNum": 1148,
+      "atom2_id": "ND2@A.ASN260",
+      "atom2_serNum": 1609,
+      "atom_pair": "N:N",
+      "distance": 3.286,
+      "donAcc_type": "questionable",
+      "index": 149,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU206",
+      "atom1_serNum": 1168,
+      "atom2_id": "N@A.LYS209",
+      "atom2_serNum": 1188,
+      "atom_pair": "O:N",
+      "distance": 3.087,
+      "donAcc_type": "standard",
+      "index": 150,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER207",
+      "atom1_serNum": 1177,
+      "atom2_id": "N@A.ARG262",
+      "atom2_serNum": 1619,
+      "atom_pair": "O:N",
+      "distance": 2.596,
+      "donAcc_type": "standard",
+      "index": 151,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE208",
+      "atom1_serNum": 1183,
+      "atom2_id": "OG1@A.THR211",
+      "atom2_serNum": 1210,
+      "atom_pair": "O:O",
+      "distance": 2.664,
+      "donAcc_type": "acceptable",
+      "index": 152,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@A.ASP210",
+      "atom1_serNum": 1204,
+      "atom2_id": "NH2@A.ARG262",
+      "atom2_serNum": 1629,
+      "atom_pair": "O:N",
+      "distance": 3.95,
+      "donAcc_type": "standard",
+      "index": 153,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR211",
+      "atom1_serNum": 1208,
+      "atom2_id": "N@A.TYR259",
+      "atom2_serNum": 1590,
+      "atom_pair": "O:N",
+      "distance": 3.031,
+      "donAcc_type": "standard",
+      "index": 154,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASN212",
+      "atom1_serNum": 1215,
+      "atom2_id": "N@A.ALA289",
+      "atom2_serNum": 1820,
+      "atom_pair": "O:N",
+      "distance": 3.104,
+      "donAcc_type": "standard",
+      "index": 155,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.LEU213",
+      "atom1_serNum": 1220,
+      "atom2_id": "O@A.VAL257",
+      "atom2_serNum": 1575,
+      "atom_pair": "N:O",
+      "distance": 2.687,
+      "donAcc_type": "standard",
+      "index": 156,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU213",
+      "atom1_serNum": 1223,
+      "atom2_id": "N@A.VAL257",
+      "atom2_serNum": 1572,
+      "atom_pair": "O:N",
+      "distance": 3.073,
+      "donAcc_type": "standard",
+      "index": 157,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.TYR214",
+      "atom1_serNum": 1228,
+      "atom2_id": "O@A.ARG287",
+      "atom2_serNum": 1804,
+      "atom_pair": "N:O",
+      "distance": 2.855,
+      "donAcc_type": "standard",
+      "index": 158,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.TYR214",
+      "atom1_serNum": 1231,
+      "atom2_id": "N@A.ARG287",
+      "atom2_serNum": 1801,
+      "atom_pair": "O:N",
+      "distance": 3.507,
+      "donAcc_type": "standard",
+      "index": 159,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.VAL215",
+      "atom1_serNum": 1240,
+      "atom2_id": "O@A.ALA255",
+      "atom2_serNum": 1559,
+      "atom_pair": "N:O",
+      "distance": 2.842,
+      "donAcc_type": "standard",
+      "index": 160,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.VAL215",
+      "atom1_serNum": 1243,
+      "atom2_id": "N@A.ALA255",
+      "atom2_serNum": 1556,
+      "atom_pair": "O:N",
+      "distance": 2.996,
+      "donAcc_type": "standard",
+      "index": 161,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.THR216",
+      "atom1_serNum": 1247,
+      "atom2_id": "O@A.SER285",
+      "atom2_serNum": 1791,
+      "atom_pair": "N:O",
+      "distance": 3.1,
+      "donAcc_type": "standard",
+      "index": 162,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR216",
+      "atom1_serNum": 1250,
+      "atom2_id": "N@A.SER285",
+      "atom2_serNum": 1788,
+      "atom_pair": "O:N",
+      "distance": 3.174,
+      "donAcc_type": "standard",
+      "index": 163,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN217",
+      "atom1_serNum": 1254,
+      "atom2_id": "O@A.GLY253",
+      "atom2_serNum": 1548,
+      "atom_pair": "N:O",
+      "distance": 3.213,
+      "donAcc_type": "standard",
+      "index": 164,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "ND2@A.ASN217",
+      "atom1_serNum": 1261,
+      "atom2_id": "O@A.PRO283",
+      "atom2_serNum": 1776,
+      "atom_pair": "N:O",
+      "distance": 3.816,
+      "donAcc_type": "standard",
+      "index": 165,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.LEU218",
+      "atom1_serNum": 1262,
+      "atom2_id": "O@A.GLY253",
+      "atom2_serNum": 1548,
+      "atom_pair": "N:O",
+      "distance": 2.978,
+      "donAcc_type": "standard",
+      "index": 166,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PRO219",
+      "atom1_serNum": 1273,
+      "atom2_id": "N@A.ILE222",
+      "atom2_serNum": 1295,
+      "atom_pair": "O:N",
+      "distance": 3.115,
+      "donAcc_type": "standard",
+      "index": 167,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG220",
+      "atom1_serNum": 1280,
+      "atom2_id": "ND2@B.ASN274",
+      "atom2_serNum": 3048,
+      "atom_pair": "O:N",
+      "distance": 3.683,
+      "donAcc_type": "standard",
+      "index": 168,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR223",
+      "atom1_serNum": 1306,
+      "atom2_id": "N@A.GLN226",
+      "atom2_serNum": 1326,
+      "atom_pair": "O:N",
+      "distance": 3.022,
+      "donAcc_type": "standard",
+      "index": 169,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.THR223",
+      "atom1_serNum": 1306,
+      "atom2_id": "N@A.LEU227",
+      "atom2_serNum": 1335,
+      "atom_pair": "O:N",
+      "distance": 3.053,
+      "donAcc_type": "standard",
+      "index": 170,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP224",
+      "atom1_serNum": 1313,
+      "atom2_id": "N@A.ASP228",
+      "atom2_serNum": 1343,
+      "atom_pair": "O:N",
+      "distance": 3.161,
+      "donAcc_type": "standard",
+      "index": 171,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP224",
+      "atom1_serNum": 1313,
+      "atom2_id": "OD1@A.ASP228",
+      "atom2_serNum": 1349,
+      "atom_pair": "O:O",
+      "distance": 3.059,
+      "donAcc_type": "questionable",
+      "index": 172,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP224",
+      "atom1_serNum": 1316,
+      "atom2_id": "NH2@A.ARG244",
+      "atom2_serNum": 1479,
+      "atom_pair": "O:N",
+      "distance": 3.505,
+      "donAcc_type": "standard",
+      "index": 173,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@A.ASP224",
+      "atom1_serNum": 1317,
+      "atom2_id": "NZ@A.LYS240",
+      "atom2_serNum": 1444,
+      "atom_pair": "O:N",
+      "distance": 3.543,
+      "donAcc_type": "standard",
+      "index": 174,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP225",
+      "atom1_serNum": 1321,
+      "atom2_id": "N@A.THR229",
+      "atom2_serNum": 1351,
+      "atom_pair": "O:N",
+      "distance": 3.197,
+      "donAcc_type": "standard",
+      "index": 175,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP225",
+      "atom1_serNum": 1321,
+      "atom2_id": "OG1@A.THR229",
+      "atom2_serNum": 1356,
+      "atom_pair": "O:O",
+      "distance": 2.993,
+      "donAcc_type": "acceptable",
+      "index": 176,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLN226",
+      "atom1_serNum": 1329,
+      "atom2_id": "N@A.THR229",
+      "atom2_serNum": 1351,
+      "atom_pair": "O:N",
+      "distance": 2.725,
+      "donAcc_type": "standard",
+      "index": 177,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLN226",
+      "atom1_serNum": 1329,
+      "atom2_id": "N@A.ILE230",
+      "atom2_serNum": 1358,
+      "atom_pair": "O:N",
+      "distance": 2.749,
+      "donAcc_type": "standard",
+      "index": 178,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@A.GLN226",
+      "atom1_serNum": 1333,
+      "atom2_id": "O@A.GLU278",
+      "atom2_serNum": 1744,
+      "atom_pair": "O:O",
+      "distance": 2.985,
+      "donAcc_type": "questionable",
+      "index": 179,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU227",
+      "atom1_serNum": 1338,
+      "atom2_id": "N@A.PHE231",
+      "atom2_serNum": 1366,
+      "atom_pair": "O:N",
+      "distance": 2.805,
+      "donAcc_type": "standard",
+      "index": 180,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP228",
+      "atom1_serNum": 1346,
+      "atom2_id": "N@A.GLY232",
+      "atom2_serNum": 1377,
+      "atom_pair": "O:N",
+      "distance": 2.861,
+      "donAcc_type": "standard",
+      "index": 181,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PHE231",
+      "atom1_serNum": 1369,
+      "atom2_id": "OH@A.TYR259",
+      "atom2_serNum": 1601,
+      "atom_pair": "O:O",
+      "distance": 2.587,
+      "donAcc_type": "acceptable",
+      "index": 182,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.SER236",
+      "atom1_serNum": 1409,
+      "atom2_id": "N@A.ASN260",
+      "atom2_serNum": 1602,
+      "atom_pair": "O:N",
+      "distance": 2.944,
+      "donAcc_type": "standard",
+      "index": 183,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.VAL238",
+      "atom1_serNum": 1420,
+      "atom2_id": "O@A.ARG258",
+      "atom2_serNum": 1582,
+      "atom_pair": "N:O",
+      "distance": 2.6,
+      "donAcc_type": "standard",
+      "index": 184,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.GLN239",
+      "atom1_serNum": 1427,
+      "atom2_id": "O@A.ARG258",
+      "atom2_serNum": 1582,
+      "atom_pair": "N:O",
+      "distance": 3.336,
+      "donAcc_type": "standard",
+      "index": 185,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLN239",
+      "atom1_serNum": 1430,
+      "atom2_id": "N@A.ARG258",
+      "atom2_serNum": 1579,
+      "atom_pair": "O:N",
+      "distance": 2.811,
+      "donAcc_type": "standard",
+      "index": 186,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN241",
+      "atom1_serNum": 1445,
+      "atom2_id": "O@A.PHE256",
+      "atom2_serNum": 1564,
+      "atom_pair": "N:O",
+      "distance": 2.839,
+      "donAcc_type": "standard",
+      "index": 187,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASN241",
+      "atom1_serNum": 1448,
+      "atom2_id": "N@A.PHE256",
+      "atom2_serNum": 1561,
+      "atom_pair": "O:N",
+      "distance": 2.986,
+      "donAcc_type": "standard",
+      "index": 188,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU243",
+      "atom1_serNum": 1464,
+      "atom2_id": "N@A.ARG252",
+      "atom2_serNum": 1534,
+      "atom_pair": "O:N",
+      "distance": 2.987,
+      "donAcc_type": "standard",
+      "index": 189,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASP245",
+      "atom1_serNum": 1480,
+      "atom2_id": "O@A.ARG250",
+      "atom2_serNum": 1519,
+      "atom_pair": "N:O",
+      "distance": 2.66,
+      "donAcc_type": "standard",
+      "index": 190,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ASP245",
+      "atom1_serNum": 1483,
+      "atom2_id": "N@A.GLY249",
+      "atom2_serNum": 1512,
+      "atom_pair": "O:N",
+      "distance": 2.697,
+      "donAcc_type": "standard",
+      "index": 191,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP245",
+      "atom1_serNum": 1486,
+      "atom2_id": "N@A.LEU247",
+      "atom2_serNum": 1497,
+      "atom_pair": "O:N",
+      "distance": 2.608,
+      "donAcc_type": "standard",
+      "index": 192,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASP245",
+      "atom1_serNum": 1486,
+      "atom2_id": "N@A.THR248",
+      "atom2_serNum": 1505,
+      "atom_pair": "O:N",
+      "distance": 3.02,
+      "donAcc_type": "standard",
+      "index": 193,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH2@A.ARG250",
+      "atom1_serNum": 1526,
+      "atom2_id": "OD1@B.ASN273",
+      "atom2_serNum": 3039,
+      "atom_pair": "N:O",
+      "distance": 2.966,
+      "donAcc_type": "standard",
+      "index": 194,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN260",
+      "atom1_serNum": 1602,
+      "atom2_id": "OE1@A.GLU264",
+      "atom2_serNum": 1646,
+      "atom_pair": "N:O",
+      "distance": 3.167,
+      "donAcc_type": "standard",
+      "index": 195,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASN260",
+      "atom1_serNum": 1608,
+      "atom2_id": "NZ@A.LYS261",
+      "atom2_serNum": 1618,
+      "atom_pair": "O:N",
+      "distance": 2.741,
+      "donAcc_type": "standard",
+      "index": 196,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.LYS261",
+      "atom1_serNum": 1610,
+      "atom2_id": "OE1@A.GLU264",
+      "atom2_serNum": 1646,
+      "atom_pair": "N:O",
+      "distance": 3.012,
+      "donAcc_type": "standard",
+      "index": 197,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LYS261",
+      "atom1_serNum": 1613,
+      "atom2_id": "N@A.GLU264",
+      "atom2_serNum": 1639,
+      "atom_pair": "O:N",
+      "distance": 3.146,
+      "donAcc_type": "standard",
+      "index": 198,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LYS261",
+      "atom1_serNum": 1613,
+      "atom2_id": "N@A.ALA265",
+      "atom2_serNum": 1648,
+      "atom_pair": "O:N",
+      "distance": 3.539,
+      "donAcc_type": "standard",
+      "index": 199,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ARG262",
+      "atom1_serNum": 1622,
+      "atom2_id": "N@A.GLN266",
+      "atom2_serNum": 1653,
+      "atom_pair": "O:N",
+      "distance": 3.347,
+      "donAcc_type": "standard",
+      "index": 200,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU263",
+      "atom1_serNum": 1633,
+      "atom2_id": "N@A.GLU267",
+      "atom2_serNum": 1662,
+      "atom_pair": "O:N",
+      "distance": 2.982,
+      "donAcc_type": "standard",
+      "index": 201,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU264",
+      "atom1_serNum": 1642,
+      "atom2_id": "N@A.ALA268",
+      "atom2_serNum": 1671,
+      "atom_pair": "O:N",
+      "distance": 2.623,
+      "donAcc_type": "standard",
+      "index": 202,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ALA265",
+      "atom1_serNum": 1651,
+      "atom2_id": "N@A.ILE269",
+      "atom2_serNum": 1676,
+      "atom_pair": "O:N",
+      "distance": 2.808,
+      "donAcc_type": "standard",
+      "index": 203,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLN266",
+      "atom1_serNum": 1656,
+      "atom2_id": "N@A.SER270",
+      "atom2_serNum": 1684,
+      "atom_pair": "O:N",
+      "distance": 3.124,
+      "donAcc_type": "standard",
+      "index": 204,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.GLU267",
+      "atom1_serNum": 1665,
+      "atom2_id": "N@A.ALA271",
+      "atom2_serNum": 1690,
+      "atom_pair": "O:N",
+      "distance": 2.962,
+      "donAcc_type": "standard",
+      "index": 205,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ALA268",
+      "atom1_serNum": 1674,
+      "atom2_id": "N@A.LEU272",
+      "atom2_serNum": 1695,
+      "atom_pair": "O:N",
+      "distance": 2.899,
+      "donAcc_type": "standard",
+      "index": 206,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.ILE269",
+      "atom1_serNum": 1679,
+      "atom2_id": "N@A.ASN273",
+      "atom2_serNum": 1703,
+      "atom_pair": "O:N",
+      "distance": 2.799,
+      "donAcc_type": "standard",
+      "index": 207,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.LEU272",
+      "atom1_serNum": 1698,
+      "atom2_id": "N@A.VAL275",
+      "atom2_serNum": 1719,
+      "atom_pair": "O:N",
+      "distance": 3.238,
+      "donAcc_type": "standard",
+      "index": 208,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@A.ASN273",
+      "atom1_serNum": 1709,
+      "atom2_id": "N@A.ASN274",
+      "atom2_serNum": 1711,
+      "atom_pair": "O:N",
+      "distance": 2.789,
+      "donAcc_type": "standard",
+      "index": 209,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@A.ASN274",
+      "atom1_serNum": 1711,
+      "atom2_id": "O@A.LEU284",
+      "atom2_serNum": 1783,
+      "atom_pair": "N:O",
+      "distance": 2.815,
+      "donAcc_type": "standard",
+      "index": 210,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.VAL275",
+      "atom1_serNum": 1722,
+      "atom2_id": "N@A.LEU284",
+      "atom2_serNum": 1780,
+      "atom_pair": "O:N",
+      "distance": 2.614,
+      "donAcc_type": "standard",
+      "index": 211,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@A.PRO277",
+      "atom1_serNum": 1737,
+      "atom2_id": "N@A.GLY280",
+      "atom2_serNum": 1754,
+      "atom_pair": "O:N",
+      "distance": 3.172,
+      "donAcc_type": "standard",
+      "index": 212,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.SER123",
+      "atom1_serNum": 1827,
+      "atom2_id": "O@B.ALA201",
+      "atom2_serNum": 2467,
+      "atom_pair": "N:O",
+      "distance": 3.432,
+      "donAcc_type": "standard",
+      "index": 213,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASN124",
+      "atom1_serNum": 1836,
+      "atom2_id": "OG@B.SER179",
+      "atom2_serNum": 2291,
+      "atom_pair": "O:O",
+      "distance": 3.236,
+      "donAcc_type": "acceptable",
+      "index": 214,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR125",
+      "atom1_serNum": 1844,
+      "atom2_id": "O@B.VAL171",
+      "atom2_serNum": 2225,
+      "atom_pair": "O:O",
+      "distance": 3.3,
+      "donAcc_type": "questionable",
+      "index": 215,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR125",
+      "atom1_serNum": 1844,
+      "atom2_id": "N@B.PHE173",
+      "atom2_serNum": 2237,
+      "atom_pair": "O:N",
+      "distance": 3.285,
+      "donAcc_type": "standard",
+      "index": 216,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR125",
+      "atom1_serNum": 1846,
+      "atom2_id": "OD1@B.ASP172",
+      "atom2_serNum": 2235,
+      "atom_pair": "O:O",
+      "distance": 2.56,
+      "donAcc_type": "acceptable",
+      "index": 217,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR125",
+      "atom1_serNum": 1846,
+      "atom2_id": "O@B.PHE173",
+      "atom2_serNum": 2240,
+      "atom_pair": "O:O",
+      "distance": 3.395,
+      "donAcc_type": "acceptable",
+      "index": 218,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASN126",
+      "atom1_serNum": 1851,
+      "atom2_id": "N@B.ALA201",
+      "atom2_serNum": 2464,
+      "atom_pair": "O:N",
+      "distance": 2.962,
+      "donAcc_type": "standard",
+      "index": 219,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "ND2@B.ASN126",
+      "atom1_serNum": 1855,
+      "atom2_id": "O@B.LEU127",
+      "atom2_serNum": 1859,
+      "atom_pair": "N:O",
+      "distance": 3.111,
+      "donAcc_type": "standard",
+      "index": 220,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.LEU127",
+      "atom1_serNum": 1856,
+      "atom2_id": "O@B.VAL171",
+      "atom2_serNum": 2225,
+      "atom_pair": "N:O",
+      "distance": 3.064,
+      "donAcc_type": "standard",
+      "index": 221,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU127",
+      "atom1_serNum": 1859,
+      "atom2_id": "N@B.VAL171",
+      "atom2_serNum": 2222,
+      "atom_pair": "O:N",
+      "distance": 2.908,
+      "donAcc_type": "standard",
+      "index": 222,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ILE128",
+      "atom1_serNum": 1864,
+      "atom2_id": "O@B.SER199",
+      "atom2_serNum": 2449,
+      "atom_pair": "N:O",
+      "distance": 2.861,
+      "donAcc_type": "standard",
+      "index": 223,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE128",
+      "atom1_serNum": 1867,
+      "atom2_id": "N@B.SER199",
+      "atom2_serNum": 2446,
+      "atom_pair": "O:N",
+      "distance": 3.404,
+      "donAcc_type": "standard",
+      "index": 224,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.VAL129",
+      "atom1_serNum": 1872,
+      "atom2_id": "O@B.ALA169",
+      "atom2_serNum": 2209,
+      "atom_pair": "N:O",
+      "distance": 2.587,
+      "donAcc_type": "standard",
+      "index": 225,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.VAL129",
+      "atom1_serNum": 1875,
+      "atom2_id": "N@B.ALA169",
+      "atom2_serNum": 2206,
+      "atom_pair": "O:N",
+      "distance": 2.847,
+      "donAcc_type": "standard",
+      "index": 226,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN130",
+      "atom1_serNum": 1879,
+      "atom2_id": "O@B.LYS197",
+      "atom2_serNum": 2433,
+      "atom_pair": "N:O",
+      "distance": 2.863,
+      "donAcc_type": "standard",
+      "index": 227,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASN130",
+      "atom1_serNum": 1882,
+      "atom2_id": "N@B.LYS197",
+      "atom2_serNum": 2430,
+      "atom_pair": "O:N",
+      "distance": 3.03,
+      "donAcc_type": "standard",
+      "index": 228,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.TYR131",
+      "atom1_serNum": 1887,
+      "atom2_id": "O@B.GLY167",
+      "atom2_serNum": 2193,
+      "atom_pair": "N:O",
+      "distance": 3.249,
+      "donAcc_type": "standard",
+      "index": 229,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.LEU132",
+      "atom1_serNum": 1899,
+      "atom2_id": "O@B.GLY167",
+      "atom2_serNum": 2193,
+      "atom_pair": "N:O",
+      "distance": 3.182,
+      "donAcc_type": "standard",
+      "index": 230,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PRO133",
+      "atom1_serNum": 1910,
+      "atom2_id": "N@B.MET136",
+      "atom2_serNum": 1931,
+      "atom_pair": "O:N",
+      "distance": 3.054,
+      "donAcc_type": "standard",
+      "index": 231,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN134",
+      "atom1_serNum": 1917,
+      "atom2_id": "NE2@B.GLN134",
+      "atom2_serNum": 1922,
+      "atom_pair": "O:N",
+      "distance": 2.813,
+      "donAcc_type": "standard",
+      "index": 232,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@B.GLN134",
+      "atom1_serNum": 1921,
+      "atom2_id": "O@B.SER165",
+      "atom2_serNum": 2175,
+      "atom_pair": "O:O",
+      "distance": 2.981,
+      "donAcc_type": "questionable",
+      "index": 233,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASP135",
+      "atom1_serNum": 1923,
+      "atom2_id": "OD1@B.ASP135",
+      "atom2_serNum": 1929,
+      "atom_pair": "N:O",
+      "distance": 2.664,
+      "donAcc_type": "standard",
+      "index": 234,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP135",
+      "atom1_serNum": 1929,
+      "atom2_id": "NH1@B.ARG192",
+      "atom2_serNum": 2392,
+      "atom_pair": "O:N",
+      "distance": 2.587,
+      "donAcc_type": "standard",
+      "index": 235,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.MET136",
+      "atom1_serNum": 1934,
+      "atom2_id": "NH2@B.ARG158",
+      "atom2_serNum": 2119,
+      "atom_pair": "O:N",
+      "distance": 3.611,
+      "donAcc_type": "standard",
+      "index": 236,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR137",
+      "atom1_serNum": 1942,
+      "atom2_id": "N@B.GLU140",
+      "atom2_serNum": 1965,
+      "atom_pair": "O:N",
+      "distance": 2.809,
+      "donAcc_type": "standard",
+      "index": 237,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR137",
+      "atom1_serNum": 1942,
+      "atom2_id": "N@B.LEU141",
+      "atom2_serNum": 1974,
+      "atom_pair": "O:N",
+      "distance": 3.092,
+      "donAcc_type": "standard",
+      "index": 238,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR137",
+      "atom1_serNum": 1944,
+      "atom2_id": "OE2@B.GLU140",
+      "atom2_serNum": 1973,
+      "atom_pair": "O:O",
+      "distance": 3.791,
+      "donAcc_type": "acceptable",
+      "index": 239,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP138",
+      "atom1_serNum": 1949,
+      "atom2_id": "N@B.TYR142",
+      "atom2_serNum": 1982,
+      "atom_pair": "O:N",
+      "distance": 2.951,
+      "donAcc_type": "standard",
+      "index": 240,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@B.ASP138",
+      "atom1_serNum": 1953,
+      "atom2_id": "O@B.CYS154",
+      "atom2_serNum": 2079,
+      "atom_pair": "O:O",
+      "distance": 2.818,
+      "donAcc_type": "questionable",
+      "index": 241,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG139",
+      "atom1_serNum": 1957,
+      "atom2_id": "N@B.ALA143",
+      "atom2_serNum": 1994,
+      "atom_pair": "O:N",
+      "distance": 3.276,
+      "donAcc_type": "standard",
+      "index": 242,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU140",
+      "atom1_serNum": 1968,
+      "atom2_id": "N@B.LEU144",
+      "atom2_serNum": 1999,
+      "atom_pair": "O:N",
+      "distance": 3.011,
+      "donAcc_type": "standard",
+      "index": 243,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@B.GLU140",
+      "atom1_serNum": 1972,
+      "atom2_id": "NH2@B.ARG192",
+      "atom2_serNum": 2393,
+      "atom_pair": "O:N",
+      "distance": 2.546,
+      "donAcc_type": "standard",
+      "index": 244,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE2@B.GLU140",
+      "atom1_serNum": 1973,
+      "atom2_id": "NH2@B.ARG192",
+      "atom2_serNum": 2393,
+      "atom_pair": "O:N",
+      "distance": 2.876,
+      "donAcc_type": "standard",
+      "index": 245,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU141",
+      "atom1_serNum": 1977,
+      "atom2_id": "N@B.PHE145",
+      "atom2_serNum": 2007,
+      "atom_pair": "O:N",
+      "distance": 2.877,
+      "donAcc_type": "standard",
+      "index": 246,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.TYR142",
+      "atom1_serNum": 1985,
+      "atom2_id": "N@B.ARG146",
+      "atom2_serNum": 2018,
+      "atom_pair": "O:N",
+      "distance": 2.535,
+      "donAcc_type": "standard",
+      "index": 247,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PHE145",
+      "atom1_serNum": 2010,
+      "atom2_id": "N@B.ILE148",
+      "atom2_serNum": 2034,
+      "atom_pair": "O:N",
+      "distance": 3.086,
+      "donAcc_type": "standard",
+      "index": 248,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG146",
+      "atom1_serNum": 2021,
+      "atom2_id": "NE@B.ARG146",
+      "atom2_serNum": 2025,
+      "atom_pair": "O:N",
+      "distance": 2.972,
+      "donAcc_type": "standard",
+      "index": 249,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE148",
+      "atom1_serNum": 2037,
+      "atom2_id": "NH1@B.ARG181",
+      "atom2_serNum": 2310,
+      "atom_pair": "O:N",
+      "distance": 3.395,
+      "donAcc_type": "standard",
+      "index": 250,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PRO150",
+      "atom1_serNum": 2049,
+      "atom2_id": "N@B.THR174",
+      "atom2_serNum": 2248,
+      "atom_pair": "O:N",
+      "distance": 3.287,
+      "donAcc_type": "standard",
+      "index": 251,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN152",
+      "atom1_serNum": 2061,
+      "atom2_id": "O@B.ASP172",
+      "atom2_serNum": 2232,
+      "atom_pair": "N:O",
+      "distance": 2.579,
+      "donAcc_type": "standard",
+      "index": 252,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "ND2@B.ASN152",
+      "atom1_serNum": 2068,
+      "atom2_id": "OG1@B.THR174",
+      "atom2_serNum": 2253,
+      "atom_pair": "N:O",
+      "distance": 3.724,
+      "donAcc_type": "acceptable",
+      "index": 253,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.THR153",
+      "atom1_serNum": 2069,
+      "atom2_id": "O@B.ASP172",
+      "atom2_serNum": 2232,
+      "atom_pair": "N:O",
+      "distance": 3.2,
+      "donAcc_type": "standard",
+      "index": 254,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR153",
+      "atom1_serNum": 2072,
+      "atom2_id": "N@B.ASP172",
+      "atom2_serNum": 2229,
+      "atom_pair": "O:N",
+      "distance": 3.127,
+      "donAcc_type": "standard",
+      "index": 255,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ARG155",
+      "atom1_serNum": 2082,
+      "atom2_id": "O@B.PHE170",
+      "atom2_serNum": 2214,
+      "atom_pair": "N:O",
+      "distance": 3.279,
+      "donAcc_type": "standard",
+      "index": 256,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG155",
+      "atom1_serNum": 2085,
+      "atom2_id": "N@B.PHE170",
+      "atom2_serNum": 2211,
+      "atom_pair": "O:N",
+      "distance": 3.182,
+      "donAcc_type": "standard",
+      "index": 257,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.MET157",
+      "atom1_serNum": 2104,
+      "atom2_id": "N@B.TYR166",
+      "atom2_serNum": 2178,
+      "atom_pair": "O:N",
+      "distance": 2.887,
+      "donAcc_type": "standard",
+      "index": 258,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG158",
+      "atom1_serNum": 2112,
+      "atom2_id": "N@B.TYR160",
+      "atom2_serNum": 2128,
+      "atom_pair": "O:N",
+      "distance": 3.122,
+      "donAcc_type": "standard",
+      "index": 259,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@B.ARG158",
+      "atom1_serNum": 2118,
+      "atom2_id": "O@B.GLY163",
+      "atom2_serNum": 2159,
+      "atom_pair": "N:O",
+      "distance": 2.6,
+      "donAcc_type": "standard",
+      "index": 260,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASP159",
+      "atom1_serNum": 2120,
+      "atom2_id": "O@B.TYR164",
+      "atom2_serNum": 2163,
+      "atom_pair": "N:O",
+      "distance": 3.07,
+      "donAcc_type": "standard",
+      "index": 261,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP159",
+      "atom1_serNum": 2123,
+      "atom2_id": "N@B.GLY163",
+      "atom2_serNum": 2156,
+      "atom_pair": "O:N",
+      "distance": 2.764,
+      "donAcc_type": "standard",
+      "index": 262,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP159",
+      "atom1_serNum": 2126,
+      "atom2_id": "O@B.TYR160",
+      "atom2_serNum": 2131,
+      "atom_pair": "O:O",
+      "distance": 2.773,
+      "donAcc_type": "questionable",
+      "index": 263,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP159",
+      "atom1_serNum": 2126,
+      "atom2_id": "NZ@B.LYS161",
+      "atom2_serNum": 2148,
+      "atom_pair": "O:N",
+      "distance": 3.214,
+      "donAcc_type": "standard",
+      "index": 264,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@B.ASP159",
+      "atom1_serNum": 2127,
+      "atom2_id": "OG1@B.THR162",
+      "atom2_serNum": 2154,
+      "atom_pair": "O:O",
+      "distance": 2.506,
+      "donAcc_type": "acceptable",
+      "index": 265,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.TYR160",
+      "atom1_serNum": 2131,
+      "atom2_id": "N@B.THR162",
+      "atom2_serNum": 2149,
+      "atom_pair": "O:N",
+      "distance": 2.995,
+      "donAcc_type": "standard",
+      "index": 266,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR162",
+      "atom1_serNum": 2154,
+      "atom2_id": "N@B.GLY163",
+      "atom2_serNum": 2156,
+      "atom_pair": "O:N",
+      "distance": 2.568,
+      "donAcc_type": "acceptable",
+      "index": 267,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR162",
+      "atom1_serNum": 2154,
+      "atom2_id": "N@B.TYR164",
+      "atom2_serNum": 2160,
+      "atom_pair": "O:N",
+      "distance": 3.207,
+      "donAcc_type": "acceptable",
+      "index": 268,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP172",
+      "atom1_serNum": 2235,
+      "atom2_id": "O@B.PHE173",
+      "atom2_serNum": 2240,
+      "atom_pair": "O:O",
+      "distance": 3.317,
+      "donAcc_type": "questionable",
+      "index": 269,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER175",
+      "atom1_serNum": 2258,
+      "atom2_id": "N@B.ASP178",
+      "atom2_serNum": 2278,
+      "atom_pair": "O:N",
+      "distance": 2.835,
+      "donAcc_type": "standard",
+      "index": 270,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER175",
+      "atom1_serNum": 2258,
+      "atom2_id": "N@B.SER179",
+      "atom2_serNum": 2286,
+      "atom_pair": "O:N",
+      "distance": 3.035,
+      "donAcc_type": "standard",
+      "index": 271,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU176",
+      "atom1_serNum": 2264,
+      "atom2_id": "N@B.GLN180",
+      "atom2_serNum": 2292,
+      "atom_pair": "O:N",
+      "distance": 3.271,
+      "donAcc_type": "standard",
+      "index": 272,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.MET177",
+      "atom1_serNum": 2273,
+      "atom2_id": "N@B.ARG181",
+      "atom2_serNum": 2301,
+      "atom_pair": "O:N",
+      "distance": 3.084,
+      "donAcc_type": "standard",
+      "index": 273,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP178",
+      "atom1_serNum": 2281,
+      "atom2_id": "N@B.ALA182",
+      "atom2_serNum": 2312,
+      "atom_pair": "O:N",
+      "distance": 2.966,
+      "donAcc_type": "standard",
+      "index": 274,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP178",
+      "atom1_serNum": 2284,
+      "atom2_id": "NH2@B.ARG181",
+      "atom2_serNum": 2311,
+      "atom_pair": "O:N",
+      "distance": 3.399,
+      "donAcc_type": "standard",
+      "index": 275,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER179",
+      "atom1_serNum": 2289,
+      "atom2_id": "N@B.ALA182",
+      "atom2_serNum": 2312,
+      "atom_pair": "O:N",
+      "distance": 2.902,
+      "donAcc_type": "standard",
+      "index": 276,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER179",
+      "atom1_serNum": 2289,
+      "atom2_id": "N@B.ILE183",
+      "atom2_serNum": 2317,
+      "atom_pair": "O:N",
+      "distance": 3.283,
+      "donAcc_type": "standard",
+      "index": 277,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN180",
+      "atom1_serNum": 2295,
+      "atom2_id": "N@B.LYS184",
+      "atom2_serNum": 2325,
+      "atom_pair": "O:N",
+      "distance": 3.193,
+      "donAcc_type": "standard",
+      "index": 278,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@B.GLN180",
+      "atom1_serNum": 2299,
+      "atom2_id": "NZ@B.LYS184",
+      "atom2_serNum": 2333,
+      "atom_pair": "O:N",
+      "distance": 3.088,
+      "donAcc_type": "standard",
+      "index": 279,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG181",
+      "atom1_serNum": 2304,
+      "atom2_id": "N@B.VAL185",
+      "atom2_serNum": 2334,
+      "atom_pair": "O:N",
+      "distance": 2.983,
+      "donAcc_type": "standard",
+      "index": 280,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ALA182",
+      "atom1_serNum": 2315,
+      "atom2_id": "N@B.LEU186",
+      "atom2_serNum": 2341,
+      "atom_pair": "O:N",
+      "distance": 2.61,
+      "donAcc_type": "standard",
+      "index": 281,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE183",
+      "atom1_serNum": 2320,
+      "atom2_id": "N@B.ASN187",
+      "atom2_serNum": 2349,
+      "atom_pair": "O:N",
+      "distance": 3.07,
+      "donAcc_type": "standard",
+      "index": 282,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU186",
+      "atom1_serNum": 2344,
+      "atom2_id": "N@B.GLY188",
+      "atom2_serNum": 2357,
+      "atom_pair": "O:N",
+      "distance": 3.095,
+      "donAcc_type": "standard",
+      "index": 283,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU186",
+      "atom1_serNum": 2344,
+      "atom2_id": "N@B.ILE189",
+      "atom2_serNum": 2361,
+      "atom_pair": "O:N",
+      "distance": 3.112,
+      "donAcc_type": "standard",
+      "index": 284,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASN187",
+      "atom1_serNum": 2355,
+      "atom2_id": "N@B.VAL198",
+      "atom2_serNum": 2439,
+      "atom_pair": "O:N",
+      "distance": 2.853,
+      "donAcc_type": "standard",
+      "index": 285,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.GLY188",
+      "atom1_serNum": 2357,
+      "atom2_id": "O@B.LEU196",
+      "atom2_serNum": 2425,
+      "atom_pair": "N:O",
+      "distance": 2.681,
+      "donAcc_type": "standard",
+      "index": 286,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE189",
+      "atom1_serNum": 2364,
+      "atom2_id": "N@B.LEU196",
+      "atom2_serNum": 2422,
+      "atom_pair": "O:N",
+      "distance": 2.823,
+      "donAcc_type": "standard",
+      "index": 287,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.VAL191",
+      "atom1_serNum": 2376,
+      "atom2_id": "O@B.LYS194",
+      "atom2_serNum": 2405,
+      "atom_pair": "N:O",
+      "distance": 2.785,
+      "donAcc_type": "standard",
+      "index": 288,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.VAL191",
+      "atom1_serNum": 2379,
+      "atom2_id": "N@B.ASN193",
+      "atom2_serNum": 2394,
+      "atom_pair": "O:N",
+      "distance": 2.844,
+      "donAcc_type": "standard",
+      "index": 289,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.VAL191",
+      "atom1_serNum": 2379,
+      "atom2_id": "N@B.LYS194",
+      "atom2_serNum": 2402,
+      "atom_pair": "O:N",
+      "distance": 3.041,
+      "donAcc_type": "standard",
+      "index": 290,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NZ@B.LYS197",
+      "atom1_serNum": 2438,
+      "atom2_id": "O@B.VAL238",
+      "atom2_serNum": 2753,
+      "atom_pair": "N:O",
+      "distance": 3.659,
+      "donAcc_type": "standard",
+      "index": 291,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@B.ARG202",
+      "atom1_serNum": 2478,
+      "atom2_id": "O@B.ASN260",
+      "atom2_serNum": 2935,
+      "atom_pair": "N:O",
+      "distance": 2.931,
+      "donAcc_type": "standard",
+      "index": 292,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@B.ARG202",
+      "atom1_serNum": 2478,
+      "atom2_id": "OD1@B.ASN260",
+      "atom2_serNum": 2938,
+      "atom_pair": "N:O",
+      "distance": 2.857,
+      "donAcc_type": "standard",
+      "index": 293,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU206",
+      "atom1_serNum": 2498,
+      "atom2_id": "N@B.LYS209",
+      "atom2_serNum": 2518,
+      "atom_pair": "O:N",
+      "distance": 3.062,
+      "donAcc_type": "standard",
+      "index": 294,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE2@B.GLU206",
+      "atom1_serNum": 2503,
+      "atom2_id": "NZ@B.LYS209",
+      "atom2_serNum": 2526,
+      "atom_pair": "O:N",
+      "distance": 3.929,
+      "donAcc_type": "standard",
+      "index": 295,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER207",
+      "atom1_serNum": 2507,
+      "atom2_id": "N@B.ARG262",
+      "atom2_serNum": 2949,
+      "atom_pair": "O:N",
+      "distance": 2.596,
+      "donAcc_type": "standard",
+      "index": 296,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE208",
+      "atom1_serNum": 2513,
+      "atom2_id": "OG1@B.THR211",
+      "atom2_serNum": 2540,
+      "atom_pair": "O:O",
+      "distance": 3.092,
+      "donAcc_type": "acceptable",
+      "index": 297,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@B.ASP210",
+      "atom1_serNum": 2534,
+      "atom2_id": "NH2@B.ARG262",
+      "atom2_serNum": 2959,
+      "atom_pair": "O:N",
+      "distance": 3.054,
+      "donAcc_type": "standard",
+      "index": 298,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR211",
+      "atom1_serNum": 2538,
+      "atom2_id": "N@B.TYR259",
+      "atom2_serNum": 2920,
+      "atom_pair": "O:N",
+      "distance": 2.992,
+      "donAcc_type": "standard",
+      "index": 299,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASN212",
+      "atom1_serNum": 2545,
+      "atom2_id": "N@B.ALA289",
+      "atom2_serNum": 3150,
+      "atom_pair": "O:N",
+      "distance": 3.096,
+      "donAcc_type": "standard",
+      "index": 300,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.LEU213",
+      "atom1_serNum": 2550,
+      "atom2_id": "O@B.VAL257",
+      "atom2_serNum": 2905,
+      "atom_pair": "N:O",
+      "distance": 2.712,
+      "donAcc_type": "standard",
+      "index": 301,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU213",
+      "atom1_serNum": 2553,
+      "atom2_id": "N@B.VAL257",
+      "atom2_serNum": 2902,
+      "atom_pair": "O:N",
+      "distance": 3.052,
+      "donAcc_type": "standard",
+      "index": 302,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.TYR214",
+      "atom1_serNum": 2558,
+      "atom2_id": "O@B.ARG287",
+      "atom2_serNum": 3134,
+      "atom_pair": "N:O",
+      "distance": 2.863,
+      "donAcc_type": "standard",
+      "index": 303,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.TYR214",
+      "atom1_serNum": 2561,
+      "atom2_id": "N@B.ARG287",
+      "atom2_serNum": 3131,
+      "atom_pair": "O:N",
+      "distance": 3.52,
+      "donAcc_type": "standard",
+      "index": 304,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.VAL215",
+      "atom1_serNum": 2570,
+      "atom2_id": "O@B.ALA255",
+      "atom2_serNum": 2889,
+      "atom_pair": "N:O",
+      "distance": 2.855,
+      "donAcc_type": "standard",
+      "index": 305,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.VAL215",
+      "atom1_serNum": 2573,
+      "atom2_id": "N@B.ALA255",
+      "atom2_serNum": 2886,
+      "atom_pair": "O:N",
+      "distance": 3.002,
+      "donAcc_type": "standard",
+      "index": 306,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.THR216",
+      "atom1_serNum": 2577,
+      "atom2_id": "O@B.SER285",
+      "atom2_serNum": 3121,
+      "atom_pair": "N:O",
+      "distance": 3.092,
+      "donAcc_type": "standard",
+      "index": 307,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR216",
+      "atom1_serNum": 2580,
+      "atom2_id": "N@B.SER285",
+      "atom2_serNum": 3118,
+      "atom_pair": "O:N",
+      "distance": 3.189,
+      "donAcc_type": "standard",
+      "index": 308,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN217",
+      "atom1_serNum": 2584,
+      "atom2_id": "O@B.GLY253",
+      "atom2_serNum": 2878,
+      "atom_pair": "N:O",
+      "distance": 3.19,
+      "donAcc_type": "standard",
+      "index": 309,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.LEU218",
+      "atom1_serNum": 2592,
+      "atom2_id": "O@B.GLY253",
+      "atom2_serNum": 2878,
+      "atom_pair": "N:O",
+      "distance": 2.963,
+      "donAcc_type": "standard",
+      "index": 310,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PRO219",
+      "atom1_serNum": 2603,
+      "atom2_id": "N@B.ILE222",
+      "atom2_serNum": 2625,
+      "atom_pair": "O:N",
+      "distance": 3.11,
+      "donAcc_type": "standard",
+      "index": 311,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR221",
+      "atom1_serNum": 2621,
+      "atom2_id": "OG1@B.THR221",
+      "atom2_serNum": 2623,
+      "atom_pair": "O:O",
+      "distance": 2.574,
+      "donAcc_type": "acceptable",
+      "index": 312,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE222",
+      "atom1_serNum": 2628,
+      "atom2_id": "NH2@B.ARG244",
+      "atom2_serNum": 2809,
+      "atom_pair": "O:N",
+      "distance": 3.966,
+      "donAcc_type": "standard",
+      "index": 313,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR223",
+      "atom1_serNum": 2636,
+      "atom2_id": "N@B.GLN226",
+      "atom2_serNum": 2656,
+      "atom_pair": "O:N",
+      "distance": 3.029,
+      "donAcc_type": "standard",
+      "index": 314,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.THR223",
+      "atom1_serNum": 2636,
+      "atom2_id": "N@B.LEU227",
+      "atom2_serNum": 2665,
+      "atom_pair": "O:N",
+      "distance": 3.05,
+      "donAcc_type": "standard",
+      "index": 315,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR223",
+      "atom1_serNum": 2638,
+      "atom2_id": "N@B.ASP225",
+      "atom2_serNum": 2648,
+      "atom_pair": "O:N",
+      "distance": 3.102,
+      "donAcc_type": "acceptable",
+      "index": 316,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASP224",
+      "atom1_serNum": 2640,
+      "atom2_id": "OD1@B.ASP224",
+      "atom2_serNum": 2646,
+      "atom_pair": "N:O",
+      "distance": 2.924,
+      "donAcc_type": "standard",
+      "index": 317,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP224",
+      "atom1_serNum": 2643,
+      "atom2_id": "N@B.ASP228",
+      "atom2_serNum": 2673,
+      "atom_pair": "O:N",
+      "distance": 3.126,
+      "donAcc_type": "standard",
+      "index": 318,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP225",
+      "atom1_serNum": 2651,
+      "atom2_id": "N@B.THR229",
+      "atom2_serNum": 2681,
+      "atom_pair": "O:N",
+      "distance": 3.179,
+      "donAcc_type": "standard",
+      "index": 319,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN226",
+      "atom1_serNum": 2659,
+      "atom2_id": "N@B.THR229",
+      "atom2_serNum": 2681,
+      "atom_pair": "O:N",
+      "distance": 2.703,
+      "donAcc_type": "standard",
+      "index": 320,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN226",
+      "atom1_serNum": 2659,
+      "atom2_id": "N@B.ILE230",
+      "atom2_serNum": 2688,
+      "atom_pair": "O:N",
+      "distance": 2.792,
+      "donAcc_type": "standard",
+      "index": 321,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU227",
+      "atom1_serNum": 2668,
+      "atom2_id": "N@B.PHE231",
+      "atom2_serNum": 2696,
+      "atom_pair": "O:N",
+      "distance": 2.809,
+      "donAcc_type": "standard",
+      "index": 322,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP228",
+      "atom1_serNum": 2676,
+      "atom2_id": "N@B.GLY232",
+      "atom2_serNum": 2707,
+      "atom_pair": "O:N",
+      "distance": 2.852,
+      "donAcc_type": "standard",
+      "index": 323,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP228",
+      "atom1_serNum": 2679,
+      "atom2_id": "NZ@B.LYS240",
+      "atom2_serNum": 2774,
+      "atom_pair": "O:N",
+      "distance": 2.654,
+      "donAcc_type": "standard",
+      "index": 324,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PHE231",
+      "atom1_serNum": 2699,
+      "atom2_id": "OH@B.TYR259",
+      "atom2_serNum": 2931,
+      "atom_pair": "O:O",
+      "distance": 2.399,
+      "donAcc_type": "acceptable",
+      "index": 325,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.SER236",
+      "atom1_serNum": 2739,
+      "atom2_id": "N@B.ASN260",
+      "atom2_serNum": 2932,
+      "atom_pair": "O:N",
+      "distance": 2.929,
+      "donAcc_type": "standard",
+      "index": 326,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@B.SER236",
+      "atom1_serNum": 2741,
+      "atom2_id": "ND2@B.ASN260",
+      "atom2_serNum": 2939,
+      "atom_pair": "O:N",
+      "distance": 3.897,
+      "donAcc_type": "acceptable",
+      "index": 327,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@B.SER236",
+      "atom1_serNum": 2741,
+      "atom2_id": "OE2@B.GLU264",
+      "atom2_serNum": 2977,
+      "atom_pair": "O:O",
+      "distance": 3.532,
+      "donAcc_type": "acceptable",
+      "index": 328,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.VAL238",
+      "atom1_serNum": 2750,
+      "atom2_id": "O@B.ARG258",
+      "atom2_serNum": 2912,
+      "atom_pair": "N:O",
+      "distance": 2.619,
+      "donAcc_type": "standard",
+      "index": 329,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.GLN239",
+      "atom1_serNum": 2757,
+      "atom2_id": "O@B.ARG258",
+      "atom2_serNum": 2912,
+      "atom_pair": "N:O",
+      "distance": 3.344,
+      "donAcc_type": "standard",
+      "index": 330,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN239",
+      "atom1_serNum": 2760,
+      "atom2_id": "N@B.ARG258",
+      "atom2_serNum": 2909,
+      "atom_pair": "O:N",
+      "distance": 2.806,
+      "donAcc_type": "standard",
+      "index": 331,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN241",
+      "atom1_serNum": 2775,
+      "atom2_id": "O@B.PHE256",
+      "atom2_serNum": 2894,
+      "atom_pair": "N:O",
+      "distance": 2.842,
+      "donAcc_type": "standard",
+      "index": 332,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASN241",
+      "atom1_serNum": 2778,
+      "atom2_id": "N@B.PHE256",
+      "atom2_serNum": 2891,
+      "atom_pair": "O:N",
+      "distance": 2.949,
+      "donAcc_type": "standard",
+      "index": 333,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU243",
+      "atom1_serNum": 2794,
+      "atom2_id": "N@B.ARG252",
+      "atom2_serNum": 2864,
+      "atom_pair": "O:N",
+      "distance": 3.016,
+      "donAcc_type": "standard",
+      "index": 334,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "NH1@B.ARG244",
+      "atom1_serNum": 2808,
+      "atom2_id": "O@B.GLY249",
+      "atom2_serNum": 2845,
+      "atom_pair": "N:O",
+      "distance": 2.909,
+      "donAcc_type": "standard",
+      "index": 335,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASP245",
+      "atom1_serNum": 2810,
+      "atom2_id": "O@B.ARG250",
+      "atom2_serNum": 2849,
+      "atom_pair": "N:O",
+      "distance": 2.635,
+      "donAcc_type": "standard",
+      "index": 336,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ASP245",
+      "atom1_serNum": 2813,
+      "atom2_id": "N@B.GLY249",
+      "atom2_serNum": 2842,
+      "atom_pair": "O:N",
+      "distance": 2.688,
+      "donAcc_type": "standard",
+      "index": 337,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASP245",
+      "atom1_serNum": 2816,
+      "atom2_id": "N@B.LEU247",
+      "atom2_serNum": 2827,
+      "atom_pair": "O:N",
+      "distance": 2.896,
+      "donAcc_type": "standard",
+      "index": 338,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@B.ASP245",
+      "atom1_serNum": 2817,
+      "atom2_id": "N@B.THR248",
+      "atom2_serNum": 2835,
+      "atom_pair": "O:N",
+      "distance": 3.131,
+      "donAcc_type": "standard",
+      "index": 339,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD2@B.ASP245",
+      "atom1_serNum": 2817,
+      "atom2_id": "OG1@B.THR248",
+      "atom2_serNum": 2840,
+      "atom_pair": "O:O",
+      "distance": 3.126,
+      "donAcc_type": "acceptable",
+      "index": 340,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG1@B.THR248",
+      "atom1_serNum": 2840,
+      "atom2_id": "N@B.ARG250",
+      "atom2_serNum": 2846,
+      "atom_pair": "O:N",
+      "distance": 2.847,
+      "donAcc_type": "acceptable",
+      "index": 341,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN260",
+      "atom1_serNum": 2932,
+      "atom2_id": "OE1@B.GLU264",
+      "atom2_serNum": 2976,
+      "atom_pair": "N:O",
+      "distance": 3.191,
+      "donAcc_type": "standard",
+      "index": 342,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LYS261",
+      "atom1_serNum": 2943,
+      "atom2_id": "N@B.GLU264",
+      "atom2_serNum": 2969,
+      "atom_pair": "O:N",
+      "distance": 3.138,
+      "donAcc_type": "standard",
+      "index": 343,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LYS261",
+      "atom1_serNum": 2943,
+      "atom2_id": "N@B.ALA265",
+      "atom2_serNum": 2978,
+      "atom_pair": "O:N",
+      "distance": 3.53,
+      "donAcc_type": "standard",
+      "index": 344,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ARG262",
+      "atom1_serNum": 2952,
+      "atom2_id": "N@B.GLN266",
+      "atom2_serNum": 2983,
+      "atom_pair": "O:N",
+      "distance": 3.351,
+      "donAcc_type": "standard",
+      "index": 345,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU263",
+      "atom1_serNum": 2963,
+      "atom2_id": "N@B.GLU267",
+      "atom2_serNum": 2992,
+      "atom_pair": "O:N",
+      "distance": 2.965,
+      "donAcc_type": "standard",
+      "index": 346,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU264",
+      "atom1_serNum": 2972,
+      "atom2_id": "N@B.ALA268",
+      "atom2_serNum": 3001,
+      "atom_pair": "O:N",
+      "distance": 2.617,
+      "donAcc_type": "standard",
+      "index": 347,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ALA265",
+      "atom1_serNum": 2981,
+      "atom2_id": "N@B.ILE269",
+      "atom2_serNum": 3006,
+      "atom_pair": "O:N",
+      "distance": 2.797,
+      "donAcc_type": "standard",
+      "index": 348,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN266",
+      "atom1_serNum": 2986,
+      "atom2_id": "N@B.SER270",
+      "atom2_serNum": 3014,
+      "atom_pair": "O:N",
+      "distance": 3.127,
+      "donAcc_type": "standard",
+      "index": 349,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLN266",
+      "atom1_serNum": 2986,
+      "atom2_id": "OG@B.SER270",
+      "atom2_serNum": 3019,
+      "atom_pair": "O:O",
+      "distance": 2.808,
+      "donAcc_type": "acceptable",
+      "index": 350,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.GLU267",
+      "atom1_serNum": 2995,
+      "atom2_id": "N@B.ALA271",
+      "atom2_serNum": 3020,
+      "atom_pair": "O:N",
+      "distance": 2.98,
+      "donAcc_type": "standard",
+      "index": 351,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ALA268",
+      "atom1_serNum": 3004,
+      "atom2_id": "N@B.LEU272",
+      "atom2_serNum": 3025,
+      "atom_pair": "O:N",
+      "distance": 2.884,
+      "donAcc_type": "standard",
+      "index": 352,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.ILE269",
+      "atom1_serNum": 3009,
+      "atom2_id": "N@B.ASN273",
+      "atom2_serNum": 3033,
+      "atom_pair": "O:N",
+      "distance": 2.813,
+      "donAcc_type": "standard",
+      "index": 353,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.LEU272",
+      "atom1_serNum": 3028,
+      "atom2_id": "N@B.VAL275",
+      "atom2_serNum": 3049,
+      "atom_pair": "O:N",
+      "distance": 3.245,
+      "donAcc_type": "standard",
+      "index": 354,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OD1@B.ASN273",
+      "atom1_serNum": 3039,
+      "atom2_id": "N@B.ASN274",
+      "atom2_serNum": 3041,
+      "atom_pair": "O:N",
+      "distance": 2.616,
+      "donAcc_type": "standard",
+      "index": 355,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "N@B.ASN274",
+      "atom1_serNum": 3041,
+      "atom2_id": "O@B.LEU284",
+      "atom2_serNum": 3113,
+      "atom_pair": "N:O",
+      "distance": 2.806,
+      "donAcc_type": "standard",
+      "index": 356,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.VAL275",
+      "atom1_serNum": 3052,
+      "atom2_id": "N@B.LEU284",
+      "atom2_serNum": 3110,
+      "atom_pair": "O:N",
+      "distance": 2.558,
+      "donAcc_type": "standard",
+      "index": 357,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "O@B.PRO277",
+      "atom1_serNum": 3067,
+      "atom2_id": "N@B.GLY280",
+      "atom2_serNum": 3084,
+      "atom_pair": "O:N",
+      "distance": 3.201,
+      "donAcc_type": "standard",
+      "index": 358,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OE1@B.GLU278",
+      "atom1_serNum": 3078,
+      "atom2_id": "N@B.GLY279",
+      "atom2_serNum": 3080,
+      "atom_pair": "O:N",
+      "distance": 2.717,
+      "donAcc_type": "standard",
+      "index": 359,
+      "residue_pair": "aa:aa"
+    },
+    {
+      "atom1_id": "OG@B.SER281",
+      "atom1_serNum": 3093,
+      "atom2_id": "OE1@B.GLN282",
+      "atom2_serNum": 3101,
+      "atom_pair": "O:O",
+      "distance": 3.459,
+      "donAcc_type": "acceptable",
+      "index": 360,
+      "residue_pair": "aa:aa"
+    }
+  ],
+  "metadata": {
+    "aaChains": "A=167,B=167",
+    "auxfiles": [
+      {
+        "desc": "an ensemble of base pairs",
+        "index": 1,
+        "name": "dssr-pairs.pdb"
+      },
+      {
+        "desc": "secondary structure in bpseq format",
+        "index": 2,
+        "name": "dssr-2ndstrs.bpseq"
+      },
+      {
+        "desc": "secondary structure in connectivity table format",
+        "index": 3,
+        "name": "dssr-2ndstrs.ct"
+      },
+      {
+        "desc": "secondary structure in dot-bracket notation",
+        "index": 4,
+        "name": "dssr-2ndstrs.dbn"
+      },
+      {
+        "desc": "backbone torsion angles and suite names",
+        "index": 5,
+        "name": "dssr-torsions.txt"
+      },
+      {
+        "desc": "an ensemble of splayed-apart units",
+        "index": 6,
+        "name": "dssr-splays.pdb"
+      },
+      {
+        "desc": "an ensemble of base stacks",
+        "index": 7,
+        "name": "dssr-stacks.pdb"
+      },
+      {
+        "desc": "an ensemble of atom-base stacking interactions",
+        "index": 8,
+        "name": "dssr-atom2bases.pdb"
+      }
+    ],
+    "citation": "Lu et al. (2015). 'DSSR: an integrated software tool for dissecting the spatial structure of RNA.' Nucleic Acids Res., 43(21):e142 [doi:10.1093/nar/gkv716].",
+    "command": "x3dna-dssr -i=pdb_data --json -o=RESULT",
+    "finish_at": "Fri Mar  5 11:00:10 2021",
+    "forum": "http://forum.x3dna.org",
+    "input_file": "pdb_data",
+    "manual": "http://docs.x3dna.org/dssr-manual.pdf",
+    "naChains": "P=12,Q=12",
+    "notes": [
+      {
+        "Aminors": "A-minor interactions (including types I and II)"
+      },
+      {
+        "Cstem_index": "stem index of the 'Canonical' helix in k-turn"
+      },
+      {
+        "Cstem_pair": "Cstem bp delineating the k-turn internal loop"
+      },
+      {
+        "Dp": "perpendicular distance of the 3' P atom to the glycosidic bond"
+      },
+      {
+        "GA_pair": "sheared G-A pair in k-turn"
+      },
+      {
+        "HtypePknot": "H-type pseudoknot"
+      },
+      {
+        "Kturn": "kink-turn (k-turn)"
+      },
+      {
+        "LW": "Leontis-Westhof"
+      },
+      {
+        "NCstem_index": "stem index of the 'Non-Canonical' helix in k-turn"
+      },
+      {
+        "NCstem_pair": "NCstem bp delineating the k-turn internal loop"
+      },
+      {
+        "Uturn": "U-turn of the UNR- or GNRA-type"
+      },
+      {
+        "aa": "amino acid"
+      },
+      {
+        "atom_pair": "symbols of the two atoms involved in an H-bond"
+      },
+      {
+        "auxfiles": "auxiliary files"
+      },
+      {
+        "glyco_bond": "conformation of base related to sugar (syn or anti)"
+      },
+      {
+        "bb_type": "backbone conformation, BI or BII"
+      },
+      {
+        "bending_angle": "angle between two helical axes"
+      },
+      {
+        "bp": "base pair"
+      },
+      {
+        "bseq": "base sequence in one-letter code"
+      },
+      {
+        "bulge": "bulge loop"
+      },
+      {
+        "coaxStacks": "coaxial stacking of stems within a helix"
+      },
+      {
+        "dbn": "dot bracket notation"
+      },
+      {
+        "desc": "description"
+      },
+      {
+        "donAcc_type": "donor/acceptor type of the atom pair in an H-bond"
+      },
+      {
+        "epsilon_zeta": "difference between epsilon and zeta torsion angles"
+      },
+      {
+        "hairpin": "hairpin loop"
+      },
+      {
+        "hbond": "hydrogen bond (H-bond)"
+      },
+      {
+        "helix": "defined by base-stacking interactions, regardless of bp type and backbone connectivity"
+      },
+      {
+        "id": "identifier"
+      },
+      {
+        "iloop": "internal loop"
+      },
+      {
+        "index": "serial number"
+      },
+      {
+        "isoCanonPairs": "isolated canonical pairs"
+      },
+      {
+        "junction": "(multi-branched) junction loop"
+      },
+      {
+        "kissingLoop": "kissing loop"
+      },
+      {
+        "multiplet": "3+ bases in a coplanar geometry"
+      },
+      {
+        "na": "nucleic acid"
+      },
+      {
+        "nonPair": "two nts not forming a pair, but with H-bonding/stacking interactions"
+      },
+      {
+        "nonStack": "nucleotide not involved in stacking interactions"
+      },
+      {
+        "nt": "nucleotide"
+      },
+      {
+        "num": "number"
+      },
+      {
+        "oArea": "overlap areas between two bases, including exocyclic atoms"
+      },
+      {
+        "oArea_ring": "overlap areas between two bases, including only ring atoms"
+      },
+      {
+        "phosContacts": "H-bonding and atom-capping interactions involving a phosphate"
+      },
+      {
+        "residue_pair": "types of the two residues involved in an H-bond"
+      },
+      {
+        "rmsd": "root-mean-squares deviation"
+      },
+      {
+        "serNum": "serial number"
+      },
+      {
+        "ssSegments": "single-stranded segments not involved in loops"
+      },
+      {
+        "ssZp": "Z-coordinate of the 3' phosphorus atom with reference to the 5' base plane"
+      },
+      {
+        "sstr": "secondary structure in dbn"
+      },
+      {
+        "stem": "helix consisting of only canonical pairs, with a continuous backbone"
+      },
+      {
+        "str_id": "structure identifier, derived from inpfile with extension removed"
+      },
+      {
+        "vert_dist": "vertical distance from an atom to a base plane"
+      }
+    ],
+    "num_aaChains": 2,
+    "num_atoms": 3236,
+    "num_auxfiles": 8,
+    "num_naChains": 2,
+    "num_notes": 52,
+    "num_waters": 84,
+    "start_at": "Fri Mar  5 11:00:10 2021",
+    "str_id": "pdb_data",
+    "time_used": "00:00:00:00",
+    "url": "http://x3dna.org",
+    "url_alt": "http://home.x3dna.org",
+    "version": "DSSR v2.2.1-2021jan12 by xiangjun@x3dna.org"
+  },
+  "nonStack": {
+    "nts_long": "P.G1,P.U2,P.U10,P.U12,Q.G1,Q.U2,Q.U10",
+    "nts_short": "GUUUGUU",
+    "num_nts": 7
+  },
+  "nts": [
+    {
+      "C5prime_xyz": [
+        -5.973,
+        4.829,
+        0.272
+      ],
+      "Dp": 2.834,
+      "P_xyz": [
+        -6.118,
+        3.551,
+        2.579
+      ],
+      "alpha": null,
+      "amplitude": 41.84,
+      "bb_type": "--",
+      "beta": -92.219,
+      "bin": "inc",
+      "chain_name": "P",
+      "chi": 37.927,
+      "cluster": "__",
+      "dbn": ".",
+      "delta": 127.686,
+      "epsilon": -167.738,
+      "epsilon_zeta": 122.17,
+      "eta": null,
+      "eta_base": null,
+      "eta_prime": null,
+      "filter_rmsd": 0.014,
+      "form": ".",
+      "frame": {
+        "origin": [
+          40.637,
+          51.477,
+          117.66
+        ],
+        "quaternion": [
+          0.735,
+          -0.405,
+          0.09,
+          -0.536
+        ],
+        "rmsd": 0.014,
+        "x_axis": [
+          0.41,
+          -0.861,
+          0.301
+        ],
+        "y_axis": [
+          0.715,
+          0.097,
+          -0.693
+        ],
+        "z_axis": [
+          0.567,
+          0.499,
+          0.655
+        ]
+      },
+      "gamma": -161.658,
+      "glyco_bond": "syn",
+      "index": 1,
+      "index_chain": 1,
+      "nt_code": "G",
+      "nt_id": "P.G1",
+      "nt_name": "G",
+      "nt_resnum": 1,
+      "nt_type": "RNA",
+      "phase_angle": 130.258,
+      "puckering": "C1'-exo",
+      "splay_angle": 104.33,
+      "splay_distance": 15.063,
+      "splay_ratio": 0.79,
+      "ssZp": -2.512,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "syn,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -37.5,
+      "theta_base": -8.995,
+      "theta_prime": -15.289,
+      "v0": -39.548,
+      "v1": 41.741,
+      "v2": -27.038,
+      "v3": 4.29,
+      "v4": 21.27,
+      "zeta": 70.091
+    },
+    {
+      "C5prime_xyz": [
+        -2.116,
+        8.665,
+        -0.22
+      ],
+      "Dp": 1.268,
+      "P_xyz": [
+        0.094,
+        9.193,
+        1.116
+      ],
+      "alpha": -108.087,
+      "amplitude": 33.763,
+      "bb_type": "--",
+      "beta": -177.928,
+      "bin": "22p",
+      "chain_name": "P",
+      "chi": -132.195,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 152.039,
+      "epsilon": -108.043,
+      "epsilon_zeta": 192.521,
+      "eta": 167.47,
+      "eta_base": -127.088,
+      "eta_prime": -145.904,
+      "filter_rmsd": 0.1,
+      "form": ".",
+      "frame": {
+        "origin": [
+          42.908,
+          63.87,
+          109.404
+        ],
+        "quaternion": [
+          0.009,
+          0.892,
+          -0.013,
+          0.452
+        ],
+        "rmsd": 0.022,
+        "x_axis": [
+          0.59,
+          -0.015,
+          0.807
+        ],
+        "y_axis": [
+          -0.031,
+          -1.0,
+          0.004
+        ],
+        "z_axis": [
+          0.807,
+          -0.027,
+          -0.59
+        ]
+      },
+      "gamma": 55.956,
+      "glyco_bond": "anti",
+      "index": 2,
+      "index_chain": 2,
+      "nt_code": "U",
+      "nt_id": "P.U2",
+      "nt_name": "U",
+      "nt_resnum": 2,
+      "nt_type": "RNA",
+      "phase_angle": 171.949,
+      "puckering": "C2'-endo",
+      "splay_angle": 119.497,
+      "splay_distance": 17.979,
+      "splay_ratio": 0.864,
+      "ssZp": 1.195,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": 82.597,
+      "theta_base": 68.442,
+      "theta_prime": 69.787,
+      "v0": -15.202,
+      "v1": 30.854,
+      "v2": -33.431,
+      "v3": 25.375,
+      "v4": -6.128,
+      "zeta": 59.436
+    },
+    {
+      "C5prime_xyz": [
+        -3.73,
+        8.225,
+        -1.777
+      ],
+      "Dp": 1.862,
+      "P_xyz": [
+        -2.633,
+        10.562,
+        -1.188
+      ],
+      "alpha": -137.293,
+      "amplitude": 40.514,
+      "bb_type": "--",
+      "beta": -132.284,
+      "bin": "22p",
+      "chain_name": "P",
+      "chi": -106.546,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 127.16,
+      "epsilon": -114.178,
+      "epsilon_zeta": -36.696,
+      "eta": 173.509,
+      "eta_base": 164.524,
+      "eta_prime": 178.727,
+      "filter_rmsd": 0.102,
+      "form": ".",
+      "frame": {
+        "origin": [
+          32.545,
+          49.313,
+          107.416
+        ],
+        "quaternion": [
+          -0.471,
+          0.291,
+          0.832,
+          0.032
+        ],
+        "rmsd": 0.02,
+        "x_axis": [
+          -0.387,
+          0.455,
+          0.802
+        ],
+        "y_axis": [
+          0.515,
+          0.828,
+          -0.221
+        ],
+        "z_axis": [
+          -0.765,
+          0.327,
+          -0.554
+        ]
+      },
+      "gamma": 56.685,
+      "glyco_bond": "anti",
+      "index": 3,
+      "index_chain": 3,
+      "nt_code": "U",
+      "nt_id": "P.U3",
+      "nt_name": "U",
+      "nt_resnum": 3,
+      "nt_type": "RNA",
+      "phase_angle": 130.075,
+      "puckering": "C1'-exo",
+      "splay_angle": 88.951,
+      "splay_distance": 13.758,
+      "splay_ratio": 0.701,
+      "ssZp": 1.784,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "turn,anti,~C2'-endo,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -83.825,
+      "theta_base": -56.384,
+      "theta_prime": -81.681,
+      "v0": -38.586,
+      "v1": 40.208,
+      "v2": -26.082,
+      "v3": 4.12,
+      "v4": 20.74,
+      "zeta": -77.482
+    },
+    {
+      "C5prime_xyz": [
+        -2.292,
+        8.626,
+        -0.867
+      ],
+      "Dp": 1.582,
+      "P_xyz": [
+        -0.282,
+        9.847,
+        0.244
+      ],
+      "alpha": -75.588,
+      "amplitude": 34.945,
+      "bb_type": "--",
+      "beta": -171.481,
+      "bin": "22p",
+      "chain_name": "P",
+      "chi": -123.797,
+      "cluster": "2[",
+      "dbn": ".",
+      "delta": 144.416,
+      "epsilon": -114.799,
+      "epsilon_zeta": 119.819,
+      "eta": 167.92,
+      "eta_base": -118.528,
+      "eta_prime": -147.006,
+      "filter_rmsd": 0.008,
+      "form": ".",
+      "frame": {
+        "origin": [
+          34.019,
+          62.087,
+          102.524
+        ],
+        "quaternion": [
+          -0.183,
+          0.884,
+          0.106,
+          0.418
+        ],
+        "rmsd": 0.008,
+        "x_axis": [
+          0.629,
+          0.034,
+          0.777
+        ],
+        "y_axis": [
+          0.34,
+          -0.91,
+          -0.235
+        ],
+        "z_axis": [
+          0.699,
+          0.412,
+          -0.584
+        ]
+      },
+      "gamma": 47.639,
+      "glyco_bond": "anti",
+      "index": 4,
+      "index_chain": 4,
+      "nt_code": "G",
+      "nt_id": "P.G4",
+      "nt_name": "G",
+      "nt_resnum": 4,
+      "nt_type": "RNA",
+      "phase_angle": 156.181,
+      "puckering": "C2'-endo",
+      "splay_angle": 67.826,
+      "splay_distance": 10.746,
+      "splay_ratio": 0.558,
+      "ssZp": 1.48,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.176,
+      "summary": "anti,~C2'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": 122.436,
+      "theta_base": 139.702,
+      "theta_prime": 122.902,
+      "v0": -23.945,
+      "v1": 35.317,
+      "v2": -31.969,
+      "v3": 18.741,
+      "v4": 2.913,
+      "zeta": 125.381
+    },
+    {
+      "C5prime_xyz": [
+        -2.242,
+        8.656,
+        -0.828
+      ],
+      "Dp": 1.176,
+      "P_xyz": [
+        0.306,
+        9.337,
+        -0.898
+      ],
+      "alpha": -92.225,
+      "amplitude": 28.247,
+      "bb_type": "--",
+      "beta": 168.414,
+      "bin": "22p",
+      "chain_name": "P",
+      "chi": -124.134,
+      "cluster": "0b",
+      "dbn": ".",
+      "delta": 138.48,
+      "epsilon": -85.254,
+      "epsilon_zeta": 15.827,
+      "eta": -131.486,
+      "eta_base": -147.73,
+      "eta_prime": -132.152,
+      "filter_rmsd": 0.097,
+      "form": ".",
+      "frame": {
+        "origin": [
+          25.464,
+          59.579,
+          96.525
+        ],
+        "quaternion": [
+          -0.1,
+          0.849,
+          0.514,
+          -0.07
+        ],
+        "rmsd": 0.017,
+        "x_axis": [
+          0.462,
+          0.887,
+          -0.016
+        ],
+        "y_axis": [
+          0.859,
+          -0.451,
+          -0.241
+        ],
+        "z_axis": [
+          -0.221,
+          0.097,
+          -0.97
+        ]
+      },
+      "gamma": 74.872,
+      "glyco_bond": "anti",
+      "index": 5,
+      "index_chain": 5,
+      "nt_code": "U",
+      "nt_id": "P.U5",
+      "nt_name": "U",
+      "nt_resnum": 5,
+      "nt_type": "RNA",
+      "phase_angle": 156.328,
+      "puckering": "C2'-endo",
+      "splay_angle": 80.805,
+      "splay_distance": 13.182,
+      "splay_ratio": 0.648,
+      "ssZp": 1.19,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.404,
+      "summary": "anti,~C2'-endo,non-pair-contact,ss-non-loop,cap-acceptor",
+      "theta": -46.913,
+      "theta_base": -135.615,
+      "theta_prime": -106.931,
+      "v0": -19.235,
+      "v1": 28.387,
+      "v2": -25.87,
+      "v3": 15.198,
+      "v4": 2.48,
+      "zeta": -101.081
+    },
+    {
+      "C5prime_xyz": [
+        -2.743,
+        8.554,
+        -1.596
+      ],
+      "Dp": 1.325,
+      "P_xyz": [
+        -0.552,
+        10.049,
+        -1.394
+      ],
+      "alpha": 113.213,
+      "amplitude": 27.209,
+      "bb_type": "--",
+      "beta": -149.409,
+      "bin": "trig",
+      "chain_name": "P",
+      "chi": -115.632,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 118.594,
+      "epsilon": -72.159,
+      "epsilon_zeta": 6.726,
+      "eta": 32.554,
+      "eta_base": 97.578,
+      "eta_prime": 85.851,
+      "filter_rmsd": 0.098,
+      "form": ".",
+      "frame": {
+        "origin": [
+          22.219,
+          51.733,
+          86.443
+        ],
+        "quaternion": [
+          -0.263,
+          0.249,
+          0.67,
+          0.647
+        ],
+        "rmsd": 0.015,
+        "x_axis": [
+          -0.737,
+          -0.007,
+          0.676
+        ],
+        "y_axis": [
+          0.675,
+          0.037,
+          0.737
+        ],
+        "z_axis": [
+          -0.03,
+          0.999,
+          -0.023
+        ]
+      },
+      "gamma": 73.571,
+      "glyco_bond": "anti",
+      "index": 6,
+      "index_chain": 6,
+      "nt_code": "U",
+      "nt_id": "P.U6",
+      "nt_name": "U",
+      "nt_resnum": 6,
+      "nt_type": "RNA",
+      "phase_angle": 122.934,
+      "puckering": "C1'-exo",
+      "splay_angle": 109.716,
+      "splay_distance": 16.806,
+      "splay_ratio": 0.818,
+      "ssZp": 0.841,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "turn,anti,~C2'-endo,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -52.597,
+      "theta_base": -127.814,
+      "theta_prime": -89.251,
+      "v0": -26.869,
+      "v1": 25.602,
+      "v2": -14.793,
+      "v3": -0.76,
+      "v4": 17.053,
+      "zeta": -78.885
+    },
+    {
+      "C5prime_xyz": [
+        -0.743,
+        8.165,
+        0.718
+      ],
+      "Dp": 4.633,
+      "P_xyz": [
+        0.768,
+        10.103,
+        -0.045
+      ],
+      "alpha": -46.035,
+      "amplitude": 27.027,
+      "bb_type": "--",
+      "beta": 172.227,
+      "bin": "trig",
+      "chain_name": "P",
+      "chi": -158.516,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 100.644,
+      "epsilon": -126.073,
+      "epsilon_zeta": -48.768,
+      "eta": -35.499,
+      "eta_base": 50.208,
+      "eta_prime": 7.067,
+      "filter_rmsd": 0.099,
+      "form": "A",
+      "frame": {
+        "origin": [
+          35.168,
+          62.432,
+          86.994
+        ],
+        "quaternion": [
+          -0.001,
+          0.719,
+          -0.204,
+          -0.664
+        ],
+        "rmsd": 0.018,
+        "x_axis": [
+          0.034,
+          -0.292,
+          -0.956
+        ],
+        "y_axis": [
+          -0.296,
+          -0.917,
+          0.269
+        ],
+        "z_axis": [
+          -0.955,
+          0.273,
+          -0.118
+        ]
+      },
+      "gamma": -159.271,
+      "glyco_bond": "anti",
+      "index": 7,
+      "index_chain": 7,
+      "nt_code": "U",
+      "nt_id": "P.U7",
+      "nt_name": "U",
+      "nt_resnum": 7,
+      "nt_type": "RNA",
+      "phase_angle": 338.31,
+      "puckering": "C2'-exo",
+      "splay_angle": 24.607,
+      "splay_distance": 4.109,
+      "splay_ratio": 0.215,
+      "ssZp": 4.248,
+      "sugar_class": "~C3'-endo",
+      "suiteness": 0.0,
+      "summary": "anti,~C3'-endo,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -154.539,
+      "theta_base": -115.913,
+      "theta_prime": -143.831,
+      "v0": 17.627,
+      "v1": -26.286,
+      "v2": 25.113,
+      "v3": -14.974,
+      "v4": -1.802,
+      "zeta": -77.306
+    },
+    {
+      "C5prime_xyz": [
+        -1.982,
+        8.9,
+        -0.211
+      ],
+      "Dp": 4.348,
+      "P_xyz": [
+        0.443,
+        9.831,
+        -0.171
+      ],
+      "alpha": -43.995,
+      "amplitude": 31.277,
+      "bb_type": "--",
+      "beta": 161.969,
+      "bin": "33p",
+      "chain_name": "P",
+      "chi": -144.877,
+      "cluster": "1a",
+      "dbn": ".",
+      "delta": 84.944,
+      "epsilon": -122.332,
+      "epsilon_zeta": 18.513,
+      "eta": 173.333,
+      "eta_base": -132.809,
+      "eta_prime": -166.097,
+      "filter_rmsd": 0.099,
+      "form": ".",
+      "frame": {
+        "origin": [
+          32.138,
+          63.711,
+          84.531
+        ],
+        "quaternion": [
+          0.183,
+          0.712,
+          -0.398,
+          -0.549
+        ],
+        "rmsd": 0.017,
+        "x_axis": [
+          0.082,
+          -0.767,
+          -0.636
+        ],
+        "y_axis": [
+          -0.366,
+          -0.617,
+          0.697
+        ],
+        "z_axis": [
+          -0.927,
+          0.176,
+          -0.332
+        ]
+      },
+      "gamma": 43.116,
+      "glyco_bond": "anti",
+      "index": 8,
+      "index_chain": 8,
+      "nt_code": "U",
+      "nt_id": "P.U8",
+      "nt_name": "U",
+      "nt_resnum": 8,
+      "nt_type": "RNA",
+      "phase_angle": 37.851,
+      "puckering": "C4'-exo",
+      "splay_angle": 139.954,
+      "splay_distance": 17.894,
+      "splay_ratio": 0.94,
+      "ssZp": 3.589,
+      "sugar_class": "~C3'-endo",
+      "suiteness": 0.113,
+      "summary": "anti,~C3'-endo,non-pair-contact,ss-non-loop,cap-donor,phosphate,splayed-apart",
+      "theta": -157.953,
+      "theta_base": -119.718,
+      "theta_prime": -163.517,
+      "v0": -10.485,
+      "v1": -9.399,
+      "v2": 24.697,
+      "v3": -31.791,
+      "v4": 26.189,
+      "zeta": -140.844
+    },
+    {
+      "C5prime_xyz": [
+        -1.887,
+        8.697,
+        -0.744
+      ],
+      "Dp": 2.111,
+      "P_xyz": [
+        0.65,
+        9.189,
+        -0.198
+      ],
+      "alpha": 68.875,
+      "amplitude": 25.674,
+      "bb_type": "--",
+      "beta": 159.521,
+      "bin": "32p",
+      "chain_name": "P",
+      "chi": -129.671,
+      "cluster": "7p",
+      "dbn": ".",
+      "delta": 135.541,
+      "epsilon": -142.119,
+      "epsilon_zeta": 46.725,
+      "eta": -61.031,
+      "eta_base": -84.45,
+      "eta_prime": -42.854,
+      "filter_rmsd": 0.1,
+      "form": ".",
+      "frame": {
+        "origin": [
+          16.339,
+          59.62,
+          91.868
+        ],
+        "quaternion": [
+          0.786,
+          -0.089,
+          -0.063,
+          -0.608
+        ],
+        "rmsd": 0.013,
+        "x_axis": [
+          0.252,
+          -0.946,
+          0.207
+        ],
+        "y_axis": [
+          0.968,
+          0.244,
+          -0.063
+        ],
+        "z_axis": [
+          0.01,
+          0.216,
+          0.976
+        ]
+      },
+      "gamma": 56.867,
+      "glyco_bond": "anti",
+      "index": 9,
+      "index_chain": 9,
+      "nt_code": "U",
+      "nt_id": "P.U9",
+      "nt_name": "U",
+      "nt_resnum": 9,
+      "nt_type": "RNA",
+      "phase_angle": 154.769,
+      "puckering": "C2'-endo",
+      "splay_angle": 52.65,
+      "splay_distance": 8.483,
+      "splay_ratio": 0.445,
+      "ssZp": 1.918,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.309,
+      "summary": "anti,~C2'-endo,non-canonical,ss-non-loop,splayed-apart",
+      "theta": 151.077,
+      "theta_base": 153.153,
+      "theta_prime": 147.679,
+      "v0": -18.116,
+      "v1": 25.446,
+      "v2": -23.225,
+      "v3": 13.002,
+      "v4": 3.121,
+      "zeta": 171.156
+    },
+    {
+      "C5prime_xyz": [
+        -2.003,
+        8.628,
+        -0.201
+      ],
+      "Dp": 1.265,
+      "P_xyz": [
+        0.2,
+        9.093,
+        1.214
+      ],
+      "alpha": -64.981,
+      "amplitude": 33.764,
+      "bb_type": "BII",
+      "beta": 164.796,
+      "bin": "22p",
+      "chain_name": "P",
+      "chi": -132.577,
+      "cluster": "4b",
+      "dbn": ".",
+      "delta": 151.824,
+      "epsilon": -106.177,
+      "epsilon_zeta": 125.358,
+      "eta": -165.041,
+      "eta_base": -169.459,
+      "eta_prime": -162.86,
+      "filter_rmsd": 0.095,
+      "form": ".",
+      "frame": {
+        "origin": [
+          13.775,
+          67.362,
+          89.537
+        ],
+        "quaternion": [
+          0.668,
+          -0.087,
+          -0.185,
+          -0.715
+        ],
+        "rmsd": 0.015,
+        "x_axis": [
+          -0.092,
+          -0.924,
+          0.372
+        ],
+        "y_axis": [
+          0.988,
+          -0.039,
+          0.149
+        ],
+        "z_axis": [
+          -0.123,
+          0.381,
+          0.916
+        ]
+      },
+      "gamma": 41.711,
+      "glyco_bond": "anti",
+      "index": 10,
+      "index_chain": 10,
+      "nt_code": "U",
+      "nt_id": "P.U10",
+      "nt_name": "U",
+      "nt_resnum": 10,
+      "nt_type": "RNA",
+      "phase_angle": 174.896,
+      "puckering": "C2'-endo",
+      "splay_angle": 44.417,
+      "splay_distance": 7.538,
+      "splay_ratio": 0.378,
+      "ssZp": 1.088,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.458,
+      "summary": "anti,~C2'-endo,BII,non-stack,non-canonical,ss-non-loop,phosphate",
+      "theta": 156.236,
+      "theta_base": 116.872,
+      "theta_prime": 129.164,
+      "v0": -13.641,
+      "v1": 30.067,
+      "v2": -33.63,
+      "v3": 26.542,
+      "v4": -7.922,
+      "zeta": 128.465
+    },
+    {
+      "C5prime_xyz": [
+        -1.103,
+        8.241,
+        -1.314
+      ],
+      "Dp": 2.681,
+      "P_xyz": [
+        0.834,
+        10.002,
+        -1.11
+      ],
+      "alpha": -28.92,
+      "amplitude": 22.288,
+      "bb_type": "--",
+      "beta": 169.733,
+      "bin": "23m",
+      "chain_name": "P",
+      "chi": -124.546,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 95.532,
+      "epsilon": 63.576,
+      "epsilon_zeta": -274.753,
+      "eta": -169.333,
+      "eta_base": 164.774,
+      "eta_prime": 179.12,
+      "filter_rmsd": 0.102,
+      "form": ".",
+      "frame": {
+        "origin": [
+          15.721,
+          68.864,
+          82.411
+        ],
+        "quaternion": [
+          -0.409,
+          0.137,
+          0.779,
+          0.456
+        ],
+        "rmsd": 0.017,
+        "x_axis": [
+          -0.629,
+          -0.16,
+          0.761
+        ],
+        "y_axis": [
+          0.585,
+          0.547,
+          0.598
+        ],
+        "z_axis": [
+          -0.512,
+          0.822,
+          -0.25
+        ]
+      },
+      "gamma": -43.493,
+      "glyco_bond": "anti",
+      "index": 11,
+      "index_chain": 11,
+      "nt_code": "U",
+      "nt_id": "P.U11",
+      "nt_name": "U",
+      "nt_resnum": 11,
+      "nt_type": "RNA",
+      "phase_angle": 352.996,
+      "puckering": "C2'-exo",
+      "splay_angle": 93.31,
+      "splay_distance": 13.083,
+      "splay_ratio": 0.733,
+      "ssZp": 1.835,
+      "sugar_class": "~C3'-endo",
+      "suiteness": 0.0,
+      "summary": "anti,~C3'-endo,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": 123.919,
+      "theta_base": 38.904,
+      "theta_prime": 92.296,
+      "v0": 9.728,
+      "v1": -19.888,
+      "v2": 22.122,
+      "v3": -16.879,
+      "v4": 4.372,
+      "zeta": -21.67
+    },
+    {
+      "C5prime_xyz": [
+        -4.111,
+        3.794,
+        2.471
+      ],
+      "Dp": null,
+      "P_xyz": [
+        -5.219,
+        3.111,
+        4.784
+      ],
+      "alpha": -105.507,
+      "amplitude": 11.715,
+      "bb_type": "--",
+      "beta": -138.617,
+      "bin": "trig",
+      "chain_name": "P",
+      "chi": 86.807,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 129.72,
+      "epsilon": null,
+      "epsilon_zeta": null,
+      "eta": null,
+      "eta_base": null,
+      "eta_prime": null,
+      "filter_rmsd": 0.1,
+      "form": "-",
+      "frame": {
+        "origin": [
+          26.643,
+          71.52,
+          89.106
+        ],
+        "quaternion": [
+          0.746,
+          -0.573,
+          -0.318,
+          -0.119
+        ],
+        "rmsd": 0.019,
+        "x_axis": [
+          0.77,
+          0.187,
+          0.61
+        ],
+        "y_axis": [
+          0.541,
+          0.316,
+          -0.779
+        ],
+        "z_axis": [
+          -0.338,
+          0.93,
+          0.142
+        ]
+      },
+      "gamma": -89.086,
+      "glyco_bond": "syn",
+      "index": 12,
+      "index_chain": 12,
+      "nt_code": "U",
+      "nt_id": "P.U12",
+      "nt_name": "U",
+      "nt_resnum": 12,
+      "nt_type": "RNA",
+      "phase_angle": 245.361,
+      "puckering": "C4'-endo",
+      "splay_angle": null,
+      "splay_distance": null,
+      "splay_ratio": null,
+      "ssZp": null,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "syn,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": null,
+      "theta_base": null,
+      "theta_prime": null,
+      "v0": 8.687,
+      "v1": -2.028,
+      "v2": -4.884,
+      "v3": 10.214,
+      "v4": -11.845,
+      "zeta": null
+    },
+    {
+      "C5prime_xyz": [
+        -5.854,
+        4.146,
+        -0.061
+      ],
+      "Dp": 3.11,
+      "P_xyz": [
+        -5.668,
+        2.679,
+        2.153
+      ],
+      "alpha": null,
+      "amplitude": 26.713,
+      "bb_type": "--",
+      "beta": -91.291,
+      "bin": "inc",
+      "chain_name": "Q",
+      "chi": 28.717,
+      "cluster": "__",
+      "dbn": ".",
+      "delta": 111.323,
+      "epsilon": 175.123,
+      "epsilon_zeta": 62.491,
+      "eta": null,
+      "eta_base": null,
+      "eta_prime": null,
+      "filter_rmsd": 0.014,
+      "form": ".",
+      "frame": {
+        "origin": [
+          38.078,
+          38.206,
+          113.849
+        ],
+        "quaternion": [
+          -0.161,
+          0.767,
+          0.408,
+          0.469
+        ],
+        "rmsd": 0.014,
+        "x_axis": [
+          0.228,
+          0.475,
+          0.85
+        ],
+        "y_axis": [
+          0.777,
+          -0.615,
+          0.136
+        ],
+        "z_axis": [
+          0.588,
+          0.629,
+          -0.509
+        ]
+      },
+      "gamma": -170.57,
+      "glyco_bond": "syn",
+      "index": 13,
+      "index_chain": 1,
+      "nt_code": "G",
+      "nt_id": "Q.G1",
+      "nt_name": "G",
+      "nt_resnum": 1,
+      "nt_type": "RNA",
+      "phase_angle": 106.476,
+      "puckering": "O4'-endo",
+      "splay_angle": 110.034,
+      "splay_distance": 16.112,
+      "splay_ratio": 0.819,
+      "ssZp": -2.975,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "syn,non-stack,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": 7.922,
+      "theta_base": -30.744,
+      "theta_prime": 7.66,
+      "v0": -27.069,
+      "v1": 21.177,
+      "v2": -7.576,
+      "v3": -8.477,
+      "v4": 22.116,
+      "zeta": 112.633
+    },
+    {
+      "C5prime_xyz": [
+        -4.815,
+        7.16,
+        -1.134
+      ],
+      "Dp": 4.239,
+      "P_xyz": [
+        -3.542,
+        9.342,
+        -0.272
+      ],
+      "alpha": -104.368,
+      "amplitude": 32.051,
+      "bb_type": "--",
+      "beta": 159.737,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -68.246,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 148.155,
+      "epsilon": -80.697,
+      "epsilon_zeta": -78.364,
+      "eta": 171.752,
+      "eta_base": -125.335,
+      "eta_prime": -150.738,
+      "filter_rmsd": 0.109,
+      "form": ".",
+      "frame": {
+        "origin": [
+          39.105,
+          26.005,
+          103.375
+        ],
+        "quaternion": [
+          0.68,
+          0.456,
+          0.568,
+          0.082
+        ],
+        "rmsd": 0.026,
+        "x_axis": [
+          0.341,
+          0.63,
+          -0.698
+        ],
+        "y_axis": [
+          0.407,
+          0.571,
+          0.713
+        ],
+        "z_axis": [
+          0.848,
+          -0.527,
+          -0.062
+        ]
+      },
+      "gamma": 57.761,
+      "glyco_bond": "anti",
+      "index": 14,
+      "index_chain": 2,
+      "nt_code": "U",
+      "nt_id": "Q.U2",
+      "nt_name": "U",
+      "nt_resnum": 2,
+      "nt_type": "RNA",
+      "phase_angle": 252.577,
+      "puckering": "O4'-exo",
+      "splay_angle": 126.45,
+      "splay_distance": 16.876,
+      "splay_ratio": 0.896,
+      "ssZp": 0.034,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "anti,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": 71.893,
+      "theta_base": 74.742,
+      "theta_prime": 48.586,
+      "v0": 26.196,
+      "v1": -9.421,
+      "v2": -9.597,
+      "v3": 25.472,
+      "v4": -33.027,
+      "zeta": -2.333
+    },
+    {
+      "C5prime_xyz": [
+        -2.289,
+        7.794,
+        -2.428
+      ],
+      "Dp": 1.11,
+      "P_xyz": [
+        -2.403,
+        10.439,
+        -2.067
+      ],
+      "alpha": 113.867,
+      "amplitude": 14.33,
+      "bb_type": "--",
+      "beta": 93.507,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -93.781,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 116.184,
+      "epsilon": 75.792,
+      "epsilon_zeta": -41.539,
+      "eta": -179.365,
+      "eta_base": 143.03,
+      "eta_prime": -165.798,
+      "filter_rmsd": 0.102,
+      "form": ".",
+      "frame": {
+        "origin": [
+          31.037,
+          27.421,
+          118.13
+        ],
+        "quaternion": [
+          0.138,
+          -0.521,
+          -0.569,
+          0.621
+        ],
+        "rmsd": 0.017,
+        "x_axis": [
+          -0.419,
+          0.764,
+          -0.491
+        ],
+        "y_axis": [
+          0.422,
+          -0.314,
+          -0.85
+        ],
+        "z_axis": [
+          -0.804,
+          -0.564,
+          -0.191
+        ]
+      },
+      "gamma": -78.262,
+      "glyco_bond": "anti",
+      "index": 15,
+      "index_chain": 3,
+      "nt_code": "U",
+      "nt_id": "Q.U3",
+      "nt_name": "U",
+      "nt_resnum": 3,
+      "nt_type": "RNA",
+      "phase_angle": 153.396,
+      "puckering": "C2'-endo",
+      "splay_angle": 91.65,
+      "splay_distance": 12.678,
+      "splay_ratio": 0.719,
+      "ssZp": 1.061,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "anti,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -86.006,
+      "theta_base": -39.401,
+      "theta_prime": -81.272,
+      "v0": -10.364,
+      "v1": 14.239,
+      "v2": -12.813,
+      "v3": 6.96,
+      "v4": 2.108,
+      "zeta": 117.331
+    },
+    {
+      "C5prime_xyz": [
+        -1.301,
+        8.275,
+        -1.341
+      ],
+      "Dp": 2.2,
+      "P_xyz": [
+        1.349,
+        8.02,
+        -1.031
+      ],
+      "alpha": -111.035,
+      "amplitude": 25.648,
+      "bb_type": "--",
+      "beta": 153.808,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -114.951,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 146.132,
+      "epsilon": -135.375,
+      "epsilon_zeta": 94.624,
+      "eta": 155.52,
+      "eta_base": -118.022,
+      "eta_prime": -138.312,
+      "filter_rmsd": 0.025,
+      "form": ".",
+      "frame": {
+        "origin": [
+          34.778,
+          23.446,
+          106.687
+        ],
+        "quaternion": [
+          0.441,
+          0.852,
+          0.149,
+          0.24
+        ],
+        "rmsd": 0.025,
+        "x_axis": [
+          0.841,
+          0.466,
+          0.277
+        ],
+        "y_axis": [
+          0.043,
+          -0.567,
+          0.823
+        ],
+        "z_axis": [
+          0.54,
+          -0.68,
+          -0.496
+        ]
+      },
+      "gamma": 48.198,
+      "glyco_bond": "anti",
+      "index": 16,
+      "index_chain": 4,
+      "nt_code": "G",
+      "nt_id": "Q.G4",
+      "nt_name": "G",
+      "nt_resnum": 4,
+      "nt_type": "RNA",
+      "phase_angle": 185.354,
+      "puckering": "C3'-exo",
+      "splay_angle": 82.116,
+      "splay_distance": 12.649,
+      "splay_ratio": 0.659,
+      "ssZp": 1.791,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "anti,~C2'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": 127.514,
+      "theta_base": 139.121,
+      "theta_prime": 118.577,
+      "v0": -5.811,
+      "v1": 19.864,
+      "v2": -25.536,
+      "v3": 22.643,
+      "v4": -10.397,
+      "zeta": 130.001
+    },
+    {
+      "C5prime_xyz": [
+        -2.06,
+        8.579,
+        -0.813
+      ],
+      "Dp": 1.211,
+      "P_xyz": [
+        0.516,
+        8.944,
+        -0.665
+      ],
+      "alpha": -69.97,
+      "amplitude": 27.873,
+      "bb_type": "--",
+      "beta": 161.61,
+      "bin": "22p",
+      "chain_name": "Q",
+      "chi": -123.737,
+      "cluster": "0b",
+      "dbn": ".",
+      "delta": 142.231,
+      "epsilon": -91.906,
+      "epsilon_zeta": 5.473,
+      "eta": -132.528,
+      "eta_base": -141.475,
+      "eta_prime": -128.352,
+      "filter_rmsd": 0.099,
+      "form": ".",
+      "frame": {
+        "origin": [
+          24.317,
+          16.362,
+          107.303
+        ],
+        "quaternion": [
+          0.542,
+          0.693,
+          0.303,
+          -0.367
+        ],
+        "rmsd": 0.022,
+        "x_axis": [
+          0.548,
+          0.022,
+          -0.836
+        ],
+        "y_axis": [
+          0.817,
+          -0.229,
+          0.529
+        ],
+        "z_axis": [
+          -0.18,
+          -0.973,
+          -0.144
+        ]
+      },
+      "gamma": 67.641,
+      "glyco_bond": "anti",
+      "index": 17,
+      "index_chain": 5,
+      "nt_code": "U",
+      "nt_id": "Q.U5",
+      "nt_name": "U",
+      "nt_resnum": 5,
+      "nt_type": "RNA",
+      "phase_angle": 165.284,
+      "puckering": "C2'-endo",
+      "splay_angle": 80.197,
+      "splay_distance": 13.324,
+      "splay_ratio": 0.644,
+      "ssZp": 1.143,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.438,
+      "summary": "anti,~C2'-endo,non-pair-contact,ss-non-loop,cap-acceptor",
+      "theta": -41.245,
+      "theta_base": -131.937,
+      "theta_prime": -106.133,
+      "v0": -15.611,
+      "v1": 26.707,
+      "v2": -26.958,
+      "v3": 18.552,
+      "v4": -1.975,
+      "zeta": -97.38
+    },
+    {
+      "C5prime_xyz": [
+        -2.865,
+        8.672,
+        -1.192
+      ],
+      "Dp": 1.343,
+      "P_xyz": [
+        -0.916,
+        10.379,
+        -0.63
+      ],
+      "alpha": 124.117,
+      "amplitude": 29.484,
+      "bb_type": "--",
+      "beta": -154.423,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -122.793,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 117.803,
+      "epsilon": -72.579,
+      "epsilon_zeta": 2.749,
+      "eta": 31.303,
+      "eta_base": 95.638,
+      "eta_prime": 83.459,
+      "filter_rmsd": 0.099,
+      "form": ".",
+      "frame": {
+        "origin": [
+          20.659,
+          5.711,
+          114.423
+        ],
+        "quaternion": [
+          0.007,
+          0.32,
+          0.945,
+          0.073
+        ],
+        "rmsd": 0.016,
+        "x_axis": [
+          -0.796,
+          0.605,
+          0.034
+        ],
+        "y_axis": [
+          0.603,
+          0.785,
+          0.141
+        ],
+        "z_axis": [
+          0.059,
+          0.133,
+          -0.989
+        ]
+      },
+      "gamma": 63.547,
+      "glyco_bond": "anti",
+      "index": 18,
+      "index_chain": 6,
+      "nt_code": "U",
+      "nt_id": "Q.U6",
+      "nt_name": "U",
+      "nt_resnum": 6,
+      "nt_type": "RNA",
+      "phase_angle": 120.819,
+      "puckering": "C1'-exo",
+      "splay_angle": 107.597,
+      "splay_distance": 16.876,
+      "splay_ratio": 0.807,
+      "ssZp": 1.161,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.0,
+      "summary": "turn,anti,~C2'-endo,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": -46.489,
+      "theta_base": -128.667,
+      "theta_prime": -92.188,
+      "v0": -29.375,
+      "v1": 27.427,
+      "v2": -15.106,
+      "v3": -1.948,
+      "v4": 19.179,
+      "zeta": -75.328
+    },
+    {
+      "C5prime_xyz": [
+        -0.948,
+        8.422,
+        0.235
+      ],
+      "Dp": 4.339,
+      "P_xyz": [
+        0.289,
+        10.542,
+        1.191
+      ],
+      "alpha": -111.068,
+      "amplitude": 22.479,
+      "bb_type": "BI",
+      "beta": 162.516,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -150.751,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 102.487,
+      "epsilon": -157.906,
+      "epsilon_zeta": -102.093,
+      "eta": -39.039,
+      "eta_base": 51.726,
+      "eta_prime": 9.311,
+      "filter_rmsd": 0.103,
+      "form": ".",
+      "frame": {
+        "origin": [
+          34.154,
+          7.421,
+          104.435
+        ],
+        "quaternion": [
+          0.563,
+          0.555,
+          -0.533,
+          -0.301
+        ],
+        "rmsd": 0.019,
+        "x_axis": [
+          0.25,
+          -0.931,
+          0.266
+        ],
+        "y_axis": [
+          -0.253,
+          0.202,
+          0.946
+        ],
+        "z_axis": [
+          -0.935,
+          -0.304,
+          -0.185
+        ]
+      },
+      "gamma": -84.599,
+      "glyco_bond": "anti",
+      "index": 19,
+      "index_chain": 7,
+      "nt_code": "U",
+      "nt_id": "Q.U7",
+      "nt_name": "U",
+      "nt_resnum": 7,
+      "nt_type": "RNA",
+      "phase_angle": 347.303,
+      "puckering": "C2'-exo",
+      "splay_angle": 25.126,
+      "splay_distance": 4.069,
+      "splay_ratio": 0.218,
+      "ssZp": 4.041,
+      "sugar_class": "~C3'-endo",
+      "suiteness": 0.0,
+      "summary": "anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": -156.939,
+      "theta_base": -94.52,
+      "theta_prime": -144.764,
+      "v0": 11.849,
+      "v1": -20.842,
+      "v2": 21.929,
+      "v3": -15.207,
+      "v4": 2.277,
+      "zeta": -55.814
+    },
+    {
+      "C5prime_xyz": [
+        -1.447,
+        8.799,
+        0.324
+      ],
+      "Dp": 4.61,
+      "P_xyz": [
+        1.128,
+        9.336,
+        0.206
+      ],
+      "alpha": -84.278,
+      "amplitude": 30.481,
+      "bb_type": "--",
+      "beta": 174.04,
+      "bin": "33p",
+      "chain_name": "Q",
+      "chi": -153.344,
+      "cluster": "1a",
+      "dbn": ".",
+      "delta": 87.355,
+      "epsilon": -115.427,
+      "epsilon_zeta": 31.596,
+      "eta": 172.781,
+      "eta_base": -112.147,
+      "eta_prime": -166.204,
+      "filter_rmsd": 0.099,
+      "form": ".",
+      "frame": {
+        "origin": [
+          31.435,
+          4.394,
+          104.414
+        ],
+        "quaternion": [
+          0.642,
+          0.337,
+          -0.687,
+          -0.051
+        ],
+        "rmsd": 0.017,
+        "x_axis": [
+          0.05,
+          -0.528,
+          0.847
+        ],
+        "y_axis": [
+          -0.397,
+          0.768,
+          0.502
+        ],
+        "z_axis": [
+          -0.916,
+          -0.362,
+          -0.171
+        ]
+      },
+      "gamma": 66.419,
+      "glyco_bond": "anti",
+      "index": 20,
+      "index_chain": 8,
+      "nt_code": "U",
+      "nt_id": "Q.U8",
+      "nt_name": "U",
+      "nt_resnum": 8,
+      "nt_type": "RNA",
+      "phase_angle": 18.612,
+      "puckering": "C3'-endo",
+      "splay_angle": 142.208,
+      "splay_distance": 17.583,
+      "splay_ratio": 0.946,
+      "ssZp": 3.965,
+      "sugar_class": "~C3'-endo",
+      "suiteness": 0.072,
+      "summary": "anti,~C3'-endo,non-pair-contact,ss-non-loop,cap-donor,phosphate,splayed-apart",
+      "theta": -161.813,
+      "theta_base": -117.261,
+      "theta_prime": -168.837,
+      "v0": 0.009,
+      "v1": -18.355,
+      "v2": 28.887,
+      "v3": -29.807,
+      "v4": 18.496,
+      "zeta": -147.024
+    },
+    {
+      "C5prime_xyz": [
+        -1.827,
+        8.674,
+        -0.273
+      ],
+      "Dp": 2.164,
+      "P_xyz": [
+        0.725,
+        8.885,
+        0.213
+      ],
+      "alpha": 54.13,
+      "amplitude": 22.023,
+      "bb_type": "--",
+      "beta": 159.54,
+      "bin": "32p",
+      "chain_name": "Q",
+      "chi": -136.059,
+      "cluster": "7p",
+      "dbn": ".",
+      "delta": 137.098,
+      "epsilon": -145.676,
+      "epsilon_zeta": 38.258,
+      "eta": -60.632,
+      "eta_base": -91.947,
+      "eta_prime": -39.027,
+      "filter_rmsd": 0.098,
+      "form": ".",
+      "frame": {
+        "origin": [
+          15.473,
+          11.484,
+          106.445
+        ],
+        "quaternion": [
+          -0.484,
+          0.595,
+          0.461,
+          0.446
+        ],
+        "rmsd": 0.018,
+        "x_axis": [
+          0.176,
+          0.117,
+          0.977
+        ],
+        "y_axis": [
+          0.981,
+          -0.107,
+          -0.164
+        ],
+        "z_axis": [
+          0.085,
+          0.987,
+          -0.134
+        ]
+      },
+      "gamma": 69.652,
+      "glyco_bond": "anti",
+      "index": 21,
+      "index_chain": 9,
+      "nt_code": "U",
+      "nt_id": "Q.U9",
+      "nt_name": "U",
+      "nt_resnum": 9,
+      "nt_type": "RNA",
+      "phase_angle": 165.817,
+      "puckering": "C2'-endo",
+      "splay_angle": 50.362,
+      "splay_distance": 7.972,
+      "splay_ratio": 0.428,
+      "ssZp": 1.918,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.202,
+      "summary": "anti,~C2'-endo,non-canonical,ss-non-loop,phosphate,splayed-apart",
+      "theta": 155.216,
+      "theta_base": 151.683,
+      "theta_prime": 146.622,
+      "v0": -12.13,
+      "v1": 20.795,
+      "v2": -21.352,
+      "v3": 14.667,
+      "v4": -1.65,
+      "zeta": 176.067
+    },
+    {
+      "C5prime_xyz": [
+        -1.669,
+        8.616,
+        0.093
+      ],
+      "Dp": 1.324,
+      "P_xyz": [
+        0.624,
+        8.759,
+        1.358
+      ],
+      "alpha": -65.874,
+      "amplitude": 27.05,
+      "bb_type": "--",
+      "beta": 161.414,
+      "bin": "22p",
+      "chain_name": "Q",
+      "chi": -141.78,
+      "cluster": "4b",
+      "dbn": ".",
+      "delta": 143.848,
+      "epsilon": -99.984,
+      "epsilon_zeta": 140.812,
+      "eta": -156.387,
+      "eta_base": -166.906,
+      "eta_prime": -158.044,
+      "filter_rmsd": 0.1,
+      "form": ".",
+      "frame": {
+        "origin": [
+          13.558,
+          9.363,
+          99.003
+        ],
+        "quaternion": [
+          -0.407,
+          0.548,
+          0.627,
+          0.375
+        ],
+        "rmsd": 0.015,
+        "x_axis": [
+          -0.069,
+          0.382,
+          0.922
+        ],
+        "y_axis": [
+          0.993,
+          0.118,
+          0.025
+        ],
+        "z_axis": [
+          -0.1,
+          0.917,
+          -0.387
+        ]
+      },
+      "gamma": 49.325,
+      "glyco_bond": "anti",
+      "index": 22,
+      "index_chain": 10,
+      "nt_code": "U",
+      "nt_id": "Q.U10",
+      "nt_name": "U",
+      "nt_resnum": 10,
+      "nt_type": "RNA",
+      "phase_angle": 173.281,
+      "puckering": "C2'-endo",
+      "splay_angle": 44.377,
+      "splay_distance": 7.709,
+      "splay_ratio": 0.378,
+      "ssZp": 1.049,
+      "sugar_class": "~C2'-endo",
+      "suiteness": 0.413,
+      "summary": "anti,~C2'-endo,non-stack,non-canonical,ss-non-loop,phosphate",
+      "theta": 157.151,
+      "theta_base": 118.431,
+      "theta_prime": 138.088,
+      "v0": -11.783,
+      "v1": 24.259,
+      "v2": -26.864,
+      "v3": 20.582,
+      "v4": -5.719,
+      "zeta": 119.204
+    },
+    {
+      "C5prime_xyz": [
+        -2.283,
+        7.965,
+        -2.274
+      ],
+      "Dp": 1.149,
+      "P_xyz": [
+        -0.581,
+        9.992,
+        -2.185
+      ],
+      "alpha": -10.691,
+      "amplitude": 8.3,
+      "bb_type": "--",
+      "beta": 136.533,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -99.367,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 109.5,
+      "epsilon": 49.825,
+      "epsilon_zeta": -251.185,
+      "eta": -171.915,
+      "eta_base": 166.903,
+      "eta_prime": -172.652,
+      "filter_rmsd": 0.1,
+      "form": ".",
+      "frame": {
+        "origin": [
+          15.704,
+          2.097,
+          97.578
+        ],
+        "quaternion": [
+          -0.183,
+          0.321,
+          0.889,
+          -0.27
+        ],
+        "rmsd": 0.015,
+        "x_axis": [
+          -0.727,
+          0.669,
+          0.153
+        ],
+        "y_axis": [
+          0.471,
+          0.649,
+          -0.597
+        ],
+        "z_axis": [
+          -0.499,
+          -0.362,
+          -0.787
+        ]
+      },
+      "gamma": -38.032,
+      "glyco_bond": "anti",
+      "index": 23,
+      "index_chain": 11,
+      "nt_code": "U",
+      "nt_id": "Q.U11",
+      "nt_name": "U",
+      "nt_resnum": 11,
+      "nt_type": "RNA",
+      "phase_angle": 85.69,
+      "puckering": "O4'-endo",
+      "splay_angle": 148.183,
+      "splay_distance": 18.087,
+      "splay_ratio": 0.962,
+      "ssZp": 0.999,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "anti,non-pair-contact,ss-non-loop,splayed-apart",
+      "theta": 91.486,
+      "theta_base": 22.874,
+      "theta_prime": 67.728,
+      "v0": -7.798,
+      "v1": 4.249,
+      "v2": 0.624,
+      "v3": -5.279,
+      "v4": 8.147,
+      "zeta": -58.99
+    },
+    {
+      "C5prime_xyz": [
+        -5.01,
+        4.884,
+        -2.478
+      ],
+      "Dp": null,
+      "P_xyz": [
+        -7.512,
+        4.117,
+        -2.875
+      ],
+      "alpha": -76.493,
+      "amplitude": 16.986,
+      "bb_type": "--",
+      "beta": -122.314,
+      "bin": "trig",
+      "chain_name": "Q",
+      "chi": -20.588,
+      "cluster": "!!",
+      "dbn": ".",
+      "delta": 109.303,
+      "epsilon": null,
+      "epsilon_zeta": null,
+      "eta": null,
+      "eta_base": null,
+      "eta_prime": null,
+      "filter_rmsd": 0.102,
+      "form": "-",
+      "frame": {
+        "origin": [
+          29.788,
+          8.629,
+          88.298
+        ],
+        "quaternion": [
+          0.45,
+          0.811,
+          0.233,
+          0.292
+        ],
+        "rmsd": 0.019,
+        "x_axis": [
+          0.721,
+          0.641,
+          0.264
+        ],
+        "y_axis": [
+          0.115,
+          -0.486,
+          0.867
+        ],
+        "z_axis": [
+          0.683,
+          -0.594,
+          -0.424
+        ]
+      },
+      "gamma": -100.634,
+      "glyco_bond": "--",
+      "index": 24,
+      "index_chain": 12,
+      "nt_code": "U",
+      "nt_id": "Q.U12",
+      "nt_name": "U",
+      "nt_resnum": 12,
+      "nt_type": "RNA",
+      "phase_angle": 94.14,
+      "puckering": "O4'-endo",
+      "splay_angle": null,
+      "splay_distance": null,
+      "splay_ratio": null,
+      "ssZp": null,
+      "sugar_class": "--",
+      "suiteness": 0.0,
+      "summary": "non-pair-contact,ss-non-loop,phosphate,splayed-apart",
+      "theta": null,
+      "theta_base": null,
+      "theta_prime": null,
+      "v0": -16.693,
+      "v1": 10.766,
+      "v2": -1.226,
+      "v3": -8.775,
+      "v4": 15.906,
+      "zeta": null
+    }
+  ],
+  "num_atom2bases": 2,
+  "num_hbonds": 360,
+  "num_nts": 24,
+  "num_pairs": 2,
+  "num_splayUnits": 8,
+  "num_ssSegments": 2,
+  "num_stacks": 11,
+  "pairs": [
+    {
+      "DSSR": "cm+M",
+      "LW": "cSH",
+      "Saenger": "--",
+      "bp": "U+U",
+      "index": 1,
+      "name": "Platform",
+      "nt1": "P.U9",
+      "nt2": "P.U10"
+    },
+    {
+      "DSSR": "cm+M",
+      "LW": "cSH",
+      "Saenger": "--",
+      "bp": "U+U",
+      "index": 2,
+      "name": "Platform",
+      "nt1": "Q.U9",
+      "nt2": "Q.U10"
+    }
+  ],
+  "refCoords": {
+    "purine": [
+      "   12 ATOMS,    12 BONDS",
+      "    1 N      -2.2500   5.0000   0.2500",
+      "    2 N      -2.2500   0.5000   0.2500",
+      "    3 N      -2.2500   0.5000  -0.2500",
+      "    4 N      -2.2500   5.0000  -0.2500",
+      "    5 C       2.2500   5.0000   0.2500",
+      "    6 C       2.2500   0.5000   0.2500",
+      "    7 C       2.2500   0.5000  -0.2500",
+      "    8 C       2.2500   5.0000  -0.2500",
+      "    9 C      -2.2500   5.0000   0.2500",
+      "   10 C      -2.2500   0.5000   0.2500",
+      "   11 C      -2.2500   0.5000  -0.2500",
+      "   12 C      -2.2500   5.0000  -0.2500",
+      "    1     1     2",
+      "    2     2     3",
+      "    3     3     4",
+      "    4     4     1",
+      "    5     5     6",
+      "    6     6     7",
+      "    7     7     8",
+      "    8     5     8",
+      "    9     9     5",
+      "   10    10     6",
+      "   11    11     7",
+      "   12    12     8"
+    ],
+    "pyrimidine": [
+      "   12 ATOMS,    12 BONDS",
+      "    1 N      -2.2500   5.0000   0.2500",
+      "    2 N      -2.2500   2.0000   0.2500",
+      "    3 N      -2.2500   2.0000  -0.2500",
+      "    4 N      -2.2500   5.0000  -0.2500",
+      "    5 C       2.2500   5.0000   0.2500",
+      "    6 C       2.2500   2.0000   0.2500",
+      "    7 C       2.2500   2.0000  -0.2500",
+      "    8 C       2.2500   5.0000  -0.2500",
+      "    9 C      -2.2500   5.0000   0.2500",
+      "   10 C      -2.2500   2.0000   0.2500",
+      "   11 C      -2.2500   2.0000  -0.2500",
+      "   12 C      -2.2500   5.0000  -0.2500",
+      "    1     1     2",
+      "    2     2     3",
+      "    3     3     4",
+      "    4     4     1",
+      "    5     5     6",
+      "    6     6     7",
+      "    7     7     8",
+      "    8     5     8",
+      "    9     9     5",
+      "   10    10     6",
+      "   11    11     7",
+      "   12    12     8"
+    ],
+    "wc_pair": [
+      "   12 ATOMS,    12 BONDS",
+      "    1 N      -2.2500   5.0000   0.2500",
+      "    2 N      -2.2500  -5.0000   0.2500",
+      "    3 N      -2.2500  -5.0000  -0.2500",
+      "    4 N      -2.2500   5.0000  -0.2500",
+      "    5 C       2.2500   5.0000   0.2500",
+      "    6 C       2.2500  -5.0000   0.2500",
+      "    7 C       2.2500  -5.0000  -0.2500",
+      "    8 C       2.2500   5.0000  -0.2500",
+      "    9 C      -2.2500   5.0000   0.2500",
+      "   10 C      -2.2500  -5.0000   0.2500",
+      "   11 C      -2.2500  -5.0000  -0.2500",
+      "   12 C      -2.2500   5.0000  -0.2500",
+      "    1     1     2",
+      "    2     2     3",
+      "    3     3     4",
+      "    4     4     1",
+      "    5     5     6",
+      "    6     6     7",
+      "    7     7     8",
+      "    8     5     8",
+      "    9     9     5",
+      "   10    10     6",
+      "   11    11     7",
+      "   12    12     8"
+    ]
+  },
+  "splayUnits": [
+    {
+      "index": 1,
+      "nts_long": "P.G1,P.U2,P.U3,P.G4",
+      "nts_short": "GUUG",
+      "num_nts": 4
+    },
+    {
+      "index": 2,
+      "nts_long": "P.U6,P.U7",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 3,
+      "nts_long": "P.U8,P.U9",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 4,
+      "nts_long": "P.U11,P.U12",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 5,
+      "nts_long": "Q.G1,Q.U2,Q.U3,Q.G4",
+      "nts_short": "GUUG",
+      "num_nts": 4
+    },
+    {
+      "index": 6,
+      "nts_long": "Q.U6,Q.U7",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 7,
+      "nts_long": "Q.U8,Q.U9",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 8,
+      "nts_long": "Q.U11,Q.U12",
+      "nts_short": "UU",
+      "num_nts": 2
+    }
+  ],
+  "ssSegments": [
+    {
+      "index": 1,
+      "nts_long": "P.G1,P.U2,P.U3,P.G4,P.U5,P.U6,P.U7,P.U8,P.U9,P.U10,P.U11,P.U12",
+      "nts_short": "GUUGUUUUUUUU",
+      "num_nts": 12
+    },
+    {
+      "index": 2,
+      "nts_long": "Q.G1,Q.U2,Q.U3,Q.G4,Q.U5,Q.U6,Q.U7,Q.U8,Q.U9,Q.U10,Q.U11,Q.U12",
+      "nts_short": "GUUGUUUUUUUU",
+      "num_nts": 12
+    }
+  ],
+  "stacks": [
+    {
+      "index": 1,
+      "nts_long": "P.G4,A.TYR214",
+      "nts_short": "GY",
+      "num_nts": 2
+    },
+    {
+      "index": 2,
+      "nts_long": "P.U5,A.PHE256",
+      "nts_short": "UF",
+      "num_nts": 2
+    },
+    {
+      "index": 3,
+      "nts_long": "P.U7,P.U8",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 4,
+      "nts_long": "P.U11,A.PHE170",
+      "nts_short": "UF",
+      "num_nts": 2
+    },
+    {
+      "index": 5,
+      "nts_long": "Q.G4,B.TYR214",
+      "nts_short": "GY",
+      "num_nts": 2
+    },
+    {
+      "index": 6,
+      "nts_long": "Q.U5,B.PHE256",
+      "nts_short": "UF",
+      "num_nts": 2
+    },
+    {
+      "index": 7,
+      "nts_long": "Q.U7,Q.U8",
+      "nts_short": "UU",
+      "num_nts": 2
+    },
+    {
+      "index": 8,
+      "nts_long": "Q.U11,B.PHE170",
+      "nts_short": "UF",
+      "num_nts": 2
+    },
+    {
+      "index": 9,
+      "nts_long": "Q.U12,B.TYR160",
+      "nts_short": "UY",
+      "num_nts": 2
+    },
+    {
+      "index": 10,
+      "nts_long": "A.TYR131,P.U6,A.ARG195",
+      "nts_short": "YUR",
+      "num_nts": 3
+    },
+    {
+      "index": 11,
+      "nts_long": "B.TYR131,Q.U6,B.ARG195",
+      "nts_short": "YUR",
+      "num_nts": 3
+    }
+  ]
+}

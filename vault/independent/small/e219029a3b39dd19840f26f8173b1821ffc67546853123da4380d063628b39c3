@@ -1,0 +1,4 @@
+def download_pdb(pdb_code):
+    import urllib
+    pdb_data = urllib.request.urlopen("https://files.rcsb.org/download/{}.pdb".format(pdb_code)).read().decode()
+    return pdb_data

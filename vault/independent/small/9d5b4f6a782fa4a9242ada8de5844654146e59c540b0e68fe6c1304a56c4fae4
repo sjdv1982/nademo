@@ -1,0 +1,502 @@
+[
+  {
+    "chi": -132.195,
+    "closest_distance": 34.911354720134,
+    "delta": 152.039,
+    "gamma": 55.956,
+    "mean_stacking_dist": 41.02722360755453,
+    "na_resid": 2,
+    "protein_resid": 145,
+    "std_stacking_dist": 1.3191481055446614
+  },
+  {
+    "chi": -132.195,
+    "closest_distance": 30.25320264824449,
+    "delta": 152.039,
+    "gamma": 55.956,
+    "mean_stacking_dist": 35.168874695982126,
+    "na_resid": 2,
+    "protein_resid": 170,
+    "std_stacking_dist": 1.297825644486268
+  },
+  {
+    "chi": -132.195,
+    "closest_distance": 39.9292316449621,
+    "delta": 152.039,
+    "gamma": 55.956,
+    "mean_stacking_dist": 45.90181700323958,
+    "na_resid": 2,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.3712207229341695
+  },
+  {
+    "chi": -132.195,
+    "closest_distance": 18.259735144784816,
+    "delta": 152.039,
+    "gamma": 55.956,
+    "mean_stacking_dist": 22.154521338112218,
+    "na_resid": 2,
+    "protein_resid": 231,
+    "std_stacking_dist": 1.1416366119851955
+  },
+  {
+    "chi": -132.195,
+    "closest_distance": 11.602514002208524,
+    "delta": 152.039,
+    "gamma": 55.956,
+    "mean_stacking_dist": 17.251999211136642,
+    "na_resid": 2,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.1883750352814866
+  },
+  {
+    "chi": -106.546,
+    "closest_distance": 29.856862630651165,
+    "delta": 127.16,
+    "gamma": 56.685,
+    "mean_stacking_dist": 34.373468854990875,
+    "na_resid": 3,
+    "protein_resid": 145,
+    "std_stacking_dist": 1.0280584130668344
+  },
+  {
+    "chi": -106.546,
+    "closest_distance": 26.83631697008015,
+    "delta": 127.16,
+    "gamma": 56.685,
+    "mean_stacking_dist": 30.937429473765448,
+    "na_resid": 3,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.7930228577522622
+  },
+  {
+    "chi": -106.546,
+    "closest_distance": 34.93857844316887,
+    "delta": 127.16,
+    "gamma": 56.685,
+    "mean_stacking_dist": 39.30200078627238,
+    "na_resid": 3,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.0202583726332295
+  },
+  {
+    "chi": -106.546,
+    "closest_distance": 11.718904561614208,
+    "delta": 127.16,
+    "gamma": 56.685,
+    "mean_stacking_dist": 14.46759243246772,
+    "na_resid": 3,
+    "protein_resid": 231,
+    "std_stacking_dist": 1.0769937013394972
+  },
+  {
+    "chi": -106.546,
+    "closest_distance": 6.776143405698574,
+    "delta": 127.16,
+    "gamma": 56.685,
+    "mean_stacking_dist": 10.642467313339644,
+    "na_resid": 3,
+    "protein_resid": 256,
+    "std_stacking_dist": 0.6623556877993185
+  },
+  {
+    "chi": -124.134,
+    "closest_distance": 18.122427638079838,
+    "delta": 138.48,
+    "gamma": 74.872,
+    "mean_stacking_dist": 21.60671755896151,
+    "na_resid": 5,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.9691388957554221
+  },
+  {
+    "chi": -124.134,
+    "closest_distance": 15.314786926480267,
+    "delta": 138.48,
+    "gamma": 74.872,
+    "mean_stacking_dist": 17.721265036738806,
+    "na_resid": 5,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.8892211684092369
+  },
+  {
+    "chi": -124.134,
+    "closest_distance": 23.39669735255844,
+    "delta": 138.48,
+    "gamma": 74.872,
+    "mean_stacking_dist": 26.466774344372205,
+    "na_resid": 5,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.0818832134914356
+  },
+  {
+    "chi": -124.134,
+    "closest_distance": 12.978357033505317,
+    "delta": 138.48,
+    "gamma": 74.872,
+    "mean_stacking_dist": 14.423938322824021,
+    "na_resid": 5,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.7089103709262211
+  },
+  {
+    "chi": -124.134,
+    "closest_distance": 3.592381988189429,
+    "delta": 138.48,
+    "gamma": 74.872,
+    "mean_stacking_dist": 4.116062615882038,
+    "na_resid": 5,
+    "protein_resid": 256,
+    "std_stacking_dist": 0.3413763846372231
+  },
+  {
+    "chi": -115.632,
+    "closest_distance": 12.76476449697715,
+    "delta": 118.594,
+    "gamma": 73.571,
+    "mean_stacking_dist": 15.363679099867037,
+    "na_resid": 6,
+    "protein_resid": 145,
+    "std_stacking_dist": 1.3080791464354729
+  },
+  {
+    "chi": -115.632,
+    "closest_distance": 15.44260827214233,
+    "delta": 118.594,
+    "gamma": 73.571,
+    "mean_stacking_dist": 17.35668128008382,
+    "na_resid": 6,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.4538918976895455
+  },
+  {
+    "chi": -115.632,
+    "closest_distance": 18.026585070836678,
+    "delta": 118.594,
+    "gamma": 73.571,
+    "mean_stacking_dist": 20.92778038899524,
+    "na_resid": 6,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.3063951085613779
+  },
+  {
+    "chi": -115.632,
+    "closest_distance": 16.43232456117119,
+    "delta": 118.594,
+    "gamma": 73.571,
+    "mean_stacking_dist": 19.72462767748371,
+    "na_resid": 6,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.9990976565546108
+  },
+  {
+    "chi": -115.632,
+    "closest_distance": 7.991464390878705,
+    "delta": 118.594,
+    "gamma": 73.571,
+    "mean_stacking_dist": 12.48059122013835,
+    "na_resid": 6,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.0392436795965807
+  },
+  {
+    "chi": -158.516,
+    "closest_distance": 18.36588542672781,
+    "delta": 100.644,
+    "gamma": -159.271,
+    "mean_stacking_dist": 20.42449665183815,
+    "na_resid": 7,
+    "protein_resid": 145,
+    "std_stacking_dist": 1.014970067007416
+  },
+  {
+    "chi": -158.516,
+    "closest_distance": 16.22627909891001,
+    "delta": 100.644,
+    "gamma": -159.271,
+    "mean_stacking_dist": 17.850790891579358,
+    "na_resid": 7,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.6475068121736267
+  },
+  {
+    "chi": -158.516,
+    "closest_distance": 23.660634367752408,
+    "delta": 100.644,
+    "gamma": -159.271,
+    "mean_stacking_dist": 26.146035221528642,
+    "na_resid": 7,
+    "protein_resid": 173,
+    "std_stacking_dist": 0.9815903233578576
+  },
+  {
+    "chi": -158.516,
+    "closest_distance": 18.310669102385585,
+    "delta": 100.644,
+    "gamma": -159.271,
+    "mean_stacking_dist": 23.716062290951353,
+    "na_resid": 7,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.922281734352095
+  },
+  {
+    "chi": -158.516,
+    "closest_distance": 6.768384477057064,
+    "delta": 100.644,
+    "gamma": -159.271,
+    "mean_stacking_dist": 12.397248818788674,
+    "na_resid": 7,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.084390723740293
+  },
+  {
+    "chi": -144.877,
+    "closest_distance": 15.587830037195518,
+    "delta": 84.944,
+    "gamma": 43.116,
+    "mean_stacking_dist": 17.492292603635054,
+    "na_resid": 8,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.9178243741192218
+  },
+  {
+    "chi": -144.877,
+    "closest_distance": 10.646686448243857,
+    "delta": 84.944,
+    "gamma": 43.116,
+    "mean_stacking_dist": 13.706565393089368,
+    "na_resid": 8,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.6994795210752879
+  },
+  {
+    "chi": -144.877,
+    "closest_distance": 20.76422341403131,
+    "delta": 84.944,
+    "gamma": 43.116,
+    "mean_stacking_dist": 22.78367363948939,
+    "na_resid": 8,
+    "protein_resid": 173,
+    "std_stacking_dist": 0.9186047375596339
+  },
+  {
+    "chi": -144.877,
+    "closest_distance": 17.020354477625208,
+    "delta": 84.944,
+    "gamma": 43.116,
+    "mean_stacking_dist": 23.257823058659305,
+    "na_resid": 8,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.9941789460344975
+  },
+  {
+    "chi": -144.877,
+    "closest_distance": 7.111128671151778,
+    "delta": 84.944,
+    "gamma": 43.116,
+    "mean_stacking_dist": 12.902374199441855,
+    "na_resid": 8,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.0031040576701904
+  },
+  {
+    "chi": -129.671,
+    "closest_distance": 13.185068160104393,
+    "delta": 135.541,
+    "gamma": 56.867,
+    "mean_stacking_dist": 14.613426876971792,
+    "na_resid": 9,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.8569237012088045
+  },
+  {
+    "chi": -129.671,
+    "closest_distance": 6.313789494272908,
+    "delta": 135.541,
+    "gamma": 56.867,
+    "mean_stacking_dist": 9.91282179294697,
+    "na_resid": 9,
+    "protein_resid": 170,
+    "std_stacking_dist": 1.0777111987876944
+  },
+  {
+    "chi": -129.671,
+    "closest_distance": 15.645366127451693,
+    "delta": 135.541,
+    "gamma": 56.867,
+    "mean_stacking_dist": 17.90235897607171,
+    "na_resid": 9,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.1007232498149704
+  },
+  {
+    "chi": -129.671,
+    "closest_distance": 14.580423682900857,
+    "delta": 135.541,
+    "gamma": 56.867,
+    "mean_stacking_dist": 16.679401227279666,
+    "na_resid": 9,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.6561941089772406
+  },
+  {
+    "chi": -129.671,
+    "closest_distance": 7.8603862378164715,
+    "delta": 135.541,
+    "gamma": 56.867,
+    "mean_stacking_dist": 12.412116528039979,
+    "na_resid": 9,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.0332659307108851
+  },
+  {
+    "chi": -132.577,
+    "closest_distance": 13.978974151340891,
+    "delta": 151.824,
+    "gamma": 41.711,
+    "mean_stacking_dist": 15.600599883447952,
+    "na_resid": 10,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.6449029221600069
+  },
+  {
+    "chi": -132.577,
+    "closest_distance": 3.2951704427407873,
+    "delta": 151.824,
+    "gamma": 41.711,
+    "mean_stacking_dist": 5.858067308943418,
+    "na_resid": 10,
+    "protein_resid": 170,
+    "std_stacking_dist": 1.0344173696632244
+  },
+  {
+    "chi": -132.577,
+    "closest_distance": 13.770281241353409,
+    "delta": 151.824,
+    "gamma": 41.711,
+    "mean_stacking_dist": 16.814221128494353,
+    "na_resid": 10,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.0736107492764961
+  },
+  {
+    "chi": -132.577,
+    "closest_distance": 16.87941203550036,
+    "delta": 151.824,
+    "gamma": 41.711,
+    "mean_stacking_dist": 20.932448993014493,
+    "na_resid": 10,
+    "protein_resid": 231,
+    "std_stacking_dist": 1.0613859932926992
+  },
+  {
+    "chi": -132.577,
+    "closest_distance": 12.20675640435095,
+    "delta": 151.824,
+    "gamma": 41.711,
+    "mean_stacking_dist": 17.80797591322477,
+    "na_resid": 10,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.2009005702249476
+  },
+  {
+    "chi": -124.546,
+    "closest_distance": 13.324639889770125,
+    "delta": 95.532,
+    "gamma": -43.493,
+    "mean_stacking_dist": 14.767674565924889,
+    "na_resid": 11,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.83268855309798
+  },
+  {
+    "chi": -124.546,
+    "closest_distance": 3.2774387723328138,
+    "delta": 95.532,
+    "gamma": -43.493,
+    "mean_stacking_dist": 4.09077752311029,
+    "na_resid": 11,
+    "protein_resid": 170,
+    "std_stacking_dist": 0.491744493245615
+  },
+  {
+    "chi": -124.546,
+    "closest_distance": 10.435645438670035,
+    "delta": 95.532,
+    "gamma": -43.493,
+    "mean_stacking_dist": 15.097474614461175,
+    "na_resid": 11,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.2630127518509413
+  },
+  {
+    "chi": -124.546,
+    "closest_distance": 23.140822190187098,
+    "delta": 95.532,
+    "gamma": -43.493,
+    "mean_stacking_dist": 27.349939847395177,
+    "na_resid": 11,
+    "protein_resid": 231,
+    "std_stacking_dist": 0.9711392569201787
+  },
+  {
+    "chi": -124.546,
+    "closest_distance": 18.025226292699287,
+    "delta": 95.532,
+    "gamma": -43.493,
+    "mean_stacking_dist": 22.81354387524622,
+    "na_resid": 11,
+    "protein_resid": 256,
+    "std_stacking_dist": 0.764411245024097
+  },
+  {
+    "chi": 86.807,
+    "closest_distance": 16.452497458786773,
+    "delta": 129.72,
+    "gamma": -89.086,
+    "mean_stacking_dist": 20.741404547625923,
+    "na_resid": 12,
+    "protein_resid": 145,
+    "std_stacking_dist": 0.9213713406790807
+  },
+  {
+    "chi": 86.807,
+    "closest_distance": 7.149730164015301,
+    "delta": 129.72,
+    "gamma": -89.086,
+    "mean_stacking_dist": 11.26796903814277,
+    "na_resid": 12,
+    "protein_resid": 170,
+    "std_stacking_dist": 1.371465760788252
+  },
+  {
+    "chi": 86.807,
+    "closest_distance": 16.601092142962706,
+    "delta": 129.72,
+    "gamma": -89.086,
+    "mean_stacking_dist": 23.578972148681615,
+    "na_resid": 12,
+    "protein_resid": 173,
+    "std_stacking_dist": 1.1948893408933925
+  },
+  {
+    "chi": 86.807,
+    "closest_distance": 25.368384770771897,
+    "delta": 129.72,
+    "gamma": -89.086,
+    "mean_stacking_dist": 27.884190248657166,
+    "na_resid": 12,
+    "protein_resid": 231,
+    "std_stacking_dist": 1.0782124932318127
+  },
+  {
+    "chi": 86.807,
+    "closest_distance": 17.35991497163866,
+    "delta": 129.72,
+    "gamma": -89.086,
+    "mean_stacking_dist": 20.09983746140084,
+    "na_resid": 12,
+    "protein_resid": 256,
+    "std_stacking_dist": 1.0204296978216902
+  }
+]

@@ -1,0 +1,875 @@
+{
+  "connections": [
+    {
+      "source": [
+        "status_"
+      ],
+      "target": [
+        "status_data"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "graph"
+      ],
+      "target": [
+        "gen_vis_status",
+        "graph"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "status_"
+      ],
+      "target": [
+        "gen_vis_status",
+        "status_"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "gen_vis_status"
+      ],
+      "target": [
+        "vis_status"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "graph"
+      ],
+      "target": [
+        "gen_webform",
+        "graph"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "seamless2webform"
+      ],
+      "target": [
+        "gen_webform",
+        "code"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "gen_webform"
+      ],
+      "target": [
+        "initial_webform"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "initial_webform"
+      ],
+      "target": [
+        "initial_webform0"
+      ],
+      "type": "connection"
+    },
+    {
+      "first": [
+        "webform"
+      ],
+      "second": [
+        "webform0"
+      ],
+      "type": "link"
+    },
+    {
+      "source": [
+        "webform"
+      ],
+      "target": [
+        "generate_webpage",
+        "webform"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "webcomponents"
+      ],
+      "target": [
+        "generate_webpage",
+        "components"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "generate_webpage"
+      ],
+      "target": [
+        "webpage"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "webpage",
+        "index.html"
+      ],
+      "target": [
+        "index_html_INITIAL"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "webpage",
+        "index.js"
+      ],
+      "target": [
+        "index_js_INITIAL"
+      ],
+      "type": "connection"
+    }
+  ],
+  "lib": [
+    {
+      "api": "pyseamless",
+      "constructor": "def constructor(\n    ctx, libctx,\n    fallback_mode,\n    upstream,\n    modified, conflict,\n    merged, state\n):\n    assert fallback_mode in (\"upstream\", \"modified\", \"no\"), fallback_mode\n    m = ctx.m = Macro()\n    m.code = libctx.macro_code.value\n    m.fallback_mode = fallback_mode\n    m.code_start = libctx.code_start.value\n    m.code_update = libctx.code_update.value\n\n    ctx.upstream = Cell(\"text\")\n    upstream.connect(ctx.upstream)\n    m.pins.upstream = {\"io\": \"input\", \"celltype\": \"text\"}\n    m.upstream = ctx.upstream\n\n    ctx.modified = Cell(\"text\")\n    modified.link(ctx.modified)\n    m.pins.modified = {\"io\": \"edit\", \"celltype\": \"text\"}\n    m.modified = ctx.modified\n\n    ctx.conflict = Cell(\"text\")\n    conflict.link(ctx.conflict)\n    m.pins.conflict = {\"io\": \"edit\", \"celltype\": \"text\"}\n    m.conflict = ctx.conflict\n\n    ctx.merged = Cell(\"text\")\n    merged.connect_from(ctx.merged)\n    m.pins.merged = {\"io\": \"output\", \"celltype\": \"text\"}\n    ctx.merged = m.merged\n\n    ctx.state = Cell(\"text\")\n    state.connect_from(ctx.state)\n    m.pins.state = {\"io\": \"output\", \"celltype\": \"text\"}\n    ctx.state = m.state",
+      "graph": {
+        "connections": [],
+        "lib": [],
+        "nodes": [
+          {
+            "celltype": "structured",
+            "checksum": {
+              "auth": "b63b9b8053407b5a6ed2cbe1a9b87667152c2f4b34dfef28451b5d636a99460d",
+              "buffer": "b63b9b8053407b5a6ed2cbe1a9b87667152c2f4b34dfef28451b5d636a99460d",
+              "value": "b63b9b8053407b5a6ed2cbe1a9b87667152c2f4b34dfef28451b5d636a99460d"
+            },
+            "datatype": "mixed",
+            "hash_pattern": null,
+            "mount": {
+              "authority": "file",
+              "mode": "r",
+              "path": "cell-merge-START.py",
+              "persistent": true
+            },
+            "path": [
+              "code_start"
+            ],
+            "type": "cell"
+          },
+          {
+            "celltype": "structured",
+            "checksum": {
+              "auth": "24b88868c6528719d6d0066320ee03c80e6b79da4fac21678bdbe7c3d90d524c",
+              "buffer": "24b88868c6528719d6d0066320ee03c80e6b79da4fac21678bdbe7c3d90d524c",
+              "value": "24b88868c6528719d6d0066320ee03c80e6b79da4fac21678bdbe7c3d90d524c"
+            },
+            "datatype": "mixed",
+            "hash_pattern": null,
+            "mount": {
+              "authority": "file",
+              "mode": "r",
+              "path": "cell-merge-UPDATE.py",
+              "persistent": true
+            },
+            "path": [
+              "code_update"
+            ],
+            "type": "cell"
+          },
+          {
+            "celltype": "code",
+            "checksum": {
+              "value": "6a912ae3c4d5e08a55d953570562908ac88b6974ad0aee808da1bf217ea7d378"
+            },
+            "datatype": "mixed",
+            "language": "python",
+            "path": [
+              "constructor_code"
+            ],
+            "type": "cell"
+          },
+          {
+            "celltype": "structured",
+            "checksum": {
+              "auth": "178ca1a44e2dd1ad6ccf54f18dc47e8e7ea9c974157d45a4c2047b45d3654919",
+              "buffer": "178ca1a44e2dd1ad6ccf54f18dc47e8e7ea9c974157d45a4c2047b45d3654919",
+              "value": "178ca1a44e2dd1ad6ccf54f18dc47e8e7ea9c974157d45a4c2047b45d3654919"
+            },
+            "datatype": "mixed",
+            "hash_pattern": null,
+            "path": [
+              "constructor_params"
+            ],
+            "type": "cell"
+          },
+          {
+            "celltype": "code",
+            "checksum": {
+              "value": "b6cc0c06fb6fba173f79124d7771f61b9b46040fecc41211bd3d6a5f5e2eb0c8"
+            },
+            "datatype": "mixed",
+            "language": "python",
+            "path": [
+              "macro_code"
+            ],
+            "type": "cell"
+          }
+        ],
+        "params": {
+          "share_namespace": "ctx"
+        }
+      },
+      "language": "python",
+      "params": {
+        "conflict": {
+          "celltype": "text",
+          "default": null,
+          "io": "edit",
+          "type": "cell"
+        },
+        "fallback_mode": {
+          "default": "modified",
+          "io": "input",
+          "type": "value"
+        },
+        "merged": {
+          "celltype": "text",
+          "default": null,
+          "io": "output",
+          "type": "cell"
+        },
+        "modified": {
+          "celltype": "text",
+          "default": null,
+          "io": "edit",
+          "type": "cell"
+        },
+        "state": {
+          "celltype": "str",
+          "default": null,
+          "io": "output",
+          "type": "cell"
+        },
+        "upstream": {
+          "celltype": "text",
+          "default": null,
+          "io": "input",
+          "type": "cell"
+        }
+      },
+      "path": [
+        "merge"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "9177b93f17b21f2ab861b9aee3a915c7edb1f8374a9b94c691a298ce7bf36067"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/css",
+      "path": [
+        "css"
+      ],
+      "share": {
+        "path": "status-visualization.css",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "ea4be6d2f69a0b0dd008ac66de7ad65da4ab4b64d30747263e4c343403038451",
+        "input": "229ab8145fa9040c2c6caab25485249bbca871a78bef47fc9272cfbd3088d881",
+        "input_buffer": "229ab8145fa9040c2c6caab25485249bbca871a78bef47fc9272cfbd3088d881",
+        "result": "a7bb76a8671b2c818bec2b2fec778b7a728f3608bbc47ae6d794eed9748a4fd1"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "mount": {
+        "code": {
+          "authority": "file",
+          "mode": "rw",
+          "path": "web/gen_vis_status",
+          "persistent": true
+        }
+      },
+      "path": [
+        "gen_vis_status"
+      ],
+      "pins": {
+        "graph": {
+          "celltype": "mixed"
+        },
+        "status_": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "1905532b4b48a5e77c2e026aff80fb69e17ec659ad7d0ccb83765811f87a7861",
+        "input": "456094eae3b172e786b50043de579bb55a4ac76bc72f27dbdc4d76022ba5f408",
+        "input_buffer": "456094eae3b172e786b50043de579bb55a4ac76bc72f27dbdc4d76022ba5f408",
+        "result": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "gen_webform"
+      ],
+      "pins": {
+        "graph": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "a7d25bb64c91dca0e22dea2573ebfcd09dcf58317d48dedf74cc49bef5da01c0",
+        "input": "f6597a3b039a57a0f89cfd5033e2c185af26c5936650356d2e66083e65231907",
+        "input_auth": "81ca3960f4a23c56f7b259a4287b97a8490b035d7ced72175210faac51f51618",
+        "input_buffer": "f6597a3b039a57a0f89cfd5033e2c185af26c5936650356d2e66083e65231907",
+        "result": "7c72cce15436673322d10baeb3fcea7d147f888ac3dedfe2555ebc3cdde00499"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "mount": {
+        "code": {
+          "authority": "file",
+          "mode": "rw",
+          "path": "web/generate-webpage.py",
+          "persistent": true
+        }
+      },
+      "path": [
+        "generate_webpage"
+      ],
+      "pins": {
+        "components": {
+          "celltype": "plain"
+        },
+        "seed": {
+          "celltype": "mixed"
+        },
+        "webform": {
+          "celltype": "plain"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "5fed00f403f3830142e4fa6eb9b3f9f1a8670c709f3451f63574a071218863f2"
+      },
+      "datatype": "mixed",
+      "path": [
+        "graph"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "0593c63ebea295cbce6daece5c48ea0ae46f663b7e521e913bf2aa9da1634cb8"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/html",
+      "path": [
+        "html"
+      ],
+      "share": {
+        "path": "status.html",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "b300b9670e8f5d99547b5f9253f00558b6f4101db1054e2b8c1f7bb9a11e39e6"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/html",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/index.html",
+        "persistent": true
+      },
+      "path": [
+        "index_html"
+      ],
+      "share": {
+        "path": "index.html",
+        "readonly": true,
+        "toplevel": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "f2f5c336d142025cd95a2001e2f3181a2aa04c307b37ffb901e5963b1fa1c641"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/index-CONFLICT.html",
+        "persistent": true
+      },
+      "path": [
+        "index_html_CONFLICT"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "b300b9670e8f5d99547b5f9253f00558b6f4101db1054e2b8c1f7bb9a11e39e6"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_html_DUMMY"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "b300b9670e8f5d99547b5f9253f00558b6f4101db1054e2b8c1f7bb9a11e39e6"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_html_INITIAL"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "str",
+      "checksum": {
+        "value": "0ce9449d6a376407d21e2dcdb8c89522609bf155baefa60ca262c8f7531c07c0"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_html_STATE"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "a71c0e0dfeefe3e7dccc1b62363ee484e7d2ae1980f1fe13981b74a2b78445c7"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/javascript",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/index.js",
+        "persistent": true
+      },
+      "path": [
+        "index_js"
+      ],
+      "share": {
+        "path": "index.js",
+        "readonly": true,
+        "toplevel": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "f2f5c336d142025cd95a2001e2f3181a2aa04c307b37ffb901e5963b1fa1c641"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/index-CONFLICT.js",
+        "persistent": true
+      },
+      "path": [
+        "index_js_CONFLICT"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "a71c0e0dfeefe3e7dccc1b62363ee484e7d2ae1980f1fe13981b74a2b78445c7"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_js_DUMMY"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "a71c0e0dfeefe3e7dccc1b62363ee484e7d2ae1980f1fe13981b74a2b78445c7"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_js_INITIAL"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "str",
+      "checksum": {
+        "value": "0ce9449d6a376407d21e2dcdb8c89522609bf155baefa60ca262c8f7531c07c0"
+      },
+      "datatype": "mixed",
+      "path": [
+        "index_js_STATE"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "w",
+        "path": "web/initial-webform.json",
+        "persistent": true
+      },
+      "path": [
+        "initial_webform"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "datatype": "mixed",
+      "path": [
+        "initial_webform0"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "f0abdac1afdb6b57312984a526441c769d257a88fbc91ef53b0b66ab9ff79bd4"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/javascript",
+      "path": [
+        "js"
+      ],
+      "share": {
+        "path": "seamless-client.js",
+        "readonly": true,
+        "toplevel": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "1e790011125092fd8a88549f887ffe625f9fc53e8a286c869c5c2e661841f4bd"
+      },
+      "datatype": "mixed",
+      "mimetype": "text/javascript",
+      "path": [
+        "js2"
+      ],
+      "share": {
+        "path": "status-visualization.js",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "arguments": {
+        "conflict": [
+          "index_html_CONFLICT"
+        ],
+        "fallback_mode": "modified",
+        "merged": [
+          "index_html_DUMMY"
+        ],
+        "modified": [
+          "index_html"
+        ],
+        "state": [
+          "index_html_STATE"
+        ],
+        "upstream": [
+          "index_html_INITIAL"
+        ]
+      },
+      "libpath": [
+        "merge"
+      ],
+      "path": [
+        "merge_index_html"
+      ],
+      "type": "libinstance"
+    },
+    {
+      "arguments": {
+        "conflict": [
+          "index_js_CONFLICT"
+        ],
+        "fallback_mode": "modified",
+        "merged": [
+          "index_js_DUMMY"
+        ],
+        "modified": [
+          "index_js"
+        ],
+        "state": [
+          "index_js_STATE"
+        ],
+        "upstream": [
+          "index_js_INITIAL"
+        ]
+      },
+      "libpath": [
+        "merge"
+      ],
+      "path": [
+        "merge_index_js"
+      ],
+      "type": "libinstance"
+    },
+    {
+      "arguments": {
+        "conflict": [
+          "webform_CONFLICT"
+        ],
+        "fallback_mode": "modified",
+        "merged": [
+          "webform_DUMMY"
+        ],
+        "modified": [
+          "webform0"
+        ],
+        "state": [
+          "webform_STATE"
+        ],
+        "upstream": [
+          "initial_webform0"
+        ]
+      },
+      "libpath": [
+        "merge"
+      ],
+      "path": [
+        "merge_webform"
+      ],
+      "type": "libinstance"
+    },
+    {
+      "celltype": "code",
+      "checksum": {
+        "value": "1905532b4b48a5e77c2e026aff80fb69e17ec659ad7d0ccb83765811f87a7861"
+      },
+      "datatype": "mixed",
+      "language": "python",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/seamless2webform.py",
+        "persistent": true
+      },
+      "path": [
+        "seamless2webform"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "1e657c649e4be6b9824782826f783fee48a19af4b4a809415408f64b9401904c",
+        "value": "1e657c649e4be6b9824782826f783fee48a19af4b4a809415408f64b9401904c"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "status_"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "1e657c649e4be6b9824782826f783fee48a19af4b4a809415408f64b9401904c"
+      },
+      "datatype": "mixed",
+      "path": [
+        "status_data"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "a7bb76a8671b2c818bec2b2fec778b7a728f3608bbc47ae6d794eed9748a4fd1"
+      },
+      "datatype": "mixed",
+      "path": [
+        "vis_status"
+      ],
+      "share": {
+        "path": null,
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "417c85d9026725f0a7b49370512a681d1c90594e35c9f4c247c95451a30dae65"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": true,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/components",
+        "persistent": true
+      },
+      "path": [
+        "webcomponents"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/webform.json",
+        "persistent": true
+      },
+      "path": [
+        "webform"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "datatype": "mixed",
+      "path": [
+        "webform0"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "f2f5c336d142025cd95a2001e2f3181a2aa04c307b37ffb901e5963b1fa1c641"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "as_directory": false,
+        "authority": "file",
+        "mode": "rw",
+        "path": "web/webform-CONFLICT.txt",
+        "persistent": true
+      },
+      "path": [
+        "webform_CONFLICT"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "2d3fafb5bf03dc3bb9b182630d0dd9a2c72c26acb6042168cdac1cd8c80105f1"
+      },
+      "datatype": "mixed",
+      "path": [
+        "webform_DUMMY"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "str",
+      "checksum": {
+        "value": "0ce9449d6a376407d21e2dcdb8c89522609bf155baefa60ca262c8f7531c07c0"
+      },
+      "datatype": "mixed",
+      "path": [
+        "webform_STATE"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "7c72cce15436673322d10baeb3fcea7d147f888ac3dedfe2555ebc3cdde00499",
+        "value": "7c72cce15436673322d10baeb3fcea7d147f888ac3dedfe2555ebc3cdde00499"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "webpage"
+      ],
+      "type": "cell"
+    }
+  ],
+  "params": {
+    "share_namespace": "status"
+  }
+}
