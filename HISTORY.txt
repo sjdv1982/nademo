@@ -59,3 +59,20 @@ Add the buffer lifetime hack to load-project.py
 Step 4.
 An NGL viewer was added, and made responsive to the PDB code+chain+resid
 (see diff on index.js and index.html)
+
+Step 5.
+Python code was mounted to disk. Also, code to annotate the stackings with headers was created.
+
+ctx.calc_properties.mount("calc-properties.py")
+ctx.get_plot.code.mount("get-plot.py")
+ctx.annotate_stackings = Transformer()
+ctx.annotate_stackings.code = ""
+ctx.annotate_stackings.code.mount("annotate-stackings.py")
+ctx.annotate_stackings.stackings = ctx.stackings
+ctx.stackings_annotated = ctx.annotate_stackings
+ctx.stackings_annotated.celltype = "plain"
+ctx.stackings_annotated.share()
+del ctx.df_stackings.share
+
+The annotated stackings were visualized in the web page (webform.json) as a Vuetify datatable.
+The index.html was modified to bring the NGL viewer down.

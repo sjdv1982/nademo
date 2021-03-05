@@ -1,14 +1,14 @@
 seamless_read_cells = {
   "text": [
-    "plot",
-    "df_stackings"
+    "plot"
   ],
   "json": [
     "pdb_code",
     "na_chain",
     "protein_chain",
     "na_resid",
-    "protein_resid"
+    "protein_resid",
+    "stackings_annotated"
   ]
 }
 seamless_write_cells = {
@@ -61,7 +61,7 @@ const app = new Vue({
       "na_resid": 0,
       "protein_resid": 0,
       "plot": "",
-      "df_stackings": ""
+      "stackings_annotated": {}
     }
   },
   watch: {

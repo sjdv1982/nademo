@@ -12,8 +12,6 @@
 </head>
 
 <body>
-    <div id="ngl-viewer" style="width:80%; height:500px; margin-left:10% ; margin-top: 20px; margin-bottom: 20px;"></div>
-
     <div id="app">
         <v-app id="vuetify-app">
             <b-field label="Nucleic acid - protein complex PDB code">
@@ -54,12 +52,29 @@
             <b-field label="Closest distance versus Chi">
                 <iframe src="../ctx/plot" width=100% height=600pt></iframe>
             </b-field>
-            <b-field label="Stackings">
-                <div v-html="df_stackings"></div>
-            </b-field>
+            <section>
+                <b-field label="Stackings">
+                <v-data-table
+                  :headers="stackings_annotated.headers"
+                  :items="stackings_annotated.items"
+
+                  class="elevation-1"
+                >
+                  <template v-slot:item="{ item }">
+                    <tr>
+                        <td v-for="header in stackings_annotated.headers">
+                          {{ item[header.value] }}
+                        </td>
+                    </tr>
+                  </template>
+                </v-data-table>
+                </b-field>
+              </section>
 
         </v-app>
     </div>
+
+    <div id="ngl-viewer" style="width:80%; height:500px; margin-left:10% ; margin-top: 20px; margin-bottom: 20px;"></div>
 
     <script src='https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js'></script>

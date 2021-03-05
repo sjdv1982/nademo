@@ -1,16 +1,5 @@
 {
   "cells": {
-    "df_stackings": {
-      "celltype": "text",
-      "component": "html",
-      "params": {
-        "title": "Stackings"
-      },
-      "share": {
-        "encoding": "text",
-        "read": true
-      }
-    },
     "na_chain": {
       "celltype": "str",
       "component": "input",
@@ -87,6 +76,17 @@
         "read": true,
         "write": true
       }
+    },
+    "stackings_annotated": {
+      "celltype": "plain",
+      "component": "datatable",
+      "params": {
+        "title": "Stackings"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true
+      }
     }
   },
   "index": {
@@ -99,6 +99,6 @@
     "na_resid",
     "protein_resid",
     "plot",
-    "df_stackings"
+    "stackings_annotated"
   ]
 }

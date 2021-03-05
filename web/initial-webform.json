@@ -1,16 +1,5 @@
 {
   "cells": {
-    "df_stackings": {
-      "celltype": "text",
-      "component": "card",
-      "params": {
-        "title": "Cell Df_stackings"
-      },
-      "share": {
-        "encoding": "text",
-        "read": true
-      }
-    },
     "na_chain": {
       "celltype": "str",
       "component": "input",
@@ -87,6 +76,17 @@
         "encoding": "json",
         "read": true,
         "write": true
+      }
+    },
+    "stackings_annotated": {
+      "celltype": "plain",
+      "component": "card",
+      "params": {
+        "title": "Cell Stackings_annotated"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true
       }
     }
   },
