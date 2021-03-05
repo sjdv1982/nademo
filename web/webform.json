@@ -1,5 +1,32 @@
 {
-  "cells": {},
+  "cells": {
+    "na_resid": {
+      "celltype": "int",
+      "component": "numberinput",
+      "params": {
+        "editable": true,
+        "title": "Nucleic acid residue ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "protein_resid": {
+      "celltype": "int",
+      "component": "numberinput",
+      "params": {
+        "editable": true,
+        "title": "Protein residue ID"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    }
+  },
   "index": {
     "title": "Seamless webform"
   }

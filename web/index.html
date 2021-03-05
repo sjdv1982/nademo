@@ -14,6 +14,20 @@
 <body>
     <div id="app">
         <v-app id="vuetify-app">
+            <b-field label="Nucleic acid residue ID">
+                <b-numberinput
+                    v-bind:value="na_resid"
+                    v-model="na_resid"
+                    :editable="true"
+                />
+            </b-field>
+            <b-field label="Protein residue ID">
+                <b-numberinput
+                    v-bind:value="protein_resid"
+                    v-model="protein_resid"
+                    :editable="true"
+                />
+            </b-field>
 
         </v-app>
     </div>

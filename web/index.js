@@ -1,10 +1,16 @@
 seamless_read_cells = {
   "text": [],
-  "json": []
+  "json": [
+    "na_resid",
+    "protein_resid"
+  ]
 }
 seamless_write_cells = {
   "text": [],
-  "json": []
+  "json": [
+    "na_resid",
+    "protein_resid"
+  ]
 }
 
 ctx = connect_seamless()
@@ -39,9 +45,18 @@ function seamless_update(cell, value, encoding) {
 const app = new Vue({
   vuetify: new Vuetify(),
   data() {
-    return {}
+    return {
+      "na_resid": 0,
+      "protein_resid": 0
+    }
   },
   watch: {
+    na_resid: function (value) {
+    seamless_update("na_resid", value, "json")
+    },
+    protein_resid: function (value) {
+    seamless_update("protein_resid", value, "json")
+    },
     
   }
 })

@@ -1,3 +1,4 @@
+Step 0.
 The project was created as follows:
 
 seamless-new-project nademo
@@ -14,3 +15,14 @@ save()
 exit()
 
 rm initial-port.seamless initial-port.zip
+
+Step 1.
+The initial webform was generated as follows:
+
+ctx.na_resid.celltype = "int"
+ctx.na_resid.share(readonly=False)
+ctx.protein_resid.celltype = "int"
+ctx.protein_resid.share(readonly=False)
+ctx.translate()
+
+Webform.json was modified (see diff).
