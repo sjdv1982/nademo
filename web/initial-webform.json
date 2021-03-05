@@ -1,5 +1,16 @@
 {
   "cells": {
+    "df_stackings": {
+      "celltype": "text",
+      "component": "card",
+      "params": {
+        "title": "Cell Df_stackings"
+      },
+      "share": {
+        "encoding": "text",
+        "read": true
+      }
+    },
     "na_chain": {
       "celltype": "str",
       "component": "input",
@@ -38,6 +49,17 @@
         "encoding": "json",
         "read": true,
         "write": true
+      }
+    },
+    "plot": {
+      "celltype": "text",
+      "component": "card",
+      "params": {
+        "title": "Cell Plot"
+      },
+      "share": {
+        "encoding": "text",
+        "read": true
       }
     },
     "protein_chain": {

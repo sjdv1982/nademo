@@ -1,5 +1,8 @@
 seamless_read_cells = {
-  "text": [],
+  "text": [
+    "plot",
+    "df_stackings"
+  ],
   "json": [
     "pdb_code",
     "na_chain",
@@ -56,7 +59,9 @@ const app = new Vue({
       "na_chain": "",
       "protein_chain": "",
       "na_resid": 0,
-      "protein_resid": 0
+      "protein_resid": 0,
+      "plot": "",
+      "df_stackings": ""
     }
   },
   watch: {

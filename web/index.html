@@ -49,6 +49,12 @@
                     :editable="true"
                 />
             </b-field>
+            <b-field label="Closest distance versus Chi">
+                <iframe src="../ctx/plot" width=100% height=600pt></iframe>
+            </b-field>
+            <b-field label="Stackings">
+                <div v-html="df_stackings"></div>
+            </b-field>
 
         </v-app>
     </div>

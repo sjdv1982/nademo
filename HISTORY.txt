@@ -41,3 +41,15 @@ ctx.translate()
 A web component "input" was created (adapted from "numberinput")
 
 seamless2webform was adapted so that "input" is the default component for str cells.
+
+Step 3.
+ctx.plot.celltype = "text"
+ctx.plot.share()
+# http://localhost:5813/ctx/plot displays the plot, as ctx.plot.mimetype = "text/html"
+ctx.df_stackings.celltype = "text"
+ctx.df_stackings.share()
+# Likewise, http://localhost:5813/ctx/df_stackings displays the dataframe
+ctx.translate()
+
+A web component "html" was created for HTML cells
+A web component "iframe" was created for HTML cells with script tags.
