@@ -14,6 +14,27 @@
 <body>
     <div id="app">
         <v-app id="vuetify-app">
+            <b-field label="Nucleic acid - protein complex PDB code">
+                <b-input
+                    v-bind:value="pdb_code"
+                    v-model="pdb_code"
+                    :editable="true"
+                />
+            </b-field>
+            <b-field label="Nucleic acid chain ID">
+                <b-input
+                    v-bind:value="na_chain"
+                    v-model="na_chain"
+                    :editable="true"
+                />
+            </b-field>
+            <b-field label="Protein chain ID">
+                <b-input
+                    v-bind:value="protein_chain"
+                    v-model="protein_chain"
+                    :editable="true"
+                />
+            </b-field>
             <b-field label="Nucleic acid residue ID">
                 <b-numberinput
                     v-bind:value="na_resid"

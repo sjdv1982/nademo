@@ -26,3 +26,18 @@ ctx.protein_resid.share(readonly=False)
 ctx.translate()
 
 Webform.json was modified (see diff).
+
+Step 2.
+The webform was updated as follows:
+
+ctx.pdb_code.celltype = "str"
+ctx.pdb_code.share(readonly=False)
+ctx.na_chain.celltype = "str"
+ctx.na_chain.share(readonly=False)
+ctx.protein_chain.celltype = "str"
+ctx.protein_chain.share(readonly=False)
+ctx.translate()
+
+A web component "input" was created (adapted from "numberinput")
+
+seamless2webform was adapted so that "input" is the default component for str cells.

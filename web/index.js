@@ -1,6 +1,9 @@
 seamless_read_cells = {
   "text": [],
   "json": [
+    "pdb_code",
+    "na_chain",
+    "protein_chain",
     "na_resid",
     "protein_resid"
   ]
@@ -8,6 +11,9 @@ seamless_read_cells = {
 seamless_write_cells = {
   "text": [],
   "json": [
+    "pdb_code",
+    "na_chain",
+    "protein_chain",
     "na_resid",
     "protein_resid"
   ]
@@ -46,11 +52,23 @@ const app = new Vue({
   vuetify: new Vuetify(),
   data() {
     return {
+      "pdb_code": "",
+      "na_chain": "",
+      "protein_chain": "",
       "na_resid": 0,
       "protein_resid": 0
     }
   },
   watch: {
+    pdb_code: function (value) {
+    seamless_update("pdb_code", value, "json")
+    },
+    na_chain: function (value) {
+    seamless_update("na_chain", value, "json")
+    },
+    protein_chain: function (value) {
+    seamless_update("protein_chain", value, "json")
+    },
     na_resid: function (value) {
     seamless_update("na_resid", value, "json")
     },

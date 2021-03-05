@@ -1,5 +1,18 @@
 {
   "cells": {
+    "na_chain": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Cell Na_chain"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
     "na_resid": {
       "celltype": "int",
       "component": "slider",
@@ -7,6 +20,32 @@
         "max": 100,
         "min": 0,
         "title": "Cell Na_resid"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "pdb_code": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Cell Pdb_code"
+      },
+      "share": {
+        "encoding": "json",
+        "read": true,
+        "write": true
+      }
+    },
+    "protein_chain": {
+      "celltype": "str",
+      "component": "input",
+      "params": {
+        "editable": true,
+        "title": "Cell Protein_chain"
       },
       "share": {
         "encoding": "json",
